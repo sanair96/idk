@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="idk.aboutusIS"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:idk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid>
+            <ScrollViewer>
+                <StackPanel>
+                <Image x:Name="image" Source="Assets/iseDrMVS.jpg" Height="100" Width="100"/>
+                    <TextBlock Text="The Department of Information Science and Engineering  was established in the year 2001 with an intake of 40  and the intake has been increased to 60 in the year 2002. Now in the year 2012  the intake has increased to 120. The Department also runs a Post-Graduate program in Computer Network and  Engineering with an intake of 18.
+
+ The Department is Headed by Dr. M V Sudhamani  who has more than 20 years of Teaching experience and specialization in image processing, Advanced Algorithms and  Databases.
+
+Currently guiding 5 candidates for Ph.D under VTU  and carrying out  two research projects sponsored by AICTE and VTU. She is recipient of  Bharath Jyothi Award by IIFS, New Delhi." TextWrapping="Wrap" Height="295"></TextBlock>
+                    <TextBlock Text="Vision "  HorizontalAlignment="Center" FontWeight="Bold" FontSize="26.667"></TextBlock>
+                    <TextBlock Text="Fostering winning professionals of Strong informative potential" TextWrapping="Wrap" FontSize="20" ></TextBlock>
+                    <TextBlock Text="Mission" HorizontalAlignment="Center" FontSize="26.667" FontWeight="Bold"></TextBlock>
+                    <TextBlock Text="Imparting high quality education in the area of Information Science so as to graduate the students with good fundamentals, 'Information System Integration','Software Creation' capability and suitably train them to thrive in Industries, higher schools of learning and R and D centers with a comprehensive perspective." TextWrapping="Wrap"></TextBlock>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
+    </Grid>
+</Page>

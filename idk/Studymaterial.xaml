@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="idk.Studymaterial"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:idk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition>
+                <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                    <EntranceNavigationTransitionInfo/>
+                </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+            </NavigationThemeTransition>
+        </TransitionCollection>
+    </Page.Transitions>
+    <Grid Background="LightSlateGray">
+        
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,83,0,0" TextWrapping="Wrap" Text="Study Material"  Height="96" Width="340" FontSize="48" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Margin="0,215,0,0" TextWrapping="Wrap" Text="Semester" VerticalAlignment="Top" Height="63" Width="141" TextAlignment="Center" FontSize="26.667"/>
+
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Center" Margin="0,259,0,0" VerticalAlignment="Top" Width="194">
+            <ComboBoxItem Tapped="ComboBoxItem3_Tapped" Content="3" ></ComboBoxItem>
+            <ComboBoxItem Tapped="ComboBoxItem4_Tapped" Content="4" ></ComboBoxItem>
+            <ComboBoxItem Tapped="ComboBoxItem5_Tapped" Content="5" ></ComboBoxItem>
+            <ComboBoxItem Tapped="ComboBoxItem6_Tapped" Content="6" ></ComboBoxItem>
+            <ComboBoxItem Tapped="ComboBoxItem7_Tapped" Content="7" ></ComboBoxItem>
+            <ComboBoxItem Tapped="ComboBoxItem8_Tapped" Content="8" ></ComboBoxItem>
+
+
+
+        </ComboBox>
+    </Grid>
+</Page>

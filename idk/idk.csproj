@@ -1,0 +1,718 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{481F9624-57DF-45A9-BB90-9BE441763458}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>idk</RootNamespace>
+    <AssemblyName>RNSIT</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>idk_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Assets\1.png" />
+    <Content Include="Assets\2.jpg" />
+    <Content Include="Assets\3.jpg" />
+    <Content Include="Assets\4.png" />
+    <Content Include="Assets\BadgeLogo.scale-200.jpg" />
+    <Content Include="Assets\cseHemanth.jpg" />
+    <Content Include="Assets\cseKiran.jpg" />
+    <Content Include="Assets\cseSathishKumar.jpg" />
+    <Content Include="Assets\cseSatish%2520S.jpg" />
+    <Content Include="Assets\csetpo.jpg" />
+    <Content Include="Assets\d1.JPG" />
+    <Content Include="Assets\d2.JPG" />
+    <Content Include="Assets\d3.JPG" />
+    <Content Include="Assets\d4.JPG" />
+    <Content Include="Assets\d5.JPG" />
+    <Content Include="Assets\d6.JPG" />
+    <Content Include="Assets\DrGirijamma.png" />
+    <Content Include="Assets\drgtr1.jpg" />
+    <Content Include="Assets\DrVSece.jpg" />
+    <Content Include="Assets\eeeHOD1.jpg" />
+    <Content Include="Assets\gym.jpg" />
+    <Content Include="Assets\hostel3.JPG" />
+    <Content Include="Assets\hostel2.JPG" />
+    <Content Include="Assets\hostel1.jpg" />
+    <Content Include="Assets\iseDrMVS.jpg" />
+    <Content Include="Assets\IT-depHOD.jpg" />
+    <Content Include="Assets\logo1.jpg" />
+    <Content Include="Assets\MechHOD11.jpg" />
+    <Content Include="Assets\mp.jpg" />
+    <Content Include="Assets\mp1.JPG" />
+    <Content Include="Assets\mp1logo.jpg" />
+    <Content Include="Assets\mp2.JPG" />
+    <Content Include="Assets\mp3.JPG" />
+    <Content Include="Assets\mp4.JPG" />
+    <Content Include="Assets\mp5.JPG" />
+    <Content Include="Assets\mp6.JPG" />
+    <Content Include="Assets\mp7.jpg" />
+    <Content Include="Assets\mplogo.gif" />
+    <Content Include="Assets\Square310x310Logo.scale-100.jpg" />
+    <Content Include="Assets\Square310x310Logo.scale-200.jpg" />
+    <Content Include="Assets\Square71x71Logo.scale-100.jpg" />
+    <Content Include="Assets\Square71x71Logo.scale-200.jpg" />
+    <Content Include="Assets\StoreLogo.scale-200.jpg" />
+    <Content Include="Assets\unnamed.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.jpg" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.jpg" />
+    <Content Include="Square150x150Logo.scale-200.png" />
+    <Content Include="Square44x44Logo.scale-200.png" />
+    <None Include="project.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aboutus.xaml.cs">
+      <DependentUpon>aboutus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="aboutusCIVIL.xaml.cs">
+      <DependentUpon>aboutusCIVIL.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="aboutusCSE.xaml.cs">
+      <DependentUpon>aboutusCSE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="aboutusECE.xaml.cs">
+      <DependentUpon>aboutusECE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="aboutusEEE.xaml.cs">
+      <DependentUpon>aboutusEEE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="aboutusIS.xaml.cs">
+      <DependentUpon>aboutusIS.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="aboutusIT.xaml.cs">
+      <DependentUpon>aboutusIT.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="aboutusMECH.xaml.cs">
+      <DependentUpon>aboutusMECH.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="admissions.xaml.cs">
+      <DependentUpon>admissions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="apnotesIS4sem.xaml.cs">
+      <DependentUpon>apnotesIS4sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="authentication.xaml.cs">
+      <DependentUpon>authentication.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CIVIL.xaml.cs">
+      <DependentUpon>CIVIL.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CSE.xaml.cs">
+      <DependentUpon>CSE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Departments.xaml.cs">
+      <DependentUpon>Departments.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ECE.xaml.cs">
+      <DependentUpon>ECE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EEE.xaml.cs">
+      <DependentUpon>EEE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="facility.xaml.cs">
+      <DependentUpon>facility.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FacultyCSE.xaml.cs">
+      <DependentUpon>FacultyCSE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hostel.xaml.cs">
+      <DependentUpon>Hostel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IS.xaml.cs">
+      <DependentUpon>IS.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IT.xaml.cs">
+      <DependentUpon>IT.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MECH.xaml.cs">
+      <DependentUpon>MECH.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="placements.xaml.cs">
+      <DependentUpon>placements.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="qpnotesCIVIL.xaml.cs">
+      <DependentUpon>qpnotesCIVIL.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesCIVIL4sem.xaml.cs">
+      <DependentUpon>qpnotesCIVIL4sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesCIVIL5sem.xaml.cs">
+      <DependentUpon>qpnotesCIVIL5sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesCIVIL6sem.xaml.cs">
+      <DependentUpon>qpnotesCIVIL6sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesCIVIL7sem.xaml.cs">
+      <DependentUpon>qpnotesCIVIL7sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesCIVIL8sem.xaml.cs">
+      <DependentUpon>qpnotesCIVIL8sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesCSE.xaml.cs">
+      <DependentUpon>qpnotesCSE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesCSE4sem.xaml.cs">
+      <DependentUpon>qpnotesCSE4sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesCSE5sem.xaml.cs">
+      <DependentUpon>qpnotesCSE5sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesCSE6sem.xaml.cs">
+      <DependentUpon>qpnotesCSE6sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesCSE7sem.xaml.cs">
+      <DependentUpon>qpnotesCSE7sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesCSE8sem.xaml.cs">
+      <DependentUpon>qpnotesCSE8sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesECE.xaml.cs">
+      <DependentUpon>qpnotesECE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesECE4sem.xaml.cs">
+      <DependentUpon>qpnotesECE4sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesECE5sem.xaml.cs">
+      <DependentUpon>qpnotesECE5sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesECE6sem.xaml.cs">
+      <DependentUpon>qpnotesECE6sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesECE7sem.xaml.cs">
+      <DependentUpon>qpnotesECE7sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesECE8sem.xaml.cs">
+      <DependentUpon>qpnotesECE8sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesEEE.xaml.cs">
+      <DependentUpon>qpnotesEEE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesEEE4sem.xaml.cs">
+      <DependentUpon>qpnotesEEE4sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesEEE5sem.xaml.cs">
+      <DependentUpon>qpnotesEEE5sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesEEE6sem.xaml.cs">
+      <DependentUpon>qpnotesEEE6sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesEEE7sem.xaml.cs">
+      <DependentUpon>qpnotesEEE7sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesEEE8sem.xaml.cs">
+      <DependentUpon>qpnotesEEE8sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesIS5sem.xaml.cs">
+      <DependentUpon>qpnotesIS5sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesIS6sem.xaml.cs">
+      <DependentUpon>qpnotesIS6sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesIS7sem.xaml.cs">
+      <DependentUpon>qpnotesIS7sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesIS8sem.xaml.cs">
+      <DependentUpon>qpnotesIS8sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesIT.xaml.cs">
+      <DependentUpon>qpnotesIT.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesIT4sem.xaml.cs">
+      <DependentUpon>qpnotesIT4sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesIT5sem.xaml.cs">
+      <DependentUpon>qpnotesIT5sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesIT6sem.xaml.cs">
+      <DependentUpon>qpnotesIT6sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesmech.xaml.cs">
+      <DependentUpon>qpnotesmech.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesmech4sem.xaml.cs">
+      <DependentUpon>qpnotesmech4sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesmech5sem.xaml.cs">
+      <DependentUpon>qpnotesmech5sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesmech6sem.xaml.cs">
+      <DependentUpon>qpnotesmech6sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesmech7sem.xaml.cs">
+      <DependentUpon>qpnotesmech7sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="qpnotesmech8sem.xaml.cs">
+      <DependentUpon>qpnotesmech8sem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="studymaterial IS.xaml.cs">
+      <DependentUpon>studymaterial IS.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="studymaterial IT.xaml.cs">
+      <DependentUpon>studymaterial IT.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Studymaterial.xaml.cs">
+      <DependentUpon>Studymaterial.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="studymaterialCIVIL.xaml.cs">
+      <DependentUpon>studymaterialCIVIL.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="studymaterialdepts.xaml.cs">
+      <DependentUpon>studymaterialdepts.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="studymaterialECE.xaml.cs">
+      <DependentUpon>studymaterialECE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="studymaterialEEE.xaml.cs">
+      <DependentUpon>studymaterialEEE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="studymaterialMECH.xaml.cs">
+      <DependentUpon>studymaterialMECH.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transport.xaml.cs">
+      <DependentUpon>Transport.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="idk_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\1444823565phpBom1QR.jpg" />
+    <Content Include="Assets\1_8_2013_12_39_38_u94o8glp5pnnkdn7i8ob0java7_cxgandaq51.jpg" />
+    <Content Include="Assets\BadgeLogo.scale-125.jpg" />
+    <Content Include="Assets\banner1.jpg" />
+    <Content Include="Assets\banner3.jpg" />
+    <Content Include="Assets\bank.JPG" />
+    <Content Include="Assets\canteen.JPG" />
+    <Content Include="Assets\cseDevaraj%2520D.jpg" />
+    <Content Include="Assets\csemedha%2520G.jpg" />
+    <Content Include="Assets\csenandini.jpg" />
+    <Content Include="Assets\cserashmi.jpg" />
+    <Content Include="Assets\csereshmaJ.jpg" />
+    <Content Include="Assets\cseSampada%2520K%2520S.jpg" />
+    <Content Include="Assets\cseSudhamani%2520MJ.jpg" />
+    <Content Include="Assets\cseSwati.jpg" />
+    <Content Include="Assets\cseVidya%2520Y.jpg" />
+    <Content Include="Assets\Dr.GTR7.jpg" />
+    <Content Include="Assets\DSC00843.JPG" />
+    <Content Include="Assets\DSC01167.JPG" />
+    <Content Include="Assets\DSC04561.JPG" />
+    <Content Include="Assets\Mahimakatti.jpg" />
+    <Content Include="Assets\RNSIT_Logo.scale-100.jpg" />
+    <Content Include="Assets\RNSIT_Logo.scale-200.jpg" />
+    <Content Include="Assets\SplashScreen.scale-200.jpg" />
+    <Content Include="Assets\trasnport.jpg" />
+    <Content Include="Assets\lib.jpg" />
+    <Content Include="Assets\headercopy2.jpg.bmp" />
+    <Content Include="Assets\it.jpg" />
+    <Content Include="Assets\logo.jpg" />
+    <Content Include="Assets\mech.png" />
+    <Content Include="Assets\RNSIT_Logo.jpg" />
+    <Content Include="Assets\Square71x71Logo.scale-125.jpg" />
+    <Content Include="Assets\StoreLogo.scale-100.jpg" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="aboutus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="aboutusCIVIL.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="aboutusCSE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="aboutusECE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="aboutusEEE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="aboutusIS.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="aboutusIT.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="aboutusMECH.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="admissions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="apnotesIS4sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="authentication.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CIVIL.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CSE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Departments.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ECE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EEE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="facility.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FacultyCSE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Hostel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="IS.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="IT.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MECH.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="placements.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesCIVIL.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesCIVIL4sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesCIVIL5sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesCIVIL6sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesCIVIL7sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesCIVIL8sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesCSE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesCSE4sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesCSE5sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesCSE6sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesCSE7sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesCSE8sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesECE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesECE4sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesECE5sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesECE6sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesECE7sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesECE8sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesEEE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesEEE4sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesEEE5sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesEEE6sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesEEE7sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesEEE8sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesIS5sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesIS6sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesIS7sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesIS8sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesIT.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesIT4sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesIT5sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesIT6sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesmech.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesmech4sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesmech5sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesmech6sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesmech7sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qpnotesmech8sem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="studymaterial IS.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="studymaterial IT.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Studymaterial.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="studymaterialCIVIL.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="studymaterialdepts.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="studymaterialECE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="studymaterialEEE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="studymaterialMECH.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Transport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

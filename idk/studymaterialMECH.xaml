@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="idk.studymaterialMECH"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:idk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="LightSlateGray">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,83,0,0" TextWrapping="Wrap" Text="Study Material"  Height="96" Width="340" FontSize="48" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Margin="0,215,0,0" TextWrapping="Wrap" Text="Semester" VerticalAlignment="Top" Height="63" Width="141" TextAlignment="Center" FontSize="26.667"/>
+        <ComboBox Margin="0,260,0,0" HorizontalAlignment="Center" Width="194">
+            <ComboBoxItem Tapped="ComboBoxItem_Tapped3" Content="3" />
+            <ComboBoxItem Tapped="ComboBoxItem_Tapped4" Content="4" />
+            <ComboBoxItem Tapped="ComboBoxItem_Tapped5" Content="5" />
+            <ComboBoxItem Tapped="ComboBoxItem_Tapped6" Content="6" />
+            <ComboBoxItem Tapped="ComboBoxItem_Tapped7" Content="7" />
+            <ComboBoxItem Tapped="ComboBoxItem_Tapped8" Content="8" />
+        </ComboBox>
+      
+    </Grid>
+</Page>

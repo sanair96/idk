@@ -1,0 +1,136 @@
+﻿<Page
+    x:Class="idk.Transport"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:idk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition>
+                <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                    <ContinuumNavigationTransitionInfo />
+                </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+            </NavigationThemeTransition>
+        </TransitionCollection>
+    </Page.Transitions>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Rectangle Fill="Beige" Height="100" Margin="0,0,0,0" VerticalAlignment="Top"/>
+        <Rectangle Fill="LightSlateGray" Margin="0,100,0,0"/>
+        <Pivot Title="" Margin="0,20,0,-39">
+            <PivotItem Header="About Us">
+                <Grid>
+                    <Image x:Name="image" HorizontalAlignment="Center" Height="221" Margin="10,10,0,0" VerticalAlignment="Top" Width="326" Source="Assets/trasnport.jpg" Stretch="UniformToFill"/>
+                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="Wrap" Text="The College owns a fleet of 10 buses &amp; a van to meet the transportation requirements. The list of routes through which the buses ply on working days is given below. Our RNSIT Drivers names starting from left to right Basavaraj, Chandregowda, Nagaraj, Ramesh, Thimmegowda,Mahadeva, Byrappa, Krishnappa,Ravindra &amp; Srikanta Murthy" VerticalAlignment="Top" Margin="10,231,0,0" Height="319" Width="316" FontSize="20" />
+
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="Schedule">
+                <ScrollViewer Width="360" HorizontalAlignment="Center" HorizontalContentAlignment="Center" HorizontalScrollBarVisibility="Disabled">
+                    <StackPanel Width="360" VerticalAlignment="Top" Margin="0,10,0,0">
+                        <StackPanel Width="360">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="165"/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="STARTING POINT" FontWeight="Bold"  TextAlignment="Center" TextWrapping="Wrap" Grid.Column="0" FontSize="22" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+
+                                <TextBlock Text="STARTING TIME" FontWeight="Bold" TextWrapping="Wrap" Grid.Column="1" FontSize="22" Margin="88,0,0,0" Grid.ColumnSpan="2"/>
+                            </Grid>
+                        </StackPanel>
+
+                        <StackPanel>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="175"/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="R.N.S. Motors via Basaveshwara nagara" TextAlignment="Center" TextWrapping="Wrap" Grid.Column="0" FontSize="20" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+
+                                <TextBlock Text="7:15 A.M." TextWrapping="Wrap" Grid.Column="2" FontSize="20"/>
+
+                            </Grid>
+                        </StackPanel>
+                        <StackPanel Height="20"/>
+                        <StackPanel>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="175"/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="R.N.S. Motors via Malleshwaram" TextAlignment="Center" TextWrapping="Wrap" Grid.Column="0" FontSize="20" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+
+                                <TextBlock Text="7:00 A.M." TextWrapping="Wrap" Grid.Column="2" FontSize="20"/>
+
+                            </Grid>
+                        </StackPanel>
+                        <StackPanel Height="20"/>
+                        <StackPanel>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="175"/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="RNS Motors via Nagarabhavi" TextAlignment="Center" TextWrapping="Wrap" Grid.Column="0" FontSize="20" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+
+                                <TextBlock Text="7:20 A.M." TextWrapping="Wrap" Grid.Column="2" FontSize="20"/>
+
+                            </Grid>
+                        </StackPanel>
+                        <StackPanel Height="20"/>
+                        <StackPanel Height="110" Width="360">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="175"/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="Naveen Complex, M.G. Road via Hanumanth nagara" TextAlignment="Center" TextWrapping="Wrap" Grid.Column="0" FontSize="20" Height="110" VerticalAlignment="Bottom" Margin="7,0,9.667,-29" Grid.ColumnSpan="2"/>
+
+                                <TextBlock Text="7:20 A.M." TextWrapping="Wrap" Grid.Column="2" FontSize="20" Margin="0.333,0,0,-29"/>
+
+                            </Grid>
+                        </StackPanel>
+                        <StackPanel Height="20"/>
+                        <StackPanel Height="82">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="175"/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="Naveen Complex, M.G. Road via Jayanagara" TextAlignment="Center" TextWrapping="Wrap" Grid.Column="0" FontSize="20" Height="82" VerticalAlignment="Bottom" Margin="0,0,9.667,-29" Grid.ColumnSpan="2"/>
+
+                                <TextBlock Text="7:20 A.M." TextWrapping="Wrap" Grid.Column="2" FontSize="20" Margin="0.333,0,0,-29"/>
+
+                            </Grid>
+                        </StackPanel>
+                        <StackPanel Height="20" />
+                        <StackPanel Height="92">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="175"/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="Naveen Complex, M.G. Road via J P nagara" TextAlignment="Center" Height="92" TextWrapping="Wrap" Grid.Column="0" FontSize="20" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+
+                                <TextBlock Text="7:00 A.M." TextWrapping="Wrap" Grid.Column="2" FontSize="20"/>
+
+                            </Grid>
+                        </StackPanel>
+                    </StackPanel>
+                </ScrollViewer>
+            </PivotItem>
+        </Pivot>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Transport" VerticalAlignment="Top" Height="53" Width="350" TextAlignment="Center" FontWeight="Bold" FontSize="40"/>
+    </Grid>
+</Page>

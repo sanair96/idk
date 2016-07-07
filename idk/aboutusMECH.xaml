@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="idk.aboutusMECH"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:idk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:Name="image" Source="Assets/MechHOD11.jpg" Margin="130,0,130,540"/>
+        <TextBlock Text="The College has started offering courses in Mechanical Engg from Aug 2011. Already the civil work required for class rooms and labs are in place. The equipments required for 3rd sem Foundry, Forging and Material Testing lab have been procured.The equipments for the other labs will be procured before the commencement of every sem.The facilities in the basic workshop have been expanded. The basic workshop is housed in the new building.
+New facilities has been provided for computers Aided Drawings in the new building.New Teaching staff have been recruited in view of the starting of Mech.Engg branch.
+ The   department   of   Mechanical   Engineering   is headed by Prof. Yeshovanth, having 34 years of experience. The Mechanical Engineering Department offers teaching in the Basic subject Elements of Mechanical and train the students in Computer Aided Engineering Drawing." TextWrapping="Wrap" FontSize="16" Margin="0,170,0,-5"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="idk.authentication"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:idk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        
+
+        <TextBlock x:Name="UsernameTB" HorizontalAlignment="Left" TextWrapping="Wrap" Text="UserName" VerticalAlignment="Top" Margin="52,172,0,0" FontSize="22"/>
+        <TextBlock x:Name="PasswordBoxPB" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Margin="52,261,0,0" FontSize="22"/>
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="170,172,0,0" Width="180"/>
+        <PasswordBox x:Name="passwordBox_Copy" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="170,258,0,0" Width="180"/>
+        <Button x:Name="LoginBTN" Content="LogIn" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="78,348,0,0" Click="button_Click"/>
+        <Button x:Name="logoutBTN" Content="LogOut" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="238,348,0,0" Click="logoutBTN_Click"/>
+
+
+
+
+
+    </Grid>
+</Page>

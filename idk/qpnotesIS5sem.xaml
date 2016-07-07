@@ -1,0 +1,148 @@
+﻿<Page
+    x:Class="idk.qpnotesIS5sem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:idk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Pivot Background="LightSlateGray" Title="">
+            <PivotItem Header="Question Papers">
+                <Grid>
+                    <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="SOFTWARE ENGG" VerticalAlignment="Top" Margin="10,85,0,0" FontSize="26.667"/>
+                    <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="SYSTEM SOFTWARE" VerticalAlignment="Top" Margin="10,145,0,0" FontSize="24"/>
+                    <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="OS" VerticalAlignment="Top" Margin="10,205,0,0" FontSize="24"/>
+                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="DBMS" VerticalAlignment="Top" Margin="10,265,0,0" FontSize="26.667"/>
+                    <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="COMP NETWORKS-I" VerticalAlignment="Top" Margin="10,325,0,0" FontSize="23"/>
+                    <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="FL AND AT" VerticalAlignment="Top" Margin="10,385,0,0" FontSize="25"/>
+                    <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Year" VerticalAlignment="Top" Margin="224,53,0,0" FontSize="26.667" Width="112" TextAlignment="Center"/>
+                    <ComboBox Margin="224,93,0,0" RenderTransformOrigin="0.453,0.5" Width="112">
+                        <ComboBoxItem x:Name="maths" Content="2010" Tapped="SE_Tapped"/>
+                        <ComboBoxItem Content="2011" Tapped="SE1_Tapped"/>
+                        <ComboBoxItem Content="2012" Tapped="SE2_Tapped"/>
+                        <ComboBoxItem Content="2013" Tapped="SE3_Tapped"/>
+                        <ComboBoxItem Content="2014" Tapped="SE4_Tapped"/>
+                        <ComboBoxItem Content="2015" Tapped="SE5_Tapped"/>
+                    </ComboBox>
+                    <ComboBox Margin="224,150,0,0" RenderTransformOrigin="0.453,0.5" Width="112">
+                        <ComboBoxItem x:Name="maths1" Content="2010" Tapped="SS_Tapped"/>
+                        <ComboBoxItem Content="2011" Tapped="SS1_Tapped"/>
+                        <ComboBoxItem Content="2012" Tapped="SS2_Tapped"/>
+                        <ComboBoxItem Content="2013" Tapped="SS3_Tapped"/>
+                        <ComboBoxItem Content="2014" Tapped="SS4_Tapped"/>
+                        <ComboBoxItem Content="2015" Tapped="SS5_Tapped"/>
+                    </ComboBox>
+                    <ComboBox Margin="224,213,0,0" RenderTransformOrigin="0.453,0.5" Width="112">
+                        <ComboBoxItem x:Name="maths2" Content="2010"  Tapped="OS_Tapped"/>
+                        <ComboBoxItem Content="2011" Tapped="OS1_Tapped"/>
+                        <ComboBoxItem Content="2012" Tapped="OS2_Tapped"/>
+                        <ComboBoxItem Content="2013" Tapped="OS3_Tapped"/>
+                        <ComboBoxItem Content="2014" Tapped="OS4_Tapped"/>
+                        <ComboBoxItem Content="2015" Tapped="OS5_Tapped"/>
+                    </ComboBox>
+                    <ComboBox Margin="224,268,0,0" RenderTransformOrigin="0.453,0.5" Width="112">
+                        <ComboBoxItem x:Name="maths4" Content="2010"  Tapped="DBMS_Tapped"/>
+                        <ComboBoxItem Content="2011" Tapped="DBMS1_Tapped"/>
+                        <ComboBoxItem Content="2012" Tapped="DBMS2_Tapped"/>
+                        <ComboBoxItem Content="2013" Tapped="DBMS3_Tapped"/>
+                        <ComboBoxItem Content="2014" Tapped="DBMS4_Tapped"/>
+                        <ComboBoxItem Content="2015" Tapped="DBMS5_Tapped"/>
+                    </ComboBox>
+                    <ComboBox Margin="224,328,0,0" RenderTransformOrigin="0.453,0.5" Width="112">
+                        <ComboBoxItem x:Name="maths5" Content="2010" Tapped="CN_Tapped"/>
+                        <ComboBoxItem Content="2011" Tapped="CN1_Tapped"/>
+                        <ComboBoxItem Content="2012" Tapped="CN2_Tapped"/>
+                        <ComboBoxItem Content="2013" Tapped="CN3_Tapped"/>
+                        <ComboBoxItem Content="2014" Tapped="CN4_Tapped"/>
+                        <ComboBoxItem Content="2015" Tapped="CN5_Tapped"/>
+                    </ComboBox>
+                    <ComboBox Margin="224,388,0,0" RenderTransformOrigin="0.453,0.5" Width="112">
+                        <ComboBoxItem x:Name="maths6" Content="2010" Tapped="FL_Tapped"/>
+                        <ComboBoxItem Content="2011" Tapped="FL1_Tapped"/>
+                        <ComboBoxItem Content="2012" Tapped="FL2_Tapped"/>
+                        <ComboBoxItem Content="2013" Tapped="FL3_Tapped"/>
+                        <ComboBoxItem Content="2014" Tapped="FL4_Tapped"/>
+                        <ComboBoxItem Content="2015" Tapped="FL5_Tapped"/>
+                    </ComboBox>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="Notes" Margin="12,10,12,0">
+                <Grid>
+                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,85,0,0" TextWrapping="Wrap" Text="SOFTWARE ENGG" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="10,145,0,0" TextWrapping="Wrap" Text="SYSTEM SOFTWARE" VerticalAlignment="Top" FontSize="22.667"/>
+                    <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="10,205,0,0" TextWrapping="Wrap" Text="OPERATING SYSTEM" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="10,265,0,0" TextWrapping="Wrap" Text="DBMS" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Margin="10,325,0,0" TextWrapping="Wrap" Text="COMP NETWORKS-I" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy4" HorizontalAlignment="Left" Margin="10,385,0,0" TextWrapping="Wrap" Text="FL AND AT" VerticalAlignment="Top" FontSize="22.5"/>
+                    <ComboBox x:Name="maths3" Margin="263,85,0,0" Width="63">
+                        <ComboBoxItem Content="Unit 1"/>
+                        <ComboBoxItem Content="Unit 2"/>
+                        <ComboBoxItem Content="Unit 3"/>
+                        <ComboBoxItem Content="Unit 4"/>
+                        <ComboBoxItem Content="Unit 5"/>
+                        <ComboBoxItem Content="Unit 6"/>
+                        <ComboBoxItem Content="Unit 7"/>
+                        <ComboBoxItem Content="Unit 8"/>
+                    </ComboBox>
+                    <ComboBox x:Name="EC" Margin="263,143,0,0">
+                        <ComboBoxItem Content="Unit 1"/>
+                        <ComboBoxItem Content="Unit 2"/>
+                        <ComboBoxItem Content="Unit 3"/>
+                        <ComboBoxItem Content="Unit 4"/>
+                        <ComboBoxItem Content="Unit 5"/>
+                        <ComboBoxItem Content="Unit 6"/>
+                        <ComboBoxItem Content="Unit 7"/>
+                        <ComboBoxItem Content="Unit 8"/>
+                    </ComboBox>
+                    <ComboBox x:Name="LD" Margin="262,205,0,0">
+                        <ComboBoxItem Content="Unit 1"/>
+                        <ComboBoxItem Content="Unit 2"/>
+                        <ComboBoxItem Content="Unit 3"/>
+                        <ComboBoxItem Content="Unit 4"/>
+                        <ComboBoxItem Content="Unit 5"/>
+                        <ComboBoxItem Content="Unit 6"/>
+                        <ComboBoxItem Content="Unit 7"/>
+                        <ComboBoxItem Content="Unit 8"/>
+                    </ComboBox>
+                    <ComboBox x:Name="DMS" Margin="263,265,0,0">
+                        <ComboBoxItem Content="Unit 1"/>
+                        <ComboBoxItem Content="Unit 2"/>
+                        <ComboBoxItem Content="Unit 3"/>
+                        <ComboBoxItem Content="Unit 4"/>
+                        <ComboBoxItem Content="Unit 5"/>
+                        <ComboBoxItem Content="Unit 6"/>
+                        <ComboBoxItem Content="Unit 7"/>
+                        <ComboBoxItem Content="Unit 8"/>
+                    </ComboBox>
+                    <ComboBox x:Name="DS" Margin="262,325,0,0">
+                        <ComboBoxItem Content="Unit 1"/>
+                        <ComboBoxItem Content="Unit 2"/>
+                        <ComboBoxItem Content="Unit 3"/>
+                        <ComboBoxItem Content="Unit 4"/>
+                        <ComboBoxItem Content="Unit 5"/>
+                        <ComboBoxItem Content="Unit 6"/>
+                        <ComboBoxItem Content="Unit 7"/>
+                        <ComboBoxItem Content="Unit 8"/>
+                    </ComboBox>
+                    <ComboBox x:Name="OOP" Margin="262,385,0,0">
+                        <ComboBoxItem Content="Unit 1"/>
+                        <ComboBoxItem Content="Unit 2"/>
+                        <ComboBoxItem Content="Unit 3"/>
+                        <ComboBoxItem Content="Unit 4"/>
+                        <ComboBoxItem Content="Unit 5"/>
+                        <ComboBoxItem Content="Unit 6"/>
+                        <ComboBoxItem Content="Unit 7"/>
+                        <ComboBoxItem Content="Unit 8"/>
+                    </ComboBox>
+                    <TextBlock x:Name="textBlock1_Copy5" HorizontalAlignment="Left" Margin="274,45,0,0" TextWrapping="Wrap" Text="Unit" VerticalAlignment="Top" FontSize="26.667" TextAlignment="Center"/>
+                </Grid>
+
+            </PivotItem>
+
+
+        </Pivot>
+
+    </Grid>
+</Page>

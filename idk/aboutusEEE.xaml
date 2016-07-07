@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="idk.aboutusEEE"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:idk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid>
+            
+            <ScrollViewer>
+                <StackPanel>
+                <Image x:Name="image" Height="100" Width="100" Source="Assets/eeeHOD1.jpg"/>
+                    <TextBlock Text="The department of Electrical and Electronics Engineering was started in the year 2004 with a sanctioned intake of 60 students. The department is headed by Dr.Sumathi S, Asst professor, who has specialized in the area of power systems and has over 16 Years  of teaching experience.The staff and the students of the department are working with the vision of making the department the top in India both in formal and non-formal education, research and service in electrical engineering over the next decade. The laboratories are well equipped with state-of-art equipments to meet the growing needs of the industry, especially Electrical Machines Lab and High Voltage Lab have been established with an outlay of 35 lakhs and are considered one of the best setups in the state.The department conducts workshops, seminars, conferences and invited lectures to keep the students and staff updated with the latest developments. The department also invites projects from industries to be implemented by the students of the college. The students have been well trained and with the support of the placement cell, have succeeded in being placed in top companies" TextWrapping="Wrap" Height="545" FontSize="16"></TextBlock>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+     
+
+    </Grid>
+</Page>

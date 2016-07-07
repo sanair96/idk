@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="idk.studymaterialdepts"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:idk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="LightSlateGray">
+        <TextBlock Text="Study Materials Branchwise" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,100" TextAlignment="Center" FontWeight="Bold" TextWrapping="Wrap" FontSize="35"/>
+        <ComboBox Header="SELECT BRANCH" FontSize="25"  HorizontalAlignment="Center"  Width="300" Margin="0,265,0,0">
+            <ComboBoxItem Content="Physics Cycle" />
+            <ComboBoxItem Content="Chemistry Cycle" />
+            <ComboBoxItem Content="Computer Science Engg " Tapped="ComboBoxItem_Tapped" />
+            <ComboBoxItem Content="Electronics Communication Engg " Tapped="ComboBoxItem_Tapped_1"/>
+            <ComboBoxItem Content="Electrical Electronics Engg" Tapped="ComboBoxItem_Tapped_2"/>
+            <ComboBoxItem Content="Information Science Engg" Tapped="ComboBoxItem_Tapped_3"/>
+            <ComboBoxItem Content="Instrumentation Technology" Tapped="ComboBoxItem_Tapped_4"/>
+            <ComboBoxItem Content="Mechanical Engineering" Tapped="ComboBoxItem_Tapped_5"/>
+            <ComboBoxItem Content="Civil Engineering" Tapped="ComboBoxItem_Tapped_6"/>
+        </ComboBox>
+
+    </Grid>
+</Page>
