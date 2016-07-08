@@ -11,7 +11,6 @@
         <Pivot Background="Ivory" Title="">
             <PivotItem Header="Question Papers">
                 <Grid>
-                    <Rectangle Fill="#6FC98A" Margin="0,50,0,0" Height="400" VerticalAlignment="Top" HorizontalAlignment="Left" Width="220"/>
                     <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="MATH III" VerticalAlignment="Top" Margin="10,85,0,0" FontSize="25"/>
                     <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ANALOG EC" VerticalAlignment="Top" Margin="10,145,0,0" FontSize="24"/>
                     <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="LD" VerticalAlignment="Top" Margin="10,205,0,0" FontSize="24"/>
@@ -72,8 +71,7 @@
             </PivotItem>
             <PivotItem Header="Notes" Margin="12,10,12,0">
                 <Grid>
-                    <Rectangle Fill="#6FC98A" Margin="0,50,0,0" Height="400" VerticalAlignment="Top" HorizontalAlignment="Left" Width="250"/>
-                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,85,0,0" TextWrapping="Wrap" Text="MATH III" VerticalAlignment="Top" FontSize="24"/>
+                   <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,85,0,0" TextWrapping="Wrap" Text="MATH III" VerticalAlignment="Top" FontSize="24"/>
                     <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="10,145,0,0" TextWrapping="Wrap" Text="ANALOG EC" VerticalAlignment="Top" FontSize="24.667"/>
                     <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="10,205,0,0" TextWrapping="Wrap" Text="LD" VerticalAlignment="Top" FontSize="24"/>
                     <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="10,265,0,0" TextWrapping="Wrap" Text="NETWORK ANALYSIS" VerticalAlignment="Top" FontSize="24"/>

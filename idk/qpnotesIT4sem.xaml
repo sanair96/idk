@@ -11,8 +11,7 @@
         <Pivot Background="Ivory" Title="">
             <PivotItem Header="Question Papers">
                 <Grid>
-                     <Rectangle Fill="#6FC98A" Margin="0,50,0,0" Height="400" VerticalAlignment="Top" HorizontalAlignment="Left" Width="220"/>
-                     <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="MATH IV" VerticalAlignment="Top" Margin="10,85,0,0" FontSize="25"/>
+                    <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="MATH IV" VerticalAlignment="Top" Margin="10,85,0,0" FontSize="25"/>
                     <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="MICROCONTROLLERS" VerticalAlignment="Top" Margin="5,145,0,0" FontSize="21"/>
                     <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="CONTROL SYSTEMS" VerticalAlignment="Top" Margin="5,205,0,0" FontSize="22"/>
                     <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="SIGNALS AND SYS" VerticalAlignment="Top" Margin="5,265,0,0" FontSize="22"/>
@@ -74,7 +73,6 @@
             <PivotItem Header="Notes" Margin="12,10,12,0">
               
                 <Grid>
-                    <Rectangle Fill="#6FC98A" Margin="0,50,0,0" Height="400" VerticalAlignment="Top" HorizontalAlignment="Left" Width="250"/>
                     <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="5,85,0,0" TextWrapping="Wrap" Text="MATH IV" VerticalAlignment="Top" FontSize="24"/>
                     <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="5,145,0,0" TextWrapping="Wrap" Text="MICROCONTROLLERS" VerticalAlignment="Top" FontSize="24"/>
                     <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="5,205,0,0" TextWrapping="Wrap" Text="CONTROL SYSTEMS" VerticalAlignment="Top" FontSize="24"/>

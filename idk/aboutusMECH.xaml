@@ -7,11 +7,22 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="LightSlateGray">
-        <Image x:Name="image" Source="Assets/MechHOD11.jpg" Margin="130,0,130,540"/>
-        <TextBlock TextAlignment="Center" Text="The College has started offering courses in Mechanical Engg from Aug 2011. Already the civil work required for class rooms and labs are in place. The equipments required for 3rd sem Foundry, Forging and Material Testing lab have been procured.The equipments for the other labs will be procured before the commencement of every sem.The facilities in the basic workshop have been expanded. The basic workshop is housed in the new building.
+    <Grid Background="ivory">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#6FC98A" Height="100" VerticalAlignment="Top" />
+        <TextBlock x:Name="Head" Grid.Row="0" Height="100" Text="About Us" FontSize="50" FontWeight="Bold" VerticalAlignment="Top" TextAlignment="Center" HorizontalAlignment="Center" />
+        <Image x:Name="image" Grid.Row="1" Source="Assets/MechHOD11.jpg" />
+        <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Disabled" VerticalScrollMode="Enabled" HorizontalScrollMode="Auto" HorizontalScrollBarVisibility="Disabled">
+            <StackPanel>
+                <TextBlock Width="360" TextAlignment="Justify" Text="The College has started offering courses in Mechanical Engg from Aug 2011. Already the civil work required for class rooms and labs are in place. The equipments required for 3rd sem Foundry, Forging and Material Testing lab have been procured.The equipments for the other labs will be procured before the commencement of every sem.The facilities in the basic workshop have been expanded. The basic workshop is housed in the new building.
 New facilities has been provided for computers Aided Drawings in the new building.New Teaching staff have been recruited in view of the starting of Mech.Engg branch.
- The   department   of   Mechanical   Engineering   is headed by Prof. Yeshovanth, having 34 years of experience. The Mechanical Engineering Department offers teaching in the Basic subject Elements of Mechanical and train the students in Computer Aided Engineering Drawing." TextWrapping="Wrap" Foreground="Honeydew" FontSize="16" Margin="0,130,0,0"/>
+ The   department   of   Mechanical   Engineering   is headed by Prof. Yeshovanth, having 34 years of experience. The Mechanical Engineering Department offers teaching in the Basic subject Elements of Mechanical and train the students in Computer Aided Engineering Drawing." TextWrapping="Wrap"  FontSize="16"/>
+            </StackPanel>
+        </ScrollViewer>
 
     </Grid>
 </Page>

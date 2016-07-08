@@ -11,8 +11,7 @@
         <Pivot Background="Ivory" Title="">
             <PivotItem Header="Question Papers">
                 <Grid>
-                    <Rectangle Fill="#6FC98A" Margin="0,50,0,0" Height="400" VerticalAlignment="Top" HorizontalAlignment="Left" Width="220"/>
-                    <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="M AND E" VerticalAlignment="Top" Margin="5,85,0,0" FontSize="25"/>
+                   <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="M AND E" VerticalAlignment="Top" Margin="5,85,0,0" FontSize="25"/>
                     <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ADVANCED MP" VerticalAlignment="Top" Margin="5,145,0,0" FontSize="21"/>
                     <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="DIGITAL SIGNAL PRO" VerticalAlignment="Top" Margin="5,205,0,0" FontSize="22"/>
                     <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="PROCESS" VerticalAlignment="Top" Margin="5,250,0,0" FontSize="22"/>
