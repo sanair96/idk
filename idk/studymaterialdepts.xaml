@@ -7,9 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="LightSlateGray">
-        <TextBlock Text="Study Materials Branchwise" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,100" TextAlignment="Center" FontWeight="Bold" TextWrapping="Wrap" FontSize="35"/>
-        <ComboBox Header="SELECT BRANCH" FontSize="25"  HorizontalAlignment="Center"  Width="300" Margin="0,265,0,0">
+    <Grid Background="Ivory">
+        <Rectangle Fill="#6FC98A" Height="100" VerticalAlignment="Top"/>
+        <TextBlock Text="Study Materials Branchwise" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,0,0,0" TextAlignment="Center" FontWeight="Bold" TextWrapping="Wrap" FontSize="35"/>
+        <ComboBox Header="SELECT BRANCH" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center"  Width="300" Margin="0,265,0,0">
             <ComboBoxItem Content="Physics Cycle" />
             <ComboBoxItem Content="Chemistry Cycle" />
             <ComboBoxItem Content="Computer Science Engg " Tapped="ComboBoxItem_Tapped" />

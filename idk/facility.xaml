@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    <Grid Background="{ThemeResource ToolTipBorderThemeBrush}">
+    <Grid Background="Ivory">
         <Pivot Title="" Margin="0,17,0,-17"  HorizontalAlignment="Center">
             <PivotItem Header="Library">
                 <Grid>
@@ -45,19 +45,19 @@ SUNDAY        -  9.00AM – 1PM
             <PivotItem Header="Canteen" HorizontalAlignment="Center" Margin="0,0,0,0">
                 <Grid>
                     <Image x:Name="canteen" HorizontalAlignment="Center" Height="238" VerticalAlignment="Top" Width="336" Source="Assets/canteen.JPG" Stretch="UniformToFill"/>
-                    <TextBlock x:Name="canteens" HorizontalAlignment="Center" Margin="0,243,0,0" TextWrapping="Wrap" Text="The College has a Canteen inside the campus in which both South Indian and North Indian dishes are available at reasonable rates. The canteen remains open on all working days. Beverages of different flavours are served on different days according to different seasons. A committee consisting of staff, students and trustees oversee the functioning of the canteen and its upkeep" VerticalAlignment="Top" RenderTransformOrigin="0.484,-2.7" Height="312" Width="316" FontSize="21" FontStyle="Italic" FontFamily="Times New Roman"/>
+                    <TextBlock x:Name="canteens" TextAlignment="Justify" HorizontalAlignment="Center" Margin="0,243,0,0" TextWrapping="Wrap" Text="The College has a Canteen inside the campus in which both South Indian and North Indian dishes are available at reasonable rates. The canteen remains open on all working days. Beverages of different flavours are served on different days according to different seasons. A committee consisting of staff, students and trustees oversee the functioning of the canteen and its upkeep" VerticalAlignment="Top" RenderTransformOrigin="0.484,-2.7" Height="312" Width="316" FontSize="21" FontStyle="Italic" FontFamily="Times New Roman"/>
 
                 </Grid>
             </PivotItem>
             <PivotItem Header="Gym" HorizontalAlignment="Center" Margin="0,0,0,0">
                 <Grid>
                     <Image x:Name="gym" HorizontalAlignment="Center" Height="238" VerticalAlignment="Top" Width="336" Source="Assets/gym.jpg" Stretch="UniformToFill"/>
-                    <TextBlock x:Name="gyms" HorizontalAlignment="Center" Margin="0,243,0,0" TextWrapping="Wrap" Text="College Owns a Gym with a decent collection of Equipments. Equipments are serviced and well maintained. Reasonbale Amount is charged per month for the students and workout time is flexible. " VerticalAlignment="Top" RenderTransformOrigin="0.484,-2.7" Height="312" Width="316" FontSize="25" FontStyle="Italic" FontFamily="Times New Roman"/>
+                    <TextBlock x:Name="gyms" TextAlignment="Justify" HorizontalAlignment="Center" Margin="0,243,0,0" TextWrapping="Wrap" Text="College Owns a Gym with a decent collection of Equipments. Equipments are serviced and well maintained. Reasonbale Amount is charged per month for the students and workout time is flexible. " VerticalAlignment="Top" RenderTransformOrigin="0.484,-2.7" Height="312" Width="316" FontSize="25" FontStyle="Italic" FontFamily="Times New Roman"/>
 
                 </Grid>
             </PivotItem>
         </Pivot>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="0,0,-85,0" TextWrapping="Wrap" Text="Facilities" VerticalAlignment="Top" RenderTransformOrigin="0.484,-2.7" Height="74" Width="350" FontSize="53.333" FontStyle="Italic" FontFamily="Times New Roman"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="0,0,-120,0" TextWrapping="Wrap" Text="Facilities" VerticalAlignment="Top" RenderTransformOrigin="0.484,-2.7" Height="74" Width="350" FontSize="53.333" FontStyle="Italic" FontFamily="Times New Roman"/>
 
     </Grid>
 </Page>
