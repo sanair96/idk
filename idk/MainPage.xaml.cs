@@ -40,24 +40,24 @@ namespace idk
                 var titleBar = ApplicationView.GetForCurrentView().TitleBar;
                 if (titleBar != null)
                 {
-                    titleBar.ButtonBackgroundColor =Colors.Green;
+                    titleBar.ButtonBackgroundColor = Color.FromArgb(0, 111, 201, 138);
                     titleBar.ButtonForegroundColor = Colors.White;
-                    titleBar.BackgroundColor = Colors.Green;
+                    titleBar.BackgroundColor = Color.FromArgb(0, 111, 201, 138);
                     titleBar.ForegroundColor = Colors.White;
                 }
             }
 
-           /* if (Windows.Foundation.Metadata.ApiInformation.IsTypePresent("Windows.UI.ViewManagement.StatusBar"))
+            if (ApiInformation.IsTypePresent("Windows.UI.ViewManagement.StatusBar"))
             {
 
-                var statusBar = statusBar.GetForCurrentView(); 
+                var statusBar = StatusBar.GetForCurrentView(); 
                 if (statusBar != null)
                 {
                     statusBar.BackgroundOpacity = 1;
-                    statusBar.BackgroundColor = Colors.DarkBlue;
+                    statusBar.BackgroundColor = Color.FromArgb(0,111,201,138);
                     statusBar.ForegroundColor = Colors.White;
                 }
-            }*/
+            }
         }
         //image slide show
         Image a = new Image();
