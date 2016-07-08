@@ -8,18 +8,19 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Pivot Background="LightSlateGray" Title="">
+        <Pivot Background="Ivory" Title="">
             <PivotItem Header="Question Papers">
                 <Grid>
-                    <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="COMM SYSTEM" VerticalAlignment="Top" Margin="10,85,0,0" FontSize="25"/>
-                    <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ADVANCED CONTROL 
-                                                                                                SYS" VerticalAlignment="Top" Margin="10,140,0,0" FontSize="21"/>
-                    <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="DIGITAL IMAGE PRO" VerticalAlignment="Top" Margin="10,205,0,0" FontSize="22"/>
-                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="PROCESS CONTROL " VerticalAlignment="Top" Margin="10,265,0,0" FontSize="22"/>
-                    <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="A AND P 
-                                                                                                       INSTRUMENTATION " VerticalAlignment="Top" Margin="10,320,0,0" FontSize="21"/>
-                    <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="COMPUTER 
-                                                                                                             NETWORKS" VerticalAlignment="Top" Margin="10,390,0,0" FontSize="22"/>
+                    <Rectangle Fill="#6FC98A" Margin="0,50,0,0" Height="400" VerticalAlignment="Top" HorizontalAlignment="Left" Width="220"/>
+                    <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="COMM SYSTEM" VerticalAlignment="Top" Margin="5,85,0,0" FontSize="25"/>
+                    <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ADVANCED CONTROL" VerticalAlignment="Top" Margin="5,140,0,0" FontSize="21"/>
+                    <TextBlock x:Name="textBlock_Copya" HorizontalAlignment="Left" TextWrapping="Wrap" Text="SYSTEM" VerticalAlignment="Top" Margin="5,165,0,0" FontSize="21"/>
+                    <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="DIGITAL IMAGE PRO" VerticalAlignment="Top" Margin="5,210,0,0" FontSize="22"/>
+                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="PROCESS CONTROL " VerticalAlignment="Top" Margin="5,265,0,0" FontSize="22"/>
+                    <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="A AND P" VerticalAlignment="Top" Margin="5,320,0,0" FontSize="21"/>
+                    <TextBlock x:Name="textBlock_Copy3a" HorizontalAlignment="Left" TextWrapping="Wrap" Text="INSTRUMENTATION" VerticalAlignment="Top" Margin="5,345,0,0" FontSize="21"/>
+                    <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="COMPUTER " VerticalAlignment="Top" Margin="5,385,0,0" FontSize="22"/>
+                    <TextBlock x:Name="textBlock_Copy4a" HorizontalAlignment="Left" TextWrapping="Wrap" Text="NETWORKS" VerticalAlignment="Top" Margin="5,410,0,0" FontSize="22"/>
                     <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Year" VerticalAlignment="Top" Margin="224,53,0,0" FontSize="26.667" Width="112" TextAlignment="Center"/>
                     <ComboBox Margin="224,93,0,0" RenderTransformOrigin="0.453,0.5" Width="112">
                         <ComboBoxItem x:Name="maths" Content="2010" Tapped="ME_Tapped"/>
@@ -74,14 +75,15 @@
             </PivotItem>
             <PivotItem Header="Notes" Margin="12,10,12,0">
                 <Grid>
-                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,85,0,0" TextWrapping="Wrap" Text="COMM SYSTEMS" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="10,130,0,0" TextWrapping="Wrap" Text="ADVANCED CONTROL 
+                    <Rectangle Fill="#6FC98A" Margin="0,50,0,0" Height="400" VerticalAlignment="Top" HorizontalAlignment="Left" Width="250"/>
+                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="5,85,0,0" TextWrapping="Wrap" Text="COMM SYSTEMS" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="5,130,0,0" TextWrapping="Wrap" Text="ADVANCED CONTROL 
                                                                                                                             SYS" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="10,205,0,0" TextWrapping="Wrap" Text="  DIGITL IMAGE PRO" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="10,265,0,0" TextWrapping="Wrap" Text="PROCESS CONTROL SYS" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Margin="10,310,0,0" TextWrapping="Wrap" Text="A AND P 
+                    <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="5,205,0,0" TextWrapping="Wrap" Text="DIGITL IMAGE PRO" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="5,265,0,0" TextWrapping="Wrap" Text="PROCESS CONTROL SYS" VerticalAlignment="Top" FontSize="22"/>
+                    <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Margin="5,310,0,0" TextWrapping="Wrap" Text="A AND P 
                                                                                                                                     INSTRUMENTATION" VerticalAlignment="Top" FontSize="22"/>
-                    <TextBlock x:Name="textBlock1_Copy4" HorizontalAlignment="Left" Margin="10,385,0,0" TextWrapping="Wrap" Text="COMP NETWROKS" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy4" HorizontalAlignment="Left" Margin="5,385,0,0" TextWrapping="Wrap" Text="COMP NETWROKS" VerticalAlignment="Top" FontSize="24"/>
 
                     <ComboBox x:Name="maths3" Margin="263,85,0,0" Width="63">
                         <ComboBoxItem Content="Unit 1"/>
