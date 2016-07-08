@@ -18,6 +18,8 @@ using Windows.UI.Xaml.Navigation;
 using Windows.UI.Xaml.Shapes;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.Media.PlayTo;
+using Windows.Foundation.Metadata;
+using Windows.UI.ViewManagement;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -33,7 +35,29 @@ namespace idk
         public MainPage()
         {
             InitializeComponent();
-        
+            if (ApiInformation.IsTypePresent("Windows.UI.ViewManagement.ApplicationView"))
+            {
+                var titleBar = ApplicationView.GetForCurrentView().TitleBar;
+                if (titleBar != null)
+                {
+                    titleBar.ButtonBackgroundColor =Colors.Green;
+                    titleBar.ButtonForegroundColor = Colors.White;
+                    titleBar.BackgroundColor = Colors.Green;
+                    titleBar.ForegroundColor = Colors.White;
+                }
+            }
+
+           /* if (Windows.Foundation.Metadata.ApiInformation.IsTypePresent("Windows.UI.ViewManagement.StatusBar"))
+            {
+
+                var statusBar = statusBar.GetForCurrentView(); 
+                if (statusBar != null)
+                {
+                    statusBar.BackgroundOpacity = 1;
+                    statusBar.BackgroundColor = Colors.DarkBlue;
+                    statusBar.ForegroundColor = Colors.White;
+                }
+            }*/
         }
         //image slide show
         Image a = new Image();

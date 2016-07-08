@@ -8,13 +8,15 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Pivot Title=""  Background="LightSlateGray">
+        <Pivot Title=""  Background="Ivory">
             <PivotItem Header="Question Papers">
                 <Grid>
-                    <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ENVIRONMENTAL                                                                                                          ENGG II" VerticalAlignment="Top" Margin="10,75,0,0" FontSize="25"/>
+                    <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ENVIRONMENTAL" VerticalAlignment="Top" Margin="5,75,0,0" FontSize="25"/>
+                    <TextBlock x:Name="textBlocka" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ENGG - II" VerticalAlignment="Top" Margin="5,100,0,0" FontSize="25"/>
                     <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="DESIGN OF STEEL" VerticalAlignment="Top" Margin="10,150,0,0" FontSize="24"/>
                     <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ESTIMATION,VAL" VerticalAlignment="Top" Margin="9,205,0,0" FontSize="23"/>
-                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="DESIGN OF PRESTRESSED CONCRETE STRUCT" VerticalAlignment="Top" Margin="10,255,0,0" FontSize="23"/>
+                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="DESIGN OF PRESTRESSED" VerticalAlignment="Top" Margin="5,255,0,0" FontSize="23"/>
+                    <TextBlock x:Name="textBlock_Copy2a" HorizontalAlignment="Left" TextWrapping="Wrap" Text="CONCRETE STRUCT" VerticalAlignment="Top" Margin="5,280,0,0" FontSize="23"/>
                     <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ELECTIVE GRP" VerticalAlignment="Top" Margin="10,325,0,0" FontSize="24"/>
                     <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ELECTIVE GRP" VerticalAlignment="Top" Margin="10,385,0,0" FontSize="22"/>
                     <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Year" VerticalAlignment="Top" Margin="224,53,0,0" FontSize="26.667" Width="112" TextAlignment="Center"/>
@@ -71,13 +73,14 @@
             </PivotItem>
             <PivotItem Header="Notes" Margin="12,10,12,0">
                 <Grid>
-                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,75,0,0" TextWrapping="Wrap" Text="ENVIRONMENTAL                                                                                                                          ENGG II" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="10,155,0,0" TextWrapping="Wrap" Text="DESIGN OF STEEL" VerticalAlignment="Top" FontSize="24.667"/>
-                    <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="10,197,0,0" TextWrapping="Wrap" Text="ESTIMATION AND VAL" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="10,250,0,0" TextWrapping="Wrap" Text="DESIGN OF PRESTRESSED CONCRETE STURCT" VerticalAlignment="Top" FontSize="23"/>
-                    <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Margin="10,325,0,0" TextWrapping="Wrap" Text="ELECTIVE GRP " VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy4" HorizontalAlignment="Left" Margin="10,385,0,0" TextWrapping="Wrap" Text="ELECTIVE GRP" VerticalAlignment="Top" FontSize="24"/>
-
+                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ENVIRONMENTAL" VerticalAlignment="Top" Margin="5,75,0,0" FontSize="25"/>
+                    <TextBlock x:Name="textBlock1A" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ENGG - II" VerticalAlignment="Top" Margin="5,100,0,0" FontSize="25"/>
+                    <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="DESIGN OF STEEL" VerticalAlignment="Top" Margin="10,150,0,0" FontSize="24"/>
+                    <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ESTIMATION,VAL" VerticalAlignment="Top" Margin="9,205,0,0" FontSize="23"/>
+                    <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" TextWrapping="Wrap" Text="DESIGN OF PRESTRESSED" VerticalAlignment="Top" Margin="5,255,0,0" FontSize="23"/>
+                    <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" TextWrapping="Wrap" Text="CONCRETE STRUCT" VerticalAlignment="Top" Margin="5,280,0,0" FontSize="23"/>
+                    <TextBlock x:Name="textBlock7" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ELECTIVE GRP" VerticalAlignment="Top" Margin="10,325,0,0" FontSize="24"/>
+                    <TextBlock x:Name="textBlock8" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ELECTIVE GRP" VerticalAlignment="Top" Margin="10,385,0,0" FontSize="22"/>
                     <ComboBox x:Name="maths3" Margin="263,85,0,0" Width="63">
                         <ComboBoxItem Content="Unit 1"/>
                         <ComboBoxItem Content="Unit 2"/>

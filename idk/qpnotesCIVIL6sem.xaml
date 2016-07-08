@@ -8,16 +8,16 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Pivot Title=""  Background="LightSlateGray">
+        <Pivot Title=""  Background="Ivory">
             <PivotItem Header="Question Papers">
                 <Grid>
-                    <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ENVIRONMENTAL 
-                                                                                                        ENGG I" VerticalAlignment="Top" Margin="10,75,0,0" FontSize="25"/>
-                    <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="D AND D OF RC" VerticalAlignment="Top" Margin="10,150,0,0" FontSize="24"/>
-                    <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TRASNPORT ENGG II" VerticalAlignment="Top" Margin="9,205,0,0" FontSize="23"/>
-                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="GEOTECHNICAL 
-                                                                                    ENGG -II" VerticalAlignment="Top" Margin="10,255,0,0" FontSize="23"/>
-                    <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="HYDRAULIC STRUCT" VerticalAlignment="Top" Margin="10,325,0,0" FontSize="24"/>
+                    <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ENVIRONMENTAL" VerticalAlignment="Top" Margin="5,75,0,0" FontSize="25"/>
+                    <TextBlock x:Name="textBlocka" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ENGG - I" VerticalAlignment="Top" Margin="5,100,0,0" FontSize="25"/>
+                    <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="D AND D OF RC" VerticalAlignment="Top" Margin="5,150,0,0" FontSize="24"/>
+                    <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TRASNPORT ENGG II" VerticalAlignment="Top" Margin="5,205,0,0" FontSize="23"/>
+                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="GEOTECHNICAL" VerticalAlignment="Top" Margin="5,255,0,0" FontSize="23"/>
+                    <TextBlock x:Name="textBlock_Copy2a" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ENGG - II" VerticalAlignment="Top" Margin="5,280,0,0" FontSize="23"/>
+                    <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="HYDRAULIC STRUCT" VerticalAlignment="Top" Margin="5,325,0,0" FontSize="24"/>
                     <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ELECTIVE GRP" VerticalAlignment="Top" Margin="10,385,0,0" FontSize="22"/>
                     <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Year" VerticalAlignment="Top" Margin="224,53,0,0" FontSize="26.667" Width="112" TextAlignment="Center"/>
                     <ComboBox Margin="224,93,0,0" RenderTransformOrigin="0.453,0.5" Width="112">
@@ -73,14 +73,14 @@
             </PivotItem>
             <PivotItem Header="Notes" Margin="12,10,12,0">
                 <Grid>
-                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,75,0,0" TextWrapping="Wrap" Text="ENVIRONMENTAL 
-                                                                                                                        ENGG I" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="10,155,0,0" TextWrapping="Wrap" Text="D AND D OF RC" VerticalAlignment="Top" FontSize="24.667"/>
-                    <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="10,197,0,0" TextWrapping="Wrap" Text="TRANSPORTATION 
-                                                                                                                                   ENGG II" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="10,275,0,0" TextWrapping="Wrap" Text="GEOTECHNICAL ENGG II" VerticalAlignment="Top" FontSize="23"/>
-                    <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Margin="10,325,0,0" TextWrapping="Wrap" Text="HYDRAULIC STRUCT " VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy4" HorizontalAlignment="Left" Margin="10,385,0,0" TextWrapping="Wrap" Text="ELECTIVE GRP" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="5,75,0,0" TextWrapping="Wrap" Text="ENVIRONMENTAL" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1A" HorizontalAlignment="Left" Margin="5,100,0,0" TextWrapping="Wrap" Text="ENGG - I" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="5,145,0,0" TextWrapping="Wrap" Text="D AND D OF RC" VerticalAlignment="Top" FontSize="24.667"/>
+                    <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="5,197,0,0" TextWrapping="Wrap" Text="TRANSPORTATION " VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy1a" HorizontalAlignment="Left" Margin="5,222,0,0" TextWrapping="Wrap" Text="ENGG - II " VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="5,270,0,0" TextWrapping="Wrap" Text="GEOTECHNICAL ENGG II" VerticalAlignment="Top" FontSize="23"/>
+                    <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Margin="5,325,0,0" TextWrapping="Wrap" Text="HYDRAULIC STRUCT " VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy4" HorizontalAlignment="Left" Margin="5,385,0,0" TextWrapping="Wrap" Text="ELECTIVE GRP" VerticalAlignment="Top" FontSize="24"/>
 
                     <ComboBox x:Name="maths3" Margin="263,85,0,0" Width="63">
                         <ComboBoxItem Content="Unit 1"/>

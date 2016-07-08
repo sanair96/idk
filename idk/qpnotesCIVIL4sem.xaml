@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Pivot Title=""  Background="LightSlateGray">
+        <Pivot Title="" Background="Ivory">
             <PivotItem Header="Question Papers">
                 <Grid>
                     <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="MATH IV" VerticalAlignment="Top" Margin="10,85,0,0" FontSize="25"/>
