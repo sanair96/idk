@@ -102,35 +102,35 @@
             </SplitView.Pane>
 
             <SplitView.Content>
-                <Grid Margin="0,-10,0,10" Background="#dddddd">
-        
+                <Grid Margin="0,-10,0,10" Background="LightSlateGray">
+                    <StackPanel Background="LightSlateGray" Margin="0,10,0,-10"/>
+                    <Image x:Name="RNSITLOGO" Source="Assets/mp1logo.jpg" Height="200" Width="200" Margin="80,10,80,426"/>
 
-                    <Image x:Name="RNSITLOGO"  Source="Assets/logo.jpg" Width="200" Height="200" Margin="80,10,80,426"/>
-
-                    <ContentControl x:Name="Cont" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,260,9,0" Width="auto" Height="250">
+                    <ContentControl x:Name="Cont" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,260,9,0" Height="250">
                         <ContentControl.Transitions>
                             <TransitionCollection>
-                                <ContentThemeTransition/>
+                                <EntranceThemeTransition/>
                             </TransitionCollection>
                         </ContentControl.Transitions>
-                        <Image x:Name="image1" Stretch="Uniform" HorizontalAlignment="Stretch" Height="auto" Width="auto"/>
+                        <Image x:Name="image1" Stretch="Fill" HorizontalAlignment="Stretch" Margin="-4,181,6,355"  RenderTransformOrigin="0.502,1.008" Height="134" Width="339"/>
                     </ContentControl>
 
                     <Button x:Name="Hamburger" Background="Transparent" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Margin="0,10,309.256,0" Click="Hamburger_Click" RenderTransformOrigin="0.68,0.364" Width="50"/>
                     <StackPanel>
                         <Button x:Name="Hamarrow" Background="Transparent" FontFamily="Segoe MDL2 Assets" Content="&#xE0A6;" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Margin="0,10,309.256,0" Click="Hamburger_Click" RenderTransformOrigin="0.68,0.364" Width="50" Visibility="Collapsed"/>
                     </StackPanel>
-                    <Grid VerticalAlignment="Bottom">
-                        <CommandBar HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="Gray" IsSticky="True" x:Name="appBar">
+                    <TextBlock Name="LOL" Text="Helooldjbskjbnff kdfjbhjdfdfj bgfjdfbhjbdhfkjdfkbdfkj dfbdfj jbfnbjbfjdbfjbf bjfbkjb" Visibility="Collapsed" HorizontalAlignment="Center" VerticalAlignment="Center"  Margin="10,340,0,150"/>
+                    <Grid>
+                        <CommandBar Margin="5,580,5,5" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Background="LightBlue" IsSticky="True" x:Name="appBar">
                             <CommandBar.PrimaryCommands>
-                                <AppBarButton  Icon="Pin" IsCompact="False" Label="About Us" Foreground="Black" Click="AppBarButton_Click"/>
+                                <AppBarButton  Icon="Pin" IsCompact="False" Label="About Us" Click="AppBarButton_Click"/>
                                 <AppBarSeparator/>
                                 <AppBarButton Icon="Flag" IsCompact="False" Label="Location" Click="AppBarButton_Click_2" />
                                 <AppBarSeparator/>
-                                <AppBarButton Icon="Phone" IsCompact="True" Label="Contact Us" Click="AppBarButton_Click_1"/>
+                                <AppBarButton Icon="Phone" IsCompact="False" Label="Contact Us" Click="AppBarButton_Click_1"/>
                                 <AppBarSeparator/>
-                                <AppBarButton Icon="View" IsCompact="True" Label="Courses" Click="AppBarButton_Click_3"/>
-                                
+                                <AppBarButton Icon="View" IsCompact="False" Label="Courses" Click="AppBarButton_Click_3"/>
+                                <AppBarSeparator/>
 
                             </CommandBar.PrimaryCommands>
 

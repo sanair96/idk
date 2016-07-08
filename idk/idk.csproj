@@ -134,6 +134,9 @@
     <Content Include="Assets\mp6.JPG" />
     <Content Include="Assets\mp7.jpg" />
     <Content Include="Assets\mplogo.gif" />
+    <Content Include="Assets\splash1 - Copy - Copy.jpg" />
+    <Content Include="Assets\splash1 - Copy.jpg" />
+    <Content Include="Assets\SplashScreen.scale-150.jpg" />
     <Content Include="Assets\Square310x310Logo.scale-100.jpg" />
     <Content Include="Assets\Square310x310Logo.scale-200.jpg" />
     <Content Include="Assets\Square71x71Logo.scale-100.jpg" />
@@ -170,9 +173,6 @@
     </Compile>
     <Compile Include="aboutusMECH.xaml.cs">
       <DependentUpon>aboutusMECH.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="admissions.xaml.cs">
-      <DependentUpon>admissions.xaml</DependentUpon>
     </Compile>
     <Compile Include="apnotesIS4sem.xaml.cs">
       <DependentUpon>apnotesIS4sem.xaml</DependentUpon>
@@ -448,10 +448,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="aboutusMECH.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="admissions.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -33,6 +33,7 @@ namespace idk
         public MainPage()
         {
             InitializeComponent();
+        
         }
         //image slide show
         Image a = new Image();
@@ -52,7 +53,7 @@ namespace idk
             Images1.Add("mp6.jpg");
             Images1.Add("mp7.jpg");
             playlistTimer1 = new DispatcherTimer();
-            playlistTimer1.Interval = new TimeSpan(0, 0, 3);
+            playlistTimer1.Interval = new TimeSpan(0, 0, 1);
             playlistTimer1.Tick += playlistTimer_Tick1;
             image1.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + Images1[count1]));
             a.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + Images1[count1]));
@@ -77,8 +78,16 @@ namespace idk
         }
         private void ImageRotation1()
         {
+            if (count1 % 2 == 0)
+            {
                 image1.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + Images1[count1].ToString()));
                 Cont.Content = image1;
+            }
+            else
+            {
+                a.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + Images1[count1].ToString()));
+                Cont.Content = a;
+            }
         }
 
 
@@ -135,7 +144,7 @@ namespace idk
         private void MenuButton1_Click(object sender, RoutedEventArgs e)
         {
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
-            this.Frame.Navigate(typeof(admissions));
+           // this.Frame.Navigate(typeof(admissions));
         }
 
         private void MenuButton8_Click(object sender, RoutedEventArgs e)

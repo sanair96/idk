@@ -18,15 +18,15 @@
             <RowDefinition Height="100"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Rectangle Fill="Beige" Grid.Row="0"></Rectangle>
-        <Rectangle Fill="LightSlateGray" Grid.Row="1"/>
+        <Rectangle Fill="#6FC98A " Grid.Row="0"></Rectangle>
+        <Rectangle Fill="Ivory" Grid.Row="1"/>
 
 
 
         <TextBlock  x:Name="Depart" Text="DEPARTMENTS"  Grid.Row="0" TextWrapping="Wrap" Margin="10,40,10,0"  Height="47"  VerticalAlignment="Top" FontSize="30" FontStyle="Normal" FontWeight="ExtraBlack" TextAlignment="Center"/>
-        <Button x:Name="button" Content="ENGINEERING DEPARTMENTS" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,350,0,0" Grid.Row="1">
+        <Button x:Name="button" Background="#6FC98A " Content="ENGINEERING DEPARTMENTS" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,350,0,0" Grid.Row="1">
             <Button.Flyout>
-                <MenuFlyout Placement="Right" >
+                <MenuFlyout  Placement="Left" >
                     <MenuFlyoutItem FontWeight="Bold" Text="CSE" BorderThickness="5" Click="MenuFlyoutItem_Click" />
                     <MenuFlyoutSeparator/>
                     <MenuFlyoutItem FontWeight="Bold" Text="ECE" BorderThickness="5" Click="MenuFlyoutItem_Click_1"/>
@@ -53,23 +53,23 @@
             </ContentControl.Transitions>
             <Image x:Name="image" IsDoubleTapEnabled="False" HorizontalAlignment="Center" Height="200" VerticalAlignment="Top"  Width="350" Grid.Row="1" Stretch="UniformToFill" Margin="0,15,0,0"/>
         </ContentControl>
-        <Button x:Name="button1" Content="BASIC SCIENCE DEPARTMENTS" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="5,258,0,0" Grid.Row="1">
+        <Button x:Name="button1" Background="#6FC98A " Content="BASIC SCIENCE DEPARTMENTS" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="5,258,0,0" Grid.Row="1" Click="button1_Click">
             <Button.Flyout>
                 <MenuFlyout Placement="Right">
-                    <MenuFlyoutItem CanDrag="True" Text="PHYSICS" UseSystemFocusVisuals="True" FontWeight="Bold"/>
+                    <MenuFlyoutItem  CanDrag="True" Text="PHYSICS" UseSystemFocusVisuals="True" FontWeight="Bold"/>
                     <MenuFlyoutSeparator/>
-                    <MenuFlyoutItem CanDrag="True" FontWeight="Bold" Text="MATHS" UseSystemFocusVisuals="True"/>
+                    <MenuFlyoutItem CanDrag="True" Background="Ivory" FontWeight="Bold" Text="MATHS" UseSystemFocusVisuals="True"/>
                     <MenuFlyoutSeparator/>
-                    <MenuFlyoutItem CanDrag="True" FontWeight="Bold" Text="CHEMISTRY" UseSystemFocusVisuals="True"/>
+                    <MenuFlyoutItem CanDrag="True" Background="Ivory" FontWeight="Bold" Text="CHEMISTRY" UseSystemFocusVisuals="True"/>
                 </MenuFlyout>
             </Button.Flyout>
         </Button>
-        <Button x:Name="button2" Content="POST GRADUATION" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,435,0,0" Grid.Row="1" Width="217">
-            <Button.Flyout>
-                <MenuFlyout Placement="Right">
+        <Button x:Name="button2" Content="POST GRADUATION" Background="#6FC98A " HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,435,0,0" Grid.Row="1" Width="217">
+            <Button.Flyout >
+                <MenuFlyout Placement="Right" >
                     <MenuFlyoutItem FontWeight="Bold" Text="MBA"/>
                     <MenuFlyoutSeparator/>
-                    <MenuFlyoutItem FontWeight="Bold" Text="MCA"/>
+                    <MenuFlyoutItem  FontWeight="Bold" Text="MCA"/>
                 </MenuFlyout>
             </Button.Flyout>
         </Button>

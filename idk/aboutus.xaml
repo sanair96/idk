@@ -21,8 +21,8 @@
             <RowDefinition Height="100"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Rectangle Fill="Beige"/>
-        <Rectangle Grid.Row="1" Fill="LightSlateGray"/>
+        <Rectangle Fill="#FF30DABB"/>
+        <Rectangle Grid.Row="1" Fill="Ivory"/>
         <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
 
             <Grid.ChildrenTransitions>

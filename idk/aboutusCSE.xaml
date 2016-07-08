@@ -7,29 +7,36 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="LightSlateGray">
-       
-       
-        <ScrollViewer Visibility="Visible">
-                <StackPanel>
-                    <Image x:Name="image" Height="100" Width="100" Margin="10" Source="Assets/drgtr1.jpg"/>
-                </StackPanel>
-            </ScrollViewer>
-              <StackPanel HorizontalAlignment="Center">
-                    <TextBlock x:Name="textBlock" TextWrapping="Wrap"  Text="The department of Computer Science and Engineering was established in the year 2001 right from the inception of the Institution with an objective of imparting quality technical education in IT field.The department is currently headed by Dr. G T Raju who has more than 22 years of experience in the field.The department has a VTU recognized R and D centre and currently 18 research scholars are pursuing their research work leading to PhD/MSc (Engg) degrees. The department is striving hard to make the unique spirit of RNSIT, an Institution with a difference by promoting excellence in Teaching, Research and Services covering the fundamentals as well as applied aspects of Computer Science and IT." Height="330" FontSize="16" Margin="0,150,0,0"/>
-                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Vision" VerticalAlignment="Top" Margin="0,0,0,0" FontSize="26.667" FontWeight="Bold"/>
-                    <TextBlock x:Name="textBlock2" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Better Computer Professionals for a Real World" VerticalAlignment="Top" Margin="0,0,5,0" Height="90" Width="350" FontSize="20"/>
-                    <TextBlock x:Name="textBlock3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Misssion" VerticalAlignment="Top" Margin="0,0,0,0" FontSize="26.667" FontWeight="Bold"/>
-                    <TextBlock x:Name="TB4" HorizontalAlignment="Center" TextWrapping="Wrap" Text="-To promote an intellectual and ethical environment in which the strengths and skills will flourish
+    <Grid Background="#FF12E625">
+        <StackPanel>
+            <Grid HorizontalAlignment="Center" Width="350" Margin="10,0,0,0" Height="470">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100" />
+                    <RowDefinition Height="180"/>
+                    <RowDefinition Height="0"/>
+                </Grid.RowDefinitions>
+            </Grid>
+        </StackPanel>
+        <ScrollViewer Visibility="Visible" HorizontalAlignment="Center" Grid.Row="1">
+
+            <StackPanel HorizontalAlignment="Center" >
+                <Image x:Name="image" Height="100" Width="100" Margin="10" Source="Assets/drgtr1.jpg"/>
+                <TextBlock x:Name="textBlock"  Foreground="Honeydew" TextWrapping="Wrap"  HorizontalAlignment="Center" VerticalAlignment="Center" Text="The department of Computer Science and Engineering was established in the year 2001 right from the inception of the Institution with an objective of imparting quality technical education in IT field.The department is currently headed by Dr. G T Raju who has more than 22 years of experience in the field.The department has a VTU recognized R and D centre and currently 18 research scholars are pursuing their research work leading to PhD/MSc (Engg) degrees. The department is striving hard to make the unique spirit of RNSIT, an Institution with a difference by promoting excellence in Teaching, Research and Services covering the fundamentals as well as applied aspects of Computer Science and IT." Height="330" FontSize="16" Margin="0,20,0,0"/>
+                <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" FontWeight="Bold" TextAlignment="Center" TextWrapping="Wrap" Text="Vision" VerticalAlignment="Top" Margin="0,0,0,0" FontSize="26.667" />
+                <TextBlock x:Name="textBlock2" Foreground="Honeydew" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center" Text="Better Computer Professionals for a Real World" VerticalAlignment="Top" Margin="0,0,5,0" Height="90" Width="350" FontSize="20"/>
+                <TextBlock x:Name="textBlock3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Misssion" VerticalAlignment="Top" Margin="0,0,0,0" FontSize="26.667" FontWeight="Bold"/>
+                <TextBlock x:Name="TB4" HorizontalAlignment="Center" Foreground="Honeydew" TextAlignment="Center" TextWrapping="Wrap" Text="-To promote an intellectual and ethical environment in which the strengths and skills will flourish
 
  - To impart solid foundations and applied aspects in both Computer Science theory and Programming practices
 
  - To educate and prepare the graduates, highly sought after and  productive, and well-respected for their work culture  
 
  - To Provide training and encouraging R and D and Consultancy Services in frontier areas of Computer Science with Global outlook" Margin="0,0,0,0"></TextBlock>
-                
-                </StackPanel>
-          
+
+
+            </StackPanel>
+        </ScrollViewer>
+
 
     </Grid>
 </Page>

@@ -7,18 +7,18 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="LightSlateGray">
-        <Rectangle Fill="Beige" Height="100" VerticalAlignment="Top"/>
+    <Grid Background="Ivory">
+        <Rectangle Fill="#6FC98A " Height="100" VerticalAlignment="Top"/>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="100"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <TextBlock Text="ABOUT US" HorizontalAlignment="Center" FontWeight="Bold" VerticalAlignment="Center" FontSize="30" />
+            <TextBlock Text="ABOUT US"  HorizontalAlignment="Center" FontWeight="Bold" VerticalAlignment="Center" FontSize="30" />
             <ScrollViewer VerticalScrollBarVisibility="Hidden" Grid.Row="1" VerticalScrollMode="Enabled">
             <StackPanel>
             <StackPanel>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="Wrap" Text="The Department of Civil Engineering is proud to offer Bachelor of Engineering course in Civil Engineering under VTU from 2014-15 with an initial instake of 60 students, under the guidance of the great visionary in Civil Engingeering constructions,Dr. R N Shetty.
+        <TextBlock x:Name="textBlock" TextAlignment="Justify" HorizontalAlignment="Center" TextWrapping="Wrap"  Text="The Department of Civil Engineering is proud to offer Bachelor of Engineering course in Civil Engineering under VTU from 2014-15 with an initial instake of 60 students, under the guidance of the great visionary in Civil Engingeering constructions,Dr. R N Shetty.
         
                Civil Engineering Department of RNS Institute of Technology, Bangalore, aims to be a centre of excellence in technical education and innovative applications, providing excellent professionals with integrity, besides being useful to all the stakeholders.
  
@@ -28,7 +28,7 @@
 " VerticalAlignment="Top" Width="340" FontSize="17.333"/>
         </StackPanel>
         <StackPanel>
-        <TextBlock x:Name="textBlock1" Width="340" TextWrapping="Wrap" Text="             The objectives are as follows:
+        <TextBlock x:Name="textBlock1" Width="340" TextAlignment="Justify" TextWrapping="Wrap"  Text="             The objectives are as follows:
 •Provide high quality civil engineering education to the graduate program to cope up with national / international  standards
 •Prepare graduates for professionals career and doctoral research
                                     •Be a leading consultancy provider for the development of the society

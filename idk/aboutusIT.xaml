@@ -7,16 +7,16 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="LightSlateGray">
         <Grid>
-            <ScrollViewer>
+            <ScrollViewer HorizontalAlignment="Center">
                 <StackPanel>
-                <Image x:Name="image" Source="Assets/IT-depHOD.jpg" Height="100" Width="100"/>
-                    <TextBlock Text="The department of Electronics and Instrumentation Engg is headed by Dr. Andhe Pallavi.The department is existing right from the inception of RNSIT. The department has highly qualified, experienced and dedicated faculty, committed to impart technical knowledge using advanced pedagogic methodologies " TextWrapping="Wrap" Height="165" FontSize="16"></TextBlock>
-                    <TextBlock Text="Vision" FontWeight="Bold" HorizontalAlignment="Center" FontSize="22.667"></TextBlock>
-                    <TextBlock Text="Empowering Instrumentation Engineers to Changing Technology" TextWrapping="Wrap" FontSize="20"></TextBlock>
-                    <TextBlock Text="Mission" FontSize="22.667" FontWeight="Bold" HorizontalAlignment="Center"></TextBlock>
-                    <TextBlock Text="-To provide knowledge in latest technology to make students aware of the need of measurement and control in field of engineering.                                         -To equip students with skills needed to succeed in industries and to pursue higher studies.                       -To motivate students engage lifelong learning and contribute to  society." TextWrapping="Wrap" FontSize="16"/>
+                <Image x:Name="image" Source="Assets/IT-depHOD.jpg" Height="100" Width="100" HorizontalAlignment="Center"/>
+                    <TextBlock TextAlignment="Center" Foreground="Honeydew" Text="The department of Electronics and Instrumentation Engg is headed by Dr. Andhe Pallavi.The department is existing right from the inception of RNSIT. The department has highly qualified, experienced and dedicated faculty, committed to impart technical knowledge using advanced pedagogic methodologies " TextWrapping="Wrap" Height="165" FontSize="16"></TextBlock>
+                    <TextBlock Text="Vision" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Center" FontSize="30"></TextBlock>
+                    <TextBlock Text="Empowering Instrumentation Engineers to Changing Technology" TextAlignment="Center" Foreground="Honeydew" TextWrapping="Wrap" FontSize="20"></TextBlock>
+                    <TextBlock Text="Mission" FontSize="30" Margin="0,10,0,0" FontWeight="Bold" HorizontalAlignment="Center"></TextBlock>
+                    <TextBlock TextAlignment="Center" Foreground="Honeydew" Margin="0,10,0,0" Text="-To provide knowledge in latest technology to make students aware of the need of measurement and control in field of engineering.                                         -To equip students with skills needed to succeed in industries and to pursue higher studies.                       -To motivate students engage lifelong learning and contribute to  society." TextWrapping="Wrap" FontSize="16"/>
                 </StackPanel>
             </ScrollViewer>
         </Grid>

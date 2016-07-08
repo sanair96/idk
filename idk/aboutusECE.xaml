@@ -7,18 +7,17 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="LightSlateGray">
         <Grid>
-            <ScrollViewer>
+            <ScrollViewer HorizontalAlignment="Center" VerticalAlignment="Center">
                 <StackPanel>
                 <Image x:Name="image" Height="100" Width="100" Source="Assets/DrVSece.jpg"/>
-                    <TextBlock Text="The department of Electronics and Communication Engineering was started in 2001 and is currently running B.E, M.Tech and Research programs. The department is headed by Dr. Vipula Singh, who has around 18 years of experience in teaching and research. She has obtained her doctorate from Guru Gobind Singh Indra Prastha University New Delhi in the area of image processing. She has   published more than 21 papers in international / national Journals and Conferences. She is currently guiding 2 students for Ph.D and 1 student for MS. She is the author a book on image processing. " Height="265" TextWrapping="Wrap"></TextBlock>
-                    <TextBlock Text="Vision" HorizontalAlignment="Center"  FontSize="26.667" FontWeight="Bold"></TextBlock>
-                    <TextBlock Text="Conquering technical frontiers in the field of Electronics and Communication" FontSize="20" HorizontalAlignment="Center" TextWrapping="Wrap" Width="346" Height="64"></TextBlock>
-                    <TextBlock Text="Mission" HorizontalAlignment="Center" FontSize="26.667" FontWeight="Bold"></TextBlock>
-                    <TextBlock Text="•To achieve and foster excellence in core Electronics and Communication with focus on Hardware, Software and Design
-
-                                                •To pursue research, development and consultancy to achieve self sustenance
+                    <TextBlock Text="The department of Electronics and Communication Engineering was started in 2001 and is currently running B.E, M.Tech and Research programs. The department is headed by Dr. Vipula Singh, who has around 18 years of experience in teaching and research. She has obtained her doctorate from Guru Gobind Singh Indra Prastha University New Delhi in the area of image processing. She has   published more than 21 papers in international / national Journals and Conferences. She is currently guiding 2 students for Ph.D and 1 student for MS. She is the author a book on image processing. " Height="265" TextWrapping="Wrap" Foreground="Honeydew" TextAlignment="Center"></TextBlock>
+                    <TextBlock Text="Vision" HorizontalAlignment="Center"  FontSize="30" FontWeight="Bold"></TextBlock>
+                    <TextBlock Text="Conquering technical frontiers in the field of Electronics and Communication" Foreground="Honeydew" FontSize="20" HorizontalAlignment="Center" TextWrapping="Wrap" Width="346" Height="64"></TextBlock>
+                    <TextBlock Text="Mission" HorizontalAlignment="Center" FontSize="30" Margin="0,10,0,0" FontWeight="Bold"></TextBlock>
+                    <TextBlock TextAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Center" Foreground="Honeydew" Text="•To achieve and foster excellence in core Electronics and Communication with focus on Hardware, Software and Design
+                                                        •To pursue research, development and consultancy to achieve self sustenance
 
                                                 •To create benchmark standards in E and C by active involvement of all stake holders." TextWrapping="Wrap" Height="130"></TextBlock>
                 </StackPanel>

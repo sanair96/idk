@@ -166,5 +166,10 @@ private void button_Copy1_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(CIVIL));
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
