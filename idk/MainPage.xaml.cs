@@ -236,12 +236,22 @@ namespace idk
 
         private void AppBarButton_Click_1(object sender, RoutedEventArgs e)
         {
-            Cont.Visibility = Visibility.Collapsed;
-            RNSITLOGO.Visibility = Visibility.Collapsed;
-            contactus.Visibility = Visibility.Visible;
-            courses.Visibility = Visibility.Collapsed;
-            courseslink.Visibility = Visibility.Collapsed;
-
+            if (contactus.Visibility == Visibility.Collapsed)
+            {
+                Cont.Visibility = Visibility.Collapsed;
+                RNSITLOGO.Visibility = Visibility.Collapsed;
+                contactus.Visibility = Visibility.Visible;
+                courses.Visibility = Visibility.Collapsed;
+                courseslink.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                Cont.Visibility = Visibility.Visible;
+                RNSITLOGO.Visibility = Visibility.Visible;
+                contactus.Visibility = Visibility.Collapsed;
+                courses.Visibility = Visibility.Collapsed;
+                courseslink.Visibility = Visibility.Collapsed;
+            }
         }
 
        async private void AppBarButton_Click_2(object sender, RoutedEventArgs e)
@@ -261,12 +271,24 @@ namespace idk
 
         private void AppBarButton_Click_3(object sender, RoutedEventArgs e)
         {
-            contactus.Visibility = Visibility.Collapsed;
-            Cont.Visibility = Visibility.Collapsed;
-            RNSITLOGO.Visibility = Visibility.Collapsed;
-            courses.Visibility = Visibility.Visible;
-            courseslink.Visibility = Visibility.Visible;
+            if (courses.Visibility == Visibility.Collapsed)
+            {
+                contactus.Visibility = Visibility.Collapsed;
+                Cont.Visibility = Visibility.Collapsed;
+                RNSITLOGO.Visibility = Visibility.Collapsed;
+                courses.Visibility = Visibility.Visible;
+                courseslink.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                contactus.Visibility = Visibility.Collapsed;
+                Cont.Visibility = Visibility.Visible;
+                RNSITLOGO.Visibility = Visibility.Visible;
+                courses.Visibility = Visibility.Collapsed;
+                courseslink.Visibility = Visibility.Collapsed;
+            }
         }
+
 
        async private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
