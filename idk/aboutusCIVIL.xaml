@@ -24,22 +24,22 @@
             <ScrollViewer VerticalScrollBarVisibility="Hidden" Grid.Row="1" VerticalScrollMode="Enabled">
             <StackPanel>
             <StackPanel>
-        <TextBlock x:Name="textBlock" TextAlignment="Justify" HorizontalAlignment="Center" TextWrapping="Wrap"  Text="The Department of Civil Engineering is proud to offer Bachelor of Engineering course in Civil Engineering under VTU from 2014-15 with an initial instake of 60 students, under the guidance of the great visionary in Civil Engingeering constructions,Dr. R N Shetty.
+        <TextBlock x:Name="textBlock" TextAlignment="Justify" HorizontalAlignment="Center" TextWrapping="WrapWholeWords"  Text="The Department of Civil Engineering is proud to offer Bachelor of Engineering course in Civil Engineering under VTU from 2014-15 with an initial instake of 60 students, under the guidance of the great visionary in Civil Engingeering constructions,Dr. R N Shetty.
         
                Civil Engineering Department of RNS Institute of Technology, Bangalore, aims to be a centre of excellence in technical education and innovative applications, providing excellent professionals with integrity, besides being useful to all the stakeholders.
  
                                           The department aims to be the best-rated department  in college and in the university disseminating  globally acceptable education, effective industrial consultancy and relevant research output. 
                                                                                                  
  
-" VerticalAlignment="Top" Width="340" FontSize="17.333"/>
+" VerticalAlignment="Top" Margin="20,10,20,0" Width="Auto" FontSize="17.333"/>
         </StackPanel>
         <StackPanel>
-        <TextBlock x:Name="textBlock1" Width="340" TextAlignment="Justify" TextWrapping="Wrap"  Text="             The objectives are as follows:
+        <TextBlock x:Name="textBlock1" Width="auto" TextAlignment="Justify" TextWrapping="Wrap"  Text="          The objectives are as follows:
 •Provide high quality civil engineering education to the graduate program to cope up with national / international  standards
 •Prepare graduates for professionals career and doctoral research
                                     •Be a leading consultancy provider for the development of the society
                                             •Promote excellence in teaching and research             
-" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="17.333"/>
+" VerticalAlignment="Top" Margin="20,10,20,0" HorizontalAlignment="Center" FontSize="17.333"/>
         </StackPanel>
             </StackPanel>
         </ScrollViewer>
