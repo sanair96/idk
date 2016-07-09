@@ -37,7 +37,7 @@
 
         </Grid>
 
-        <TextBlock x:Name="textBlock" Grid.Row="0" HorizontalAlignment="Center" TextWrapping="Wrap" Text="OUR VISION" VerticalAlignment="Center" Margin="0,10,0,0" Height="50" RenderTransformOrigin="0.968,0.352" Width="165" FontSize="26.667" FontWeight="Bold"/>
+        <TextBlock x:Name="textBlock" Grid.Row="0" HorizontalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap" Text="OUR VISION" VerticalAlignment="Center" Margin="0,10,0,0" Height="50" RenderTransformOrigin="0.968,0.352" Width="165" FontSize="26.667" />
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Building RNSIT into a world-class institution" VerticalAlignment="Top" Margin="0,10,0,0" FontSize="26.667" FontFamily="Times New Roman" FontStyle="Italic" Height="72" Width="360" Grid.Row="1" TextAlignment="Center"/>
         <HyperlinkButton Grid.Row="1" Content="http://www.rnsit.ac.in/index.html" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,390,0,0" Width="360" FontSize="20" Click="HyperlinkButton_Click"/>
         <TextBlock x:Name="textBlock2" Visibility="Visible" Grid.Row="1" TextWrapping="Wrap" Text="For More Info Visit Our College Website" Margin="0,310,0,200" VerticalAlignment="Top" FontSize="20" TextAlignment="Center" Width="360"/>
