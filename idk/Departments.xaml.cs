@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.Media.PlayTo;
+using Windows.System;
 
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
@@ -170,6 +171,31 @@ private void button_Copy1_Click(object sender, RoutedEventArgs e)
         private void button1_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void MenuFlyoutItem_Click_7(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(mathdept));
+        }
+
+        private void MenuFlyoutItem_Click_8(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(phydept));
+        }
+
+        private void MenuFlyoutItem_Click_9(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(chemdept));
+        }
+
+        private void MenuFlyoutItem_Click_10(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(deptmca));
+        }
+
+      async private void MenuFlyoutItem_Click_11(object sender, RoutedEventArgs e)
+        {
+            await Launcher.LaunchUriAsync(new Uri("http://www.rnsitmba.ac.in/"));
         }
     }
 }

@@ -17,7 +17,11 @@
         <TextBlock x:Name="Head" Grid.Row="0" Height="100" Text="About Us" FontSize="50" FontWeight="Bold" VerticalAlignment="Center" TextAlignment="Center" HorizontalAlignment="Center" />
 
         <Image x:Name="image" Height="100" VerticalAlignment="Center"  Grid.Row="1" Width="100" Source="Assets/iseDrMVS.jpg"/>
+<<<<<<< HEAD
         <ScrollViewer VerticalScrollBarVisibility="Hidden" VerticalScrollMode="Auto" Grid.Row="2">
+=======
+        <ScrollViewer VerticalScrollBarVisibility="Hidden" VerticalScrollMode="Enabled" Grid.Row="2">
+>>>>>>> 6da900c13d0171c147a0ce88f2a41fe78a5f508f
 
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" ScrollViewer.VerticalScrollMode="Auto">
 

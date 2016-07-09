@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="idk.deptmca"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:idk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Ivory">
+        
+            <Grid.RowDefinitions>
+                <RowDefinition Height="120" />
+                <RowDefinition Height="100"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Rectangle Fill="#6FC98A" VerticalAlignment="Top" Height="110"/>
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap" Text="WELCOME TO DEPARTMENT OF MCA" VerticalAlignment="Top" RenderTransformOrigin="2.177,3.75" Margin="0,0,0,0" Height="110" Width="350" FontSize="26.667" TextAlignment="Center"/>
+        <Image x:Name="image" Grid.Row="1" HorizontalAlignment="Center"  Height="100" Margin="0,0,0,0" VerticalAlignment="Top" Width="340" Source="Assets/hodmca.jpg"/>
+            <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Hidden" VerticalScrollMode="Enabled" >
+                <StackPanel>
+                    <StackPanel>
+                    <TextBlock FontSize="22" TextWrapping="Wrap" TextAlignment="Justify"  Height="auto" Width="auto" Margin="20,10,20,0"  Text="The world is in the midst of an all purpose technological revolution based on information (IT).  The macroeconomic benefits of the IT revolution are already apparent in some economies. Historical experience has shown that such revolutions have often been accomplished by financial booms and busts and IT revolution has been no exception. The long-term benefits for the global economy are tremendous in the years to come. Maintaing the rank of the college in the list of top MCA colleges in bangalore is dependent upon the education quality and environment being provided in our campus. With this mission of exploring young talented minds of interdisciplinary graduates and to keep pace with the present trends, the Dept. of MCA at RNSIT was started in the year 2003.The Department with the young leadership of Dr. N.P.Kavya with an experience of 22 years and above has grown leaps and bounds within a short span by imparting quality education to students for their better tomorrow.
+Department of MCA has Excelled in its teaching learning methodology and has consistent good academic track and prepares the students in a variety of areas employing various teaching and training methodologies and putting priority to the practical perspective. This has made RNSIT itself in the listing of top MCA colleges in bangalore.
+ Students have excelled in curricular and co-curricular activities and won prizes in various competitions and intercollegiate fests. Students giving the top most performances and arrangements of cultural events and fests made RNSIT in list of top MCA colleges in bangalore.
+At RNSIT-MCA, students are provided with better infrastructure which in turn facilitates towards professional standard and growth has left no stone unturned in providing the best of facilities. These facilities provided to the students in our campus created a best environment and students giving the best performance made RNSIT in to the top McA colleges in bangalore.
+The Wi-Fi enabled campus helps the student to pursue academic activities in a vast and peaceful environment
+Periodical invitations to various guests to the department for guest lecturers make the students to enrich with sufficient knowledge. The department's fest Abhivyakthi makes each student to exhibit their inherent and inbuilt skills of cultural and technical activities and depicts unity and harmony. Elitus the biannual newsletter set a platform for expressions of hidden talents of young minds."/>
+                </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+
+
+        </Grid>
+</Page>

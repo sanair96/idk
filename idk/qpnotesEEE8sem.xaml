@@ -8,13 +8,14 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Pivot Background="LightSlateGray"  Title="">
+        <Pivot Background="ivory"  Title="">
             <PivotItem Header="Question Papers">
                 <Grid>
-                    <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="APP TO                                         POWER SYSTEM" VerticalAlignment="Top" Margin="10,77,0,0" FontSize="25"/>
-                    <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ADVANCED INST SYS" VerticalAlignment="Top" Margin="10,150,0,0" FontSize="22.1"/>
-                    <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="DBMS" VerticalAlignment="Top" Margin="10,212,0,0" FontSize="28"/>
-                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="DATA COMM AND NETWROKING" VerticalAlignment="Top" Margin="10,265,0,0" FontSize="22.5"/>
+                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="APP IN POWER" VerticalAlignment="Top" Margin="5,77,0,0" FontSize="25"/>
+                    <TextBlock x:Name="textBlck" HorizontalAlignment="Left" TextWrapping="Wrap" Text="POWER SYSTEM" VerticalAlignment="Top" Margin="5,110,0,0" FontSize="25"/>
+                    <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ADVANCED INST SYS" VerticalAlignment="Top" Margin="5,150,0,0" FontSize="22.1"/>
+                    <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="DBMS" VerticalAlignment="Top" Margin="5,212,0,0" FontSize="28"/>
+                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="DATA COMM AND NETWROKING" VerticalAlignment="Top" Margin="5,265,0,0" FontSize="22.5"/>
 
 
                     <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Year" VerticalAlignment="Top" Margin="224,53,0,0" FontSize="26.667" Width="112" TextAlignment="Center"/>
@@ -55,10 +56,11 @@
             </PivotItem>
             <PivotItem Header="Notes" Margin="12,10,12,0">
                 <Grid>
-                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,75,0,0" TextWrapping="Wrap" Text="APP IN                                                  POWER SYS" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="10,150,0,0" TextWrapping="Wrap" Text="ADVANCED INST SYS" VerticalAlignment="Top" FontSize="22.667"/>
-                    <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="10,203,0,0" TextWrapping="Wrap" Text="DBMS" VerticalAlignment="Top" FontSize="26"/>
-                    <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="10,265,0,0" TextWrapping="Wrap" Text="DATA COMM AND NETWORKING" VerticalAlignment="Top" FontSize="25"/>
+                    <TextBlock x:Name="textBlck2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="APP IN POWER" VerticalAlignment="Top" Margin="5,77,0,0" FontSize="25"/>
+                    <TextBlock x:Name="textBlck3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="POWER SYSTEM" VerticalAlignment="Top" Margin="5,110,0,0" FontSize="25"/>
+                    <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="5,150,0,0" TextWrapping="Wrap" Text="ADVANCED INST SYS" VerticalAlignment="Top" FontSize="22.667"/>
+                    <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="5,203,0,0" TextWrapping="Wrap" Text="DBMS" VerticalAlignment="Top" FontSize="26"/>
+                    <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="5,265,0,0" TextWrapping="Wrap" Text="DATA COMM AND NETWORKING" VerticalAlignment="Top" FontSize="25"/>
 
 
                     <ComboBox x:Name="maths3" Margin="263,85,0,0" Width="63">

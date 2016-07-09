@@ -101,6 +101,7 @@
     <Content Include="Assets\3.jpg" />
     <Content Include="Assets\4.png" />
     <Content Include="Assets\BadgeLogo.scale-200.jpg" />
+    <Content Include="Assets\chemhodnew.jpg" />
     <Content Include="Assets\cseHemanth.jpg" />
     <Content Include="Assets\cseKiran.jpg" />
     <Content Include="Assets\cseSathishKumar.jpg" />
@@ -117,12 +118,14 @@
     <Content Include="Assets\DrVSece.jpg" />
     <Content Include="Assets\eeeHOD1.jpg" />
     <Content Include="Assets\gym.jpg" />
+    <Content Include="Assets\hodmca.jpg" />
     <Content Include="Assets\hostel3.JPG" />
     <Content Include="Assets\hostel2.JPG" />
     <Content Include="Assets\hostel1.jpg" />
     <Content Include="Assets\iseDrMVS.jpg" />
     <Content Include="Assets\IT-depHOD.jpg" />
     <Content Include="Assets\logo1.jpg" />
+    <Content Include="Assets\maths_hod_main.jpg" />
     <Content Include="Assets\MechHOD11.jpg" />
     <Content Include="Assets\mp.jpg" />
     <Content Include="Assets\mp1.JPG" />
@@ -134,6 +137,7 @@
     <Content Include="Assets\mp6.JPG" />
     <Content Include="Assets\mp7.jpg" />
     <Content Include="Assets\mplogo.gif" />
+    <Content Include="Assets\physic-hod.jpg" />
     <Content Include="Assets\splash1 - Copy - Copy.jpg" />
     <Content Include="Assets\splash1 - Copy.jpg" />
     <Content Include="Assets\SplashScreen.scale-150.jpg" />
@@ -183,6 +187,9 @@
     <Compile Include="authentication.xaml.cs">
       <DependentUpon>authentication.xaml</DependentUpon>
     </Compile>
+    <Compile Include="chemdept.xaml.cs">
+      <DependentUpon>chemdept.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CIVIL.xaml.cs">
       <DependentUpon>CIVIL.xaml</DependentUpon>
     </Compile>
@@ -191,6 +198,9 @@
     </Compile>
     <Compile Include="Departments.xaml.cs">
       <DependentUpon>Departments.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="deptmca.xaml.cs">
+      <DependentUpon>deptmca.xaml</DependentUpon>
     </Compile>
     <Compile Include="ECE.xaml.cs">
       <DependentUpon>ECE.xaml</DependentUpon>
@@ -216,8 +226,14 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="mathdept.xaml.cs">
+      <DependentUpon>mathdept.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MECH.xaml.cs">
       <DependentUpon>MECH.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="phydept.xaml.cs">
+      <DependentUpon>phydept.xaml</DependentUpon>
     </Compile>
     <Compile Include="placements.xaml.cs">
       <DependentUpon>placements.xaml</DependentUpon>
@@ -459,6 +475,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="chemdept.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CIVIL.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -468,6 +488,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Departments.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="deptmca.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -503,7 +527,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="mathdept.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MECH.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="phydept.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

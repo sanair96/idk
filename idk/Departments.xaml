@@ -56,20 +56,20 @@
         <Button x:Name="button1" Background="#6FC98A " Content="BASIC SCIENCE DEPARTMENTS" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="5,258,0,0" Grid.Row="1" Click="button1_Click">
             <Button.Flyout>
                 <MenuFlyout Placement="Right">
-                    <MenuFlyoutItem  CanDrag="True" Text="PHYSICS" UseSystemFocusVisuals="True" FontWeight="Bold"/>
+                    <MenuFlyoutItem  CanDrag="True" Text="PHYSICS" UseSystemFocusVisuals="True" FontWeight="Bold" Click="MenuFlyoutItem_Click_8"/>
                     <MenuFlyoutSeparator/>
-                    <MenuFlyoutItem CanDrag="True" Background="Ivory" FontWeight="Bold" Text="MATHS" UseSystemFocusVisuals="True"/>
+                    <MenuFlyoutItem CanDrag="True" Background="Ivory" FontWeight="Bold" Text="MATHS" UseSystemFocusVisuals="True" Click="MenuFlyoutItem_Click_7"/>
                     <MenuFlyoutSeparator/>
-                    <MenuFlyoutItem CanDrag="True" Background="Ivory" FontWeight="Bold" Text="CHEMISTRY" UseSystemFocusVisuals="True"/>
+                    <MenuFlyoutItem CanDrag="True" Background="Ivory" FontWeight="Bold" Text="CHEMISTRY" UseSystemFocusVisuals="True" Click="MenuFlyoutItem_Click_9" />
                 </MenuFlyout>
             </Button.Flyout>
         </Button>
         <Button x:Name="button2" Content="POST GRADUATION" Background="#6FC98A " HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,435,0,0" Grid.Row="1" Width="217">
             <Button.Flyout >
                 <MenuFlyout Placement="Right" >
-                    <MenuFlyoutItem FontWeight="Bold" Text="MBA"/>
+                    <MenuFlyoutItem FontWeight="Bold" Text="MBA" Click="MenuFlyoutItem_Click_11" />
                     <MenuFlyoutSeparator/>
-                    <MenuFlyoutItem  FontWeight="Bold" Text="MCA"/>
+                    <MenuFlyoutItem  FontWeight="Bold" Text="MCA" Click="MenuFlyoutItem_Click_10" />
                 </MenuFlyout>
             </Button.Flyout>
         </Button>

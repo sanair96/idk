@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="idk.phydept"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:idk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Ivory">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120" />
+            <RowDefinition Height="100"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#6FC98A" VerticalAlignment="Top" Height="100"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap" Text="WELCOME TO DEPARTMENT OF PHYSICS" VerticalAlignment="Top" RenderTransformOrigin="2.177,3.75" Margin="0,0,0,0" Height="100" Width="350" FontSize="26.667" TextAlignment="Center"/>
+        <Image x:Name="image" Grid.Row="1" HorizontalAlignment="Center"  Height="100" Margin="0,0,0,0" VerticalAlignment="Top" Width="340" Source="Assets/physic-hod.jpg"/>
+        <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Hidden" VerticalScrollMode="Enabled" >
+            <StackPanel>
+                <StackPanel>
+                    <TextBlock FontSize="22" TextWrapping="Wrap" TextAlignment="Justify"  Height="auto" Width="auto" Margin="20,10,20,0"  Text="Physics is both significant and influential, in part because advances in its understanding have often translated into new technologies, but also because new ideas in physics often resonate with the other sciences, mathematics and philosophy. The department of Engineering Physics, with its vision 'To integrate Physics with cutting edge technology' aims at providing a strong basement in scientific methods and first hand knowledge of applied physics. 
+The department of Physics has highly qualified and dedicated staff, involved actively in research also. It is headed by Dr. C. Pandurangappa, who has more than eleven years of teaching experience. He obtained his Doctorate degree in Physics by the Bangalore University for his research work on Color centers and Thermoluminescence studies in Magnesium, Strontium and Lanthanides doped Calcium fluoride in April 2010 and published two papers in international journals and presented two papers in national conferences in the academic year 2009-2010. Other faculties of the department include Mrs. Daly paul, Dr. Deepa Urs M.V and and Ms. Smitha M.G. The faculty have the following credentials for the academic year 2009-2010. Mrs. Daly paul obtained M.Phil degree recently and attended a workshop. Dr. Deepa Urs M.V. published 4 papers in international journals. Ms. Smitha M.G. is pursuing her Ph.D. and has published one paper in international journal. She has attended a national conference and a workshop."/>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Page>

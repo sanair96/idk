@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="idk.chemdept"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:idk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Ivory">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120" />
+            <RowDefinition Height="100"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#6FC98A" VerticalAlignment="Top" Height="110"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap" Text="WELCOME TO DEPARTMENT OF CHEMISTRY" VerticalAlignment="Top" RenderTransformOrigin="2.177,3.75" Margin="0,0,0,0" Height="110" Width="350" FontSize="26.667" TextAlignment="Center"/>
+        <Image x:Name="image" Grid.Row="1" HorizontalAlignment="Center"  Height="100" Margin="0,0,0,0" VerticalAlignment="Top" Width="340" Source="Assets/chemhodnew.jpg"/>
+        <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Hidden" VerticalScrollMode="Enabled" >
+            <StackPanel>
+                <StackPanel>
+                    <TextBlock FontSize="22" TextWrapping="Wrap" TextAlignment="Justify"  Height="auto" Width="auto" Margin="20,10,20,0"  Text="The Department of Chemistry at RNSIT was established in the year 2001 during the inception of the Institution. The Vision of the Department is to meet the core requirement of Chemistry in the field of Applied Science and Technology. 
+The Department is headed by Dr. T. Jeevananda, who has 14 years of Teaching and Research experience of which 3 years as Post Doctoral Scientist in South Korea. The other Faculty members of the department are highly qualified, experienced and dedicated teaching faculty members of which three are Doctorates and one is pursuing his Ph.D. degree. The Department is well equipped with lab facilities to meet the curriculum of Engineering Chemistry.  
+In the year 2008, the department got approved by VTU as R AND D Centre for carrying out research work and to pursue PhD degree. The Department has a strong record of achievements both in teaching and research activities. The Department, R AND D Centre has published more than 20 research articles in reputed National and International Journals in the previous years. The Department provide graduate students with the foundation needed for a meaningful professional career and a lifetime of independent learning. The department also organizes lectures to encourage students to upgrade their knowledge."/>
+                </StackPanel>
+                </StackPanel>
+        </ScrollViewer>
+
+
+    </Grid>
+</Page>

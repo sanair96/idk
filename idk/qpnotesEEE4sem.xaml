@@ -8,15 +8,15 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Pivot Background="LightSlateGray"  Title="">
+        <Pivot Background="ivory"  Title="">
             <PivotItem Header="Question Papers">
                 <Grid>
-                    <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="MATH IV" VerticalAlignment="Top" Margin="10,85,0,0" FontSize="25"/>
-                    <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="MICROCONTROLLERS" VerticalAlignment="Top" Margin="10,145,0,0" FontSize="21"/>
-                    <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="CONTROL SYSTEM" VerticalAlignment="Top" Margin="10,205,0,0" FontSize="22"/>
-                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="FIELD THEORY" VerticalAlignment="Top" Margin="10,265,0,0" FontSize="22"/>
-                    <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="POWER ELECTRONICS" VerticalAlignment="Top" Margin="10,325,0,0" FontSize="21"/>
-                    <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TRASNFOMRES" VerticalAlignment="Top" Margin="10,385,0,0" FontSize="21"/>
+                    <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="MATH IV" VerticalAlignment="Top" Margin="5,85,0,0" FontSize="25"/>
+                    <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="MICROCONTROLLERS" VerticalAlignment="Top" Margin="5,145,0,0" FontSize="21"/>
+                    <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="CONTROL SYSTEM" VerticalAlignment="Top" Margin="5,205,0,0" FontSize="22"/>
+                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="FIELD THEORY" VerticalAlignment="Top" Margin="5,265,0,0" FontSize="22"/>
+                    <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="POWER ELECTRONICS" VerticalAlignment="Top" Margin="5,325,0,0" FontSize="21"/>
+                    <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TRASNFOMRES" VerticalAlignment="Top" Margin="5,385,0,0" FontSize="21"/>
                     <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Year" VerticalAlignment="Top" Margin="224,53,0,0" FontSize="26.667" Width="112" TextAlignment="Center"/>
                     <ComboBox Margin="224,93,0,0" RenderTransformOrigin="0.453,0.5" Width="112">
                         <ComboBoxItem x:Name="maths" Content="2010" Tapped="ME_Tapped"/>
@@ -71,12 +71,12 @@
             </PivotItem>
             <PivotItem Header="Notes" Margin="12,10,12,0">
                 <Grid>
-                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,85,0,0" TextWrapping="Wrap" Text="MATH IV" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="10,145,0,0" TextWrapping="Wrap" Text="MICROCONTROLLERS" VerticalAlignment="Top" FontSize="22.667"/>
-                    <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="10,205,0,0" TextWrapping="Wrap" Text="CONTROL SYSTEM" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="10,265,0,0" TextWrapping="Wrap" Text="FIELD THEORY" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Margin="10,325,0,0" TextWrapping="Wrap" Text="POWER ELECTRONICS" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy4" HorizontalAlignment="Left" Margin="10,385,0,0" TextWrapping="Wrap" Text="TRASNFROMERS" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="5,85,0,0" TextWrapping="Wrap" Text="MATH IV" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="5,145,0,0" TextWrapping="Wrap" Text="MICROCONTROLLERS" VerticalAlignment="Top" FontSize="22.667"/>
+                    <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="5,205,0,0" TextWrapping="Wrap" Text="CONTROL SYSTEM" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="5,265,0,0" TextWrapping="Wrap" Text="FIELD THEORY" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Margin="5,325,0,0" TextWrapping="Wrap" Text="POWER ELECTRONICS" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy4" HorizontalAlignment="Left" Margin="5,385,0,0" TextWrapping="Wrap" Text="TRASNFROMERS" VerticalAlignment="Top" FontSize="24"/>
 
                     <ComboBox x:Name="maths3" Margin="263,85,0,0" Width="63">
                         <ComboBoxItem Content="Unit 1"/>
