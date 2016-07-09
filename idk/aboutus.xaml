@@ -21,7 +21,7 @@
             <RowDefinition Height="100"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Rectangle Fill="#FF30DABB"/>
+        <Rectangle Fill="#6fc98a"/>
         <Rectangle Grid.Row="1" Fill="Ivory"/>
         <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
 

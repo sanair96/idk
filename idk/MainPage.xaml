@@ -121,7 +121,7 @@
                     </StackPanel>
 
                     <Grid>
-                        <CommandBar HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Background="#6fc98a" IsSticky="True" x:Name="appBar">
+                        <CommandBar HorizontalAlignment="Stretch"  VerticalAlignment="Bottom" Background="#6fc98a" IsSticky="True" x:Name="appBar">
                             <CommandBar.PrimaryCommands>
                                 <AppBarButton  Icon="Pin" IsCompact="False" Label="About Us" Click="AppBarButton_Click"/>
                                 <AppBarSeparator/>
