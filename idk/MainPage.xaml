@@ -48,12 +48,12 @@
         </VisualStateManager.VisualStateGroups>
 
 
-        <SplitView Name="MySplitView" Margin="0,10,0,0">
+        <SplitView Name="MySplitView" Margin="0,0,0,0">
 
             <SplitView.Pane>
-                <StackPanel Background="#6fc98a" Opacity=".7" Margin="0,0,0,0" Height="642" VerticalAlignment="Bottom">
+                <StackPanel Background="#6fc98a" Opacity=".7" Margin="0,-12,0,0">
                     <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
-                     Width="50" Height="50" Background="Transparent" Click="Hamburgerbutton_click" HorizontalAlignment="Right" Margin="0,0,300,0"/>
+                     Width="50" Height="50" Background="Transparent" Click="Hamburgerbutton_click" HorizontalAlignment="Left" Margin="0,10,0,0"/>
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE10F;"
                          Width="50" Height="50" Background="Transparent" Click="MenuButton2_Click"/>
@@ -104,7 +104,7 @@
             <SplitView.Content>
                 <Grid Margin="0,-10,0,10" Background="Ivory">
                     <StackPanel Background="Ivory" Margin="0,10,0,-10"/>
-                    <Image x:Name="RNSITLOGO" Source="Assets/mp1logo.jpg" Height="200" Width="200" Margin="80,10,80,426"/>
+                    <Image x:Name="RNSITLOGO" Source="Assets/mp1logo.jpg" Height="200" Width="200" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0"/>
 
                     <ContentControl x:Name="Cont" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,260,9,0" Height="250">
                         <ContentControl.Transitions>
@@ -112,7 +112,7 @@
                                 <AddDeleteThemeTransition/>
                             </TransitionCollection>
                         </ContentControl.Transitions>
-                        <Image x:Name="image1" Stretch="Fill" HorizontalAlignment="Stretch"  RenderTransformOrigin="0.502,1.008" Height="134" Width="339"/>
+                        <Image x:Name="image1" Stretch="Fill" HorizontalAlignment="Stretch" Height="134" Width="339"/>
                     </ContentControl>
 
                     <Button x:Name="Hamburger" Background="Transparent" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Margin="0,10,309.256,0" Click="Hamburger_Click" RenderTransformOrigin="0.68,0.364" Width="50"/>
@@ -123,13 +123,13 @@
                     <Grid>
                         <CommandBar HorizontalAlignment="Stretch"  VerticalAlignment="Bottom" Background="#6fc98a" IsSticky="True" x:Name="appBar">
                             <CommandBar.PrimaryCommands>
-                                <AppBarButton  Icon="Pin" IsCompact="False" Label="About Us" Click="AppBarButton_Click"/>
+                                <AppBarButton HorizontalAlignment="Center" Icon="Pin" IsCompact="False" Label="About Us" Click="AppBarButton_Click"/>
                                 <AppBarSeparator/>
-                                <AppBarButton Icon="Flag" IsCompact="False" Label="Location" Click="AppBarButton_Click_2" />
+                                <AppBarButton Icon="Flag" HorizontalAlignment="Center" IsCompact="False" Label="Location" Click="AppBarButton_Click_2" />
                                 <AppBarSeparator/>
-                                <AppBarButton Icon="Phone" IsCompact="False" Label="Contact Us" Click="AppBarButton_Click_1"/>
+                                <AppBarButton Icon="Phone" IsCompact="False" HorizontalAlignment="Center" Label="Contact Us" Click="AppBarButton_Click_1"/>
                                 <AppBarSeparator/>
-                                <AppBarButton Icon="View" IsCompact="False" Label="Courses" Click="AppBarButton_Click_3"/>
+                                <AppBarButton Icon="View" HorizontalAlignment="Center" IsCompact="False" Label="Courses" Click="AppBarButton_Click_3"/>
                                 <AppBarSeparator/>
 
                             </CommandBar.PrimaryCommands>
@@ -158,7 +158,6 @@
                         <RowDefinition/>
                         <RowDefinition/>
                         <RowDefinition/>
-
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="165"/>
