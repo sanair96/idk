@@ -7,22 +7,36 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="LightSlateGray">
-        <Grid>
-            <ScrollViewer HorizontalAlignment="Center" VerticalAlignment="Center">
-                <StackPanel>
-                <Image x:Name="image" Height="100" Width="100" Source="Assets/DrVSece.jpg"/>
-                    <TextBlock Text="The department of Electronics and Communication Engineering was started in 2001 and is currently running B.E, M.Tech and Research programs. The department is headed by Dr. Vipula Singh, who has around 18 years of experience in teaching and research. She has obtained her doctorate from Guru Gobind Singh Indra Prastha University New Delhi in the area of image processing. She has   published more than 21 papers in international / national Journals and Conferences. She is currently guiding 2 students for Ph.D and 1 student for MS. She is the author a book on image processing. " Height="265" TextWrapping="Wrap" Foreground="Honeydew" TextAlignment="Center"></TextBlock>
-                    <TextBlock Text="Vision" HorizontalAlignment="Center"  FontSize="30" FontWeight="Bold"></TextBlock>
-                    <TextBlock Text="Conquering technical frontiers in the field of Electronics and Communication" Foreground="Honeydew" FontSize="20" HorizontalAlignment="Center" TextWrapping="Wrap" Width="346" Height="64"></TextBlock>
-                    <TextBlock Text="Mission" HorizontalAlignment="Center" FontSize="30" Margin="0,10,0,0" FontWeight="Bold"></TextBlock>
-                    <TextBlock TextAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Center" Foreground="Honeydew" Text="•To achieve and foster excellence in core Electronics and Communication with focus on Hardware, Software and Design
-                                                        •To pursue research, development and consultancy to achieve self sustenance
+    <Grid Background="Ivory">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="900"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#6FC98A" Grid.Row="0" Height="100" VerticalAlignment="Top" />
+        <TextBlock x:Name="Head" Grid.Row="0" Height="100" Text="About Us" FontSize="50" FontWeight="Bold" VerticalAlignment="Center" TextAlignment="Center" HorizontalAlignment="Center" />
 
-                                                •To create benchmark standards in E and C by active involvement of all stake holders." TextWrapping="Wrap" Height="130"></TextBlock>
-                </StackPanel>
-            </ScrollViewer>
-        </Grid>
+        <Image x:Name="image" Height="100" VerticalAlignment="Center"  Grid.Row="1" Width="100" Source="Assets/DrVSece.jpg"/>
+        <ScrollViewer Height="900" VerticalScrollBarVisibility="Hidden" VerticalScrollMode="Enabled" Grid.Row="2">
 
+            <StackPanel HorizontalAlignment="Center" >
+
+                <TextBlock x:Name="textBlock"   TextWrapping="Wrap"  HorizontalAlignment="Stretch" TextAlignment="Center" VerticalAlignment="Center" Text="The department of Electronics and Communication Engineering was started in 2001 and is currently running B.E, M.Tech and Research programs. The department is headed by Dr. Vipula Singh, who has around 18 years of experience in teaching and research. She has obtained her doctorate from Guru Gobind Singh Indra Prastha University New Delhi in the area of image processing. She has   published more than 21 papers in international / national Journals and Conferences. She is currently guiding 2 students for Ph.D and 1 student for MS. She is the author a book on image processing." Height="auto" FontSize="16" Margin="0,0,0,10"/>
+                <TextBlock x:Name="textBlock1"  HorizontalAlignment="Center" FontWeight="Bold" TextAlignment="Center" TextWrapping="Wrap" Text="Vision" VerticalAlignment="Top" Margin="0,0,0,0" FontSize="26.667" />
+                <TextBlock x:Name="textBlock2"  HorizontalAlignment="Stretch" TextWrapping="Wrap" TextAlignment="Center" Text="Conquering technical frontiers in the field of Electronics and Communication" VerticalAlignment="Top" Margin="0,0,0,0"  FontSize="20"/>
+                <TextBlock x:Name="textBlock3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Misssion" VerticalAlignment="Top" Margin="0,0,0,0" FontSize="26.667" FontWeight="Bold"/>
+                <TextBlock x:Name="TB4" HorizontalAlignment="Stretch"  TextAlignment="Center" TextWrapping="Wrap" Text="-To promote an intellectual and ethical environment in which the strengths and skills will flourish" Margin="0,0,0,0"></TextBlock>
+
+                <TextBlock x:Name="TB5" HorizontalAlignment="Stretch"  TextAlignment="Center" TextWrapping="Wrap" Text="•To achieve and foster excellence in core Electronics and Communication with focus on Hardware, Software and Design" Margin="0,0,0,0">
+                </TextBlock>
+
+                <TextBlock x:Name="TB6" HorizontalAlignment="Stretch"  TextAlignment="Center" TextWrapping="Wrap" Text="•To pursue research, development and consultancy to achieve self sustenance" Margin="0,0,0,0">
+                </TextBlock>
+
+                <TextBlock x:Name="TB7" HorizontalAlignment="Stretch"  TextAlignment="center" TextWrapping="Wrap" Text="•To create benchmark standards in E and C by active involvement of all stake holders." Margin="0,0,0,0"></TextBlock>
+
+
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>

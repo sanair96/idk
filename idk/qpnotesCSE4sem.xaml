@@ -8,15 +8,15 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Pivot Title="" Background="LightSlateGray">
-            <PivotItem Background="LightSlateGray" Header="Question Papers">
+        <Pivot Title="" Background="Ivory">
+            <PivotItem Background="Ivory" Header="Question Papers">
                 <Grid>
-                    <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="MATH IV" VerticalAlignment="Top" Margin="10,85,0,0" FontSize="26.667"/>
-                    <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="GRAPH THEORY" VerticalAlignment="Top" Margin="10,145,0,0" FontSize="24"/>
-                    <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="DA OF ALGORITHM" VerticalAlignment="Top" Margin="10,205,0,0" FontSize="24"/>
-                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="UNIX AND SHELL" VerticalAlignment="Top" Margin="10,265,0,0" FontSize="26.667"/>
-                    <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="MICROPROCESSORS" VerticalAlignment="Top" Margin="10,325,0,0" FontSize="23.5"/>
-                    <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="COMP ORAGNISATION" VerticalAlignment="Top" Margin="10,385,0,0" FontSize="21"/>
+                    <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="MATH IV" VerticalAlignment="Top" Margin="5,85,0,0" FontSize="26.667"/>
+                    <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="GRAPH THEORY" VerticalAlignment="Top" Margin="5,145,0,0" FontSize="24"/>
+                    <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="DAA" VerticalAlignment="Top" Margin="5,205,0,0" FontSize="24"/>
+                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="UNIX AND SHELL" VerticalAlignment="Top" Margin="5,265,0,0" FontSize="26.667"/>
+                    <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="MICROPROCESSORS" VerticalAlignment="Top" Margin="5,325,0,0" FontSize="23.5"/>
+                    <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="COMP ORAGNISATION" VerticalAlignment="Top" Margin="5,385,0,0" FontSize="21"/>
                     <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Year" VerticalAlignment="Top" Margin="224,53,0,0" FontSize="26.667" Width="112" TextAlignment="Center"/>
                     <ComboBox Margin="224,93,0,0" RenderTransformOrigin="0.453,0.5" Width="112">
                         <ComboBoxItem x:Name="maths" Content="2010" Tapped="math_Tapped"/>
@@ -68,14 +68,14 @@
                     </ComboBox>
                 </Grid>
             </PivotItem>
-            <PivotItem Header="Notes" Margin="12,10,12,0">
+            <PivotItem Background="Ivory" Header="Notes" Margin="12,10,12,0">
                 <Grid>
-                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,85,0,0" TextWrapping="Wrap" Text="MATHEMATICS IV" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="10,145,0,0" TextWrapping="Wrap" Text="GRAPH THEORY" VerticalAlignment="Top" FontSize="22.667"/>
-                    <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="10,205,0,0" TextWrapping="Wrap" Text="DA OF ALGORITHM" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="10,265,0,0" TextWrapping="Wrap" Text="US PROGRAMMING" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Margin="10,325,0,0" TextWrapping="Wrap" Text="MICROPROCESSORS" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy4" HorizontalAlignment="Left" Margin="10,385,0,0" TextWrapping="Wrap" Text="COMP ORAGANISATION" VerticalAlignment="Top" FontSize="22.5"/>
+                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="5,85,0,0" TextWrapping="Wrap" Text="MATHEMATICS IV" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="5,145,0,0" TextWrapping="Wrap" Text="GRAPH THEORY" VerticalAlignment="Top" FontSize="22.667"/>
+                    <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="5,205,0,0" TextWrapping="Wrap" Text="DAA" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="5,265,0,0" TextWrapping="Wrap" Text="Unix and Shell prog" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Margin="5,325,0,0" TextWrapping="Wrap" Text="MICROPROCESSORS" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBlock x:Name="textBlock1_Copy4" HorizontalAlignment="Left" Margin="5,385,0,0" TextWrapping="Wrap" Text="COMP ORAGANISATION" VerticalAlignment="Top" FontSize="22.5"/>
                     <ComboBox x:Name="maths3" Margin="263,85,0,0" Width="63">
                         <ComboBoxItem Content="Unit 1"/>
                         <ComboBoxItem Content="Unit 2"/>

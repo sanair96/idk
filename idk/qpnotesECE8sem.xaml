@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Pivot Background="LightSlateGray" Title="">
+        <Pivot Background="Ivory" Title="">
             <PivotItem Header="Question Papers">
                 <Grid>
                     <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="WIRELESS COMM" VerticalAlignment="Top" Margin="10,85,0,0" FontSize="25"/>
@@ -48,7 +48,7 @@
                         <ComboBoxItem Content="2014" Tapped="CN4_Tapped"/>
                         <ComboBoxItem Content="2015" Tapped="CN5_Tapped"/>
                     </ComboBox>
-                    </Grid>
+                </Grid>
             </PivotItem>
             <PivotItem Header="Notes" Margin="12,10,12,0">
                 <Grid>

@@ -8,8 +8,9 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Rectangle Fill="LightSlateGray"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,83,0,0" TextWrapping="Wrap" Text="Study Material"  Height="96" Width="340" FontSize="48" TextAlignment="Center"/>
+        <Rectangle Fill="Ivory"/>
+        <Rectangle Fill="#6FC98A" Height="100" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,0,0" TextWrapping="Wrap" Text="Study Material"  Height="96" Width="340" FontSize="48" TextAlignment="Center"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Margin="0,215,0,0" TextWrapping="Wrap" Text="Semester" VerticalAlignment="Top" Height="63" Width="141" TextAlignment="Center" FontSize="26.667"/>
         <ComboBox Margin="0,260,0,0" HorizontalAlignment="Center" Width="194">
             <ComboBoxItem Tapped="ComboBoxItem_Tapped" Content="3" />
