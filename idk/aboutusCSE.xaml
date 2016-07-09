@@ -11,7 +11,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
             <RowDefinition Height="100"/>
-            <RowDefinition Height="900"/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
         <Rectangle Fill="#6FC98A" Grid.Row="0" Height="100" VerticalAlignment="Top" />
         <TextBlock x:Name="Head" Grid.Row="0" Height="100" Text="About Us" FontSize="50" FontWeight="Bold" VerticalAlignment="Center" TextAlignment="Center" HorizontalAlignment="Center" />
