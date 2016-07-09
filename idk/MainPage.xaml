@@ -104,7 +104,7 @@
             <SplitView.Content>
                 <Grid Margin="0,-10,0,10" Background="Ivory">
                     <StackPanel Background="Ivory" Margin="0,10,0,-10"/>
-                    <Image x:Name="RNSITLOGO" Source="Assets/mp1logo.jpg" Height="200" Width="200" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0"/>
+                    <Image x:Name="RNSITLOGO" Source="Assets/logo.jpg" Height="200" Width="200" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0"/>
 
                     <ContentControl x:Name="Cont" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,260,9,0" Height="250">
                         <ContentControl.Transitions>
