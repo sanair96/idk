@@ -8,14 +8,14 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Pivot Background="LightSlateGray" Title="">
+        <Pivot Background="ivory" Title="">
             <PivotItem Header="Question Papers">
                 <Grid>
                     <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="COMP TECH IN 
-                                      POWER SYSTEM" VerticalAlignment="Top" Margin="10,78,0,0" FontSize="25"/>
-                    <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ELECTRICAL POWER UTILIZATION" VerticalAlignment="Top" Margin="10,145,0,0" FontSize="23"/>
-                    <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="HV ENGG" VerticalAlignment="Top" Margin="10,212,0,0" FontSize="28"/>
-                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="INDUSTRIAL DRIVES" VerticalAlignment="Top" Margin="10,265,0,0" FontSize="22.5"/>
+                                      POWER SYSTEM" VerticalAlignment="Top" Margin="5,78,0,0" FontSize="25"/>
+                    <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ELECTRICAL POWER UTILIZATION" VerticalAlignment="Top" Margin="5,145,0,0" FontSize="23"/>
+                    <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="HV ENGG" VerticalAlignment="Top" Margin="5,212,0,0" FontSize="28"/>
+                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="INDUSTRIAL DRIVES" VerticalAlignment="Top" Margin="5,265,0,0" FontSize="22.5"/>
                   
 
                     <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Year" VerticalAlignment="Top" Margin="224,53,0,0" FontSize="26.667" Width="112" TextAlignment="Center"/>
@@ -56,11 +56,11 @@
             </PivotItem>
             <PivotItem Header="Notes" Margin="12,10,12,0">
                 <Grid>
-                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,75,0,0" TextWrapping="Wrap" Text="COMP TECH IN 
+                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="5,75,0,0" TextWrapping="Wrap" Text="COMP TECH IN 
                                                 POWER SYS" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="10,145,0,0" TextWrapping="Wrap" Text="ELECTRICAL POWER UTILIZATION" VerticalAlignment="Top" FontSize="22.667"/>
-                    <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="10,215,0,0" TextWrapping="Wrap" Text="HV ENGG" VerticalAlignment="Top" FontSize="26"/>
-                    <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="10,265,0,0" TextWrapping="Wrap" Text="INDUSTRIAL DRIVERS 
+                    <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="5,145,0,0" TextWrapping="Wrap" Text="ELECTRICAL POWER UTILIZATION" VerticalAlignment="Top" FontSize="22.667"/>
+                    <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="5,215,0,0" TextWrapping="Wrap" Text="HV ENGG" VerticalAlignment="Top" FontSize="26"/>
+                    <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="5,265,0,0" TextWrapping="Wrap" Text="INDUSTRIAL DRIVERS 
                                                                                                                                   AND APP" VerticalAlignment="Top" FontSize="25"/>
                     
 
