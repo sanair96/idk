@@ -22,28 +22,28 @@
                     <TextBlock x:Name="Hostelhead" Text="HOSTEL ACCOMODATION" TextAlignment="Center" FontSize="28" Margin="0,-70,0,0" FontWeight="ExtraBlack"/>
                 </StackPanel>
                 <StackPanel Height="100">
-                    <Image x:Name="image" HorizontalAlignment="Center" Height="100" VerticalAlignment="Top" Width="140" Margin="0,0,0,0" Source="Assets/hostel1.jpg"/>
+                    <Image x:Name="image" HorizontalAlignment="Center" Height="auto" VerticalAlignment="Top" Width="140" Margin="0,0,0,0" Source="Assets/hostel1.jpg"/>
                 </StackPanel>
                 <StackPanel>
-                    <TextBlock  x:Name="textBlock1" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text=" The College has presently two Boys and one Girls Hostel. These hostels accommodate around 530 boys and 300 girls boarders. " Margin="0,0,0,0" TextAlignment="Justify" Height="113" Width="360" FontSize="20" Foreground="Black"/>
+                    <TextBlock  x:Name="textBlock1" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text=" The College has presently two Boys and one Girls Hostel. These hostels accommodate around 530 boys and 300 girls boarders. " Margin="20,10,20,0" TextAlignment="Justify" Height="auto" Width="auto" FontSize="20" Foreground="Black"/>
                 </StackPanel>
                 <StackPanel>
                     <Image x:Name="image_Copy" HorizontalAlignment="Center" Height="175" VerticalAlignment="Top" Width="140" Margin="0,0,0,0" Source="Assets/hostel2.JPG" Stretch="UniformToFill"/>
                 </StackPanel>
                 <StackPanel>
-                    <TextBlock TextAlignment="Justify" x:Name="textBlock2" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Day to day affairs of hostels are managed by respective Wardens. There is also a Hostel Committee to help in taking policy decisions.Accommodation is provided on a sharing basis. Rooms with basic furniture like cot, table and chair are provided. Bed-rolls, linen etc. have to be brought by the students themselves. Strict discipline is maintained " VerticalAlignment="Top" Margin="10,0,0,0" Width="362" FontSize="20" Foreground="Black" />
+                    <TextBlock TextAlignment="Justify" x:Name="textBlock2" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Day to day affairs of hostels are managed by respective Wardens. There is also a Hostel Committee to help in taking policy decisions.Accommodation is provided on a sharing basis. Rooms with basic furniture like cot, table and chair are provided. Bed-rolls, linen etc. have to be brought by the students themselves. Strict discipline is maintained " VerticalAlignment="Top" Margin="20,10,20,0" Width="auto" FontSize="20" Foreground="Black" />
                 </StackPanel>
                 <StackPanel>
-                    <TextBlock  Text="MESS Timings" Width="360" FontWeight="ExtraBlack" HorizontalAlignment="Center" FontSize="26" TextAlignment="Center"/>
+                    <TextBlock  Text="MESS Timings" Width="auto" FontWeight="ExtraBlack" HorizontalAlignment="Center" FontSize="26" TextAlignment="Center"/>
                 </StackPanel>
                 <StackPanel>
-                    <TextBlock Text="Breakfast : 7:50 am to 8:30 am" Width="360" FontSize="20" HorizontalAlignment="Center" TextAlignment="Center"/>
+                    <TextBlock Text="Breakfast : 7:50 am to 8:30 am" Width="Auto" FontSize="20" HorizontalAlignment="Center" TextAlignment="Justify"/>
                 </StackPanel>
                 <StackPanel>
-                    <TextBlock Text="Lunch : 12:30 noon to 2:00 pm" FontSize="20" Width="360" HorizontalAlignment="Center" TextAlignment="Center"/>
+                    <TextBlock Text="Lunch : 12:30 noon to 2:00 pm" FontSize="20" Width="autoS" HorizontalAlignment="Center" TextAlignment="Justify"/>
                 </StackPanel>
                 <StackPanel>
-                    <TextBlock Text="Tea : 4:30 pm to 5:30 pm" FontSize="20" Width="360" HorizontalAlignment="Center" TextAlignment="Center"/>
+                    <TextBlock Text="Tea : 4:30 pm to 5:30 pm" FontSize="20" Width="auto" HorizontalAlignment="Center" TextAlignment="Justify"/>
                 </StackPanel>
                 <StackPanel>
                     <TextBlock Text="Supper : 8 pm to 9:00 pm" Width="360" FontSize="20" HorizontalAlignment="Center" TextAlignment="Center"/>
