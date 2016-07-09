@@ -171,5 +171,10 @@ private void button_Copy1_Click(object sender, RoutedEventArgs e)
         {
 
         }
+
+        private void MenuFlyoutItem_Click_7(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(mathdept));
+        }
     }
 }

@@ -58,7 +58,7 @@
                 <MenuFlyout Placement="Right">
                     <MenuFlyoutItem  CanDrag="True" Text="PHYSICS" UseSystemFocusVisuals="True" FontWeight="Bold"/>
                     <MenuFlyoutSeparator/>
-                    <MenuFlyoutItem CanDrag="True" Background="Ivory" FontWeight="Bold" Text="MATHS" UseSystemFocusVisuals="True"/>
+                    <MenuFlyoutItem CanDrag="True" Background="Ivory" FontWeight="Bold" Text="MATHS" UseSystemFocusVisuals="True" Click="MenuFlyoutItem_Click_7"/>
                     <MenuFlyoutSeparator/>
                     <MenuFlyoutItem CanDrag="True" Background="Ivory" FontWeight="Bold" Text="CHEMISTRY" UseSystemFocusVisuals="True"/>
                 </MenuFlyout>
