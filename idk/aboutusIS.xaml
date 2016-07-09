@@ -6,7 +6,13 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition>
+                <DrillInNavigationTransitionInfo/>
+            </NavigationThemeTransition>
+        </TransitionCollection>
+    </Page.Transitions>
     <Grid Background="Ivory">
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
@@ -17,27 +23,25 @@
         <TextBlock x:Name="Head" Grid.Row="0" Height="100" Text="About Us" FontSize="50" FontWeight="Bold" VerticalAlignment="Center" TextAlignment="Center" HorizontalAlignment="Center" />
 
         <Image x:Name="image" Height="100" VerticalAlignment="Center"  Grid.Row="1" Width="100" Source="Assets/iseDrMVS.jpg"/>
-<<<<<<< HEAD
         <ScrollViewer VerticalScrollBarVisibility="Hidden" VerticalScrollMode="Auto" Grid.Row="2">
-=======
-        <ScrollViewer VerticalScrollBarVisibility="Hidden" VerticalScrollMode="Enabled" Grid.Row="2">
->>>>>>> 6da900c13d0171c147a0ce88f2a41fe78a5f508f
+            <ScrollViewer VerticalScrollBarVisibility="Hidden" VerticalScrollMode="Enabled" Grid.Row="2">
 
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" ScrollViewer.VerticalScrollMode="Auto">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" ScrollViewer.VerticalScrollMode="Auto">
 
-                <TextBlock x:Name="textBlock"   TextWrapping="Wrap"  HorizontalAlignment="Stretch" TextAlignment="Justify" VerticalAlignment="Center" Text="The Department of Information Science and Engineering  was established in the year 2001 with an intake of 40  and the intake has been increased to 60 in the year 2002. Now in the year 2012  the intake has increased to 120. The Department also runs a Post-Graduate program in Computer Network and  Engineering with an intake of 18.
+                    <TextBlock x:Name="textBlock"   TextWrapping="Wrap"  HorizontalAlignment="Stretch" TextAlignment="Justify" VerticalAlignment="Center" Text="The Department of Information Science and Engineering  was established in the year 2001 with an intake of 40  and the intake has been increased to 60 in the year 2002. Now in the year 2012  the intake has increased to 120. The Department also runs a Post-Graduate program in Computer Network and  Engineering with an intake of 18.
 
  The Department is Headed by Dr. M V Sudhamani  who has more than 20 years of Teaching experience and specialization in image processing, Advanced Algorithms and  Databases.
 
 Currently guiding 5 candidates for Ph.D under VTU  and carrying out  two research projects sponsored by AICTE and VTU. She is recipient of  Bharath Jyothi Award by IIFS, New Delhi." Height="auto" FontSize="16" Margin="20,10,20,0"/>
-                <TextBlock x:Name="textBlock1"  HorizontalAlignment="Center" FontWeight="Bold" TextAlignment="Center" TextWrapping="Wrap" Text="Vision" VerticalAlignment="Top" Margin="0,0,0,0" FontSize="26.667" />
-                <TextBlock x:Name="textBlock2"  HorizontalAlignment="Stretch" TextWrapping="Wrap" TextAlignment="Center" Text="Fostering winning professionals of Strong informative potential" VerticalAlignment="Top" Margin="20,10,20,0"  FontSize="20"/>
-                <TextBlock x:Name="textBlock3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Mission" VerticalAlignment="Top" FontSize="26.667" FontWeight="Bold" Margin="20,10,20,0"/>
-                <TextBlock x:Name="textblock4" HorizontalAlignment="Stretch"  TextAlignment="Center" TextWrapping="Wrap" Text="Imparting high quality education in the area of Information Science so as to graduate the students with good fundamentals, 'Information System Integration','Software Creation' capability and suitably train them to thrive in Industries, higher schools of learning and R and D centers with a comprehensive perspective." Margin="20,10,20,0"></TextBlock>
+                    <TextBlock x:Name="textBlock1"  HorizontalAlignment="Center" FontWeight="Bold" TextAlignment="Center" TextWrapping="Wrap" Text="Vision" VerticalAlignment="Top" Margin="0,0,0,0" FontSize="26.667" />
+                    <TextBlock x:Name="textBlock2"  HorizontalAlignment="Stretch" TextWrapping="Wrap" TextAlignment="Center" Text="Fostering winning professionals of Strong informative potential" VerticalAlignment="Top" Margin="20,10,20,0"  FontSize="20"/>
+                    <TextBlock x:Name="textBlock3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Mission" VerticalAlignment="Top" FontSize="26.667" FontWeight="Bold" Margin="20,10,20,0"/>
+                    <TextBlock x:Name="textblock4" HorizontalAlignment="Stretch"  TextAlignment="Center" TextWrapping="Wrap" Text="Imparting high quality education in the area of Information Science so as to graduate the students with good fundamentals, 'Information System Integration','Software Creation' capability and suitably train them to thrive in Industries, higher schools of learning and R and D centers with a comprehensive perspective." Margin="20,10,20,0"></TextBlock>
 
-               
 
-            </StackPanel>
+
+                </StackPanel>
+            </ScrollViewer>
         </ScrollViewer>
     </Grid>
 

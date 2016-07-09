@@ -10,13 +10,10 @@
     <Page.Transitions>
         <TransitionCollection>
             <NavigationThemeTransition>
-                <NavigationThemeTransition.DefaultNavigationTransitionInfo>
-                    <ContinuumNavigationTransitionInfo />
-                </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                <DrillInNavigationTransitionInfo/>
             </NavigationThemeTransition>
         </TransitionCollection>
     </Page.Transitions>
-
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Rectangle Fill="#6FC98A" Height="100" Margin="0,0,0,0" VerticalAlignment="Top"/>
         <Rectangle Fill="Ivory" Margin="0,100,0,0"/>
