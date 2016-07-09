@@ -17,9 +17,9 @@
         <TextBlock x:Name="Head" Grid.Row="0" Height="100" Text="About Us" FontSize="50" FontWeight="Bold" VerticalAlignment="Center" TextAlignment="Center" HorizontalAlignment="Center" />
 
         <Image x:Name="image" Height="100" VerticalAlignment="Center"  Grid.Row="1" Width="100" Source="Assets/iseDrMVS.jpg"/>
-        <ScrollViewer Height="900" VerticalScrollBarVisibility="Hidden" VerticalScrollMode="Enabled" Grid.Row="2">
+        <ScrollViewer VerticalScrollBarVisibility="Hidden" VerticalScrollMode="Auto" Grid.Row="2">
 
-            <StackPanel HorizontalAlignment="Center" >
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" ScrollViewer.VerticalScrollMode="Auto">
 
                 <TextBlock x:Name="textBlock"   TextWrapping="Wrap"  HorizontalAlignment="Stretch" TextAlignment="Justify" VerticalAlignment="Center" Text="The Department of Information Science and Engineering  was established in the year 2001 with an intake of 40  and the intake has been increased to 60 in the year 2002. Now in the year 2012  the intake has increased to 120. The Department also runs a Post-Graduate program in Computer Network and  Engineering with an intake of 18.
 

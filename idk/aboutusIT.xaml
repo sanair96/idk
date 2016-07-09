@@ -17,7 +17,7 @@
         <TextBlock x:Name="Head" Grid.Row="0" Height="100" Text="About Us" FontSize="50" FontWeight="Bold" VerticalAlignment="Top" TextAlignment="Center" HorizontalAlignment="Center" />
         <Image x:Name="image" Grid.Row="1" Source="Assets/IT-depHOD.jpg" Height="100" Width="100" HorizontalAlignment="Center"/>
         <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Disabled" VerticalScrollMode="Enabled" HorizontalScrollMode="Auto" HorizontalScrollBarVisibility="Disabled">
-            <StackPanel>
+            <StackPanel ScrollViewer.VerticalScrollMode="Auto">
                 <TextBlock Width="auto" TextAlignment="Justify"  Text="The department of Electronics and Instrumentation Engg is headed by Dr. Andhe Pallavi.The department is existing right from the inception of RNSIT. The department has highly qualified, experienced and dedicated faculty, committed to impart technical knowledge using advanced pedagogic methodologies " Margin="20,10,20,0" TextWrapping="Wrap" Height="auto" FontSize="16"></TextBlock>
                 <TextBlock Text="Vision" FontWeight="Bold" TextAlignment="Justify" Margin="20,10,20,0" HorizontalAlignment="Center" FontSize="30"/>
                 <TextBlock Width="auto" Text="Empowering Instrumentation Engineers to Changing Technology" TextAlignment="Justify" TextWrapping="Wrap" Margin="20,10,20,0" FontSize="20"/>

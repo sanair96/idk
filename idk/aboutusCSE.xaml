@@ -17,23 +17,36 @@
         <TextBlock x:Name="Head" Grid.Row="0" Height="100" Text="About Us" FontSize="50" FontWeight="Bold" VerticalAlignment="Center" TextAlignment="Center" HorizontalAlignment="Center" />
 
         <Image x:Name="image" Height="100" VerticalAlignment="Center"  Grid.Row="1" Width="100" Source="Assets/drgtr1.jpg"/>
-        <ScrollViewer  VerticalScrollBarVisibility="Hidden" VerticalScrollMode="Enabled" Grid.Row="2">
+        <ScrollViewer  VerticalScrollBarVisibility="Hidden" VerticalScrollMode="Enabled" Grid.Row="2" >
 
-            <StackPanel >
-
+            <StackPanel>
+                <StackPanel>
                 <TextBlock x:Name="textBlock"   TextWrapping="Wrap" Width="auto" HorizontalAlignment="Stretch" TextAlignment="Justify" VerticalAlignment="Center" Text="The department of Computer Science and Engineering was established in the year 2001 right from the inception of the Institution with an objective of imparting quality technical education in IT field.The department is currently headed by Dr. G T Raju who has more than 22 years of experience in the field.The department has a VTU recognized R and D centre and currently 18 research scholars are pursuing their research work leading to PhD/MSc (Engg) degrees. The department is striving hard to make the unique spirit of RNSIT, an Institution with a difference by promoting excellence in Teaching, Research and Services covering the fundamentals as well as applied aspects of Computer Science and IT." Height="auto" FontSize="16" Margin="20,10,20,0"/>
-                <TextBlock x:Name="textBlock1"  HorizontalAlignment="Center" FontWeight="Bold" TextAlignment="Center" TextWrapping="Wrap" Text="Vision" VerticalAlignment="Top" Margin="20,10,20,0" FontSize="26.667" />
-                <TextBlock x:Name="textBlock2"  HorizontalAlignment="Stretch" TextWrapping="Wrap" TextAlignment="Center" Text="Better Computer Professionals for a Real World" VerticalAlignment="Top" Margin="20,10,20,0" Width="auto" FontSize="20"/>
-                <TextBlock x:Name="textBlock3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Mission" TextAlignment="Justify" VerticalAlignment="Top" Margin="20,10,20,0" FontSize="26.667" FontWeight="Bold"/>
-                <TextBlock x:Name="TB4" HorizontalAlignment="Stretch"  TextAlignment="Justify" Width="auto" TextWrapping="Wrap"  Text="-To promote an intellectual and ethical environment in which the strengths and skills will flourish" Margin="20,10,20,0"/>
-                <TextBlock x:Name="TB5" HorizontalAlignment="Stretch"  TextAlignment="Justify" Width="auto" TextWrapping="Wrap" Text="- To impart solid foundations and applied aspects in both Computer Science theory and Programming practices" Margin="20,10,20,0"/>
+                </StackPanel>
+                <StackPanel>
+                    <TextBlock x:Name="textBlock1"  HorizontalAlignment="Center" FontWeight="Bold" TextAlignment="Center" TextWrapping="Wrap" Text="Vision" VerticalAlignment="Top" Margin="20,10,20,0" FontSize="26.667" />
+                </StackPanel>
+                <StackPanel>
+                    <TextBlock x:Name="textBlock2"  HorizontalAlignment="Stretch" TextWrapping="Wrap" TextAlignment="Center" Text="Better Computer Professionals for a Real World" VerticalAlignment="Top" Margin="20,10,20,0" Width="auto" FontSize="20"/>
+                </StackPanel>
+                <StackPanel>
+                    <TextBlock x:Name="textBlock3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Mission" TextAlignment="Justify" VerticalAlignment="Top" Margin="20,10,20,0" FontSize="26.667" FontWeight="Bold"/>
+                </StackPanel>
+                <StackPanel>
+                    <TextBlock x:Name="TB4" HorizontalAlignment="Stretch"  TextAlignment="Justify" Width="auto" TextWrapping="Wrap"  Text="-To promote an intellectual and ethical environment in which the strengths and skills will flourish" Margin="20,10,20,0"/>
+                </StackPanel>
+                <StackPanel>
+                    <TextBlock x:Name="TB5" HorizontalAlignment="Stretch"  TextAlignment="Justify" Width="auto" TextWrapping="Wrap" Text="- To impart solid foundations and applied aspects in both Computer Science theory and Programming practices" Margin="20,10,20,0"/>
+                </StackPanel>
 
 
+                <StackPanel>
                 <TextBlock x:Name="TB6" HorizontalAlignment="Stretch" Width="auto"  TextAlignment="Justify" TextWrapping="Wrap" Text="- To educate and prepare the graduates, highly sought after and  productive, and well-respected for their work culture " Margin="20,10,20,0">
                 </TextBlock>
-
+                </StackPanel>
+                <StackPanel>
                 <TextBlock x:Name="TB7" HorizontalAlignment="Stretch"  TextAlignment="Justify" TextWrapping="Wrap" Text="- To Provide training and encouraging R and D and Consultancy Services in frontier areas of Computer Science with Global outlook" Margin="0,0,0,0"></TextBlock>
-
+                </StackPanel>
 
             </StackPanel>
         </ScrollViewer>
