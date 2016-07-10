@@ -37,16 +37,16 @@
                     <TextBlock  Text="MESS Timings" Width="auto" FontWeight="ExtraBlack" HorizontalAlignment="Center" FontSize="26" TextAlignment="Center"/>
                 </StackPanel>
                 <StackPanel>
-                    <TextBlock Text="Breakfast : 7:50 am to 8:30 am" Width="Auto" FontSize="20" HorizontalAlignment="Center" TextAlignment="Justify"/>
+                    <TextBlock Text="Breakfast : 7:50 am to 8:30 am" Width="Auto" FontSize="20" HorizontalAlignment="Center" TextAlignment="Center"/>
                 </StackPanel>
                 <StackPanel>
-                    <TextBlock Text="Lunch : 12:30 noon to 2:00 pm" FontSize="20" Width="auto" HorizontalAlignment="Center" TextAlignment="Justify"/>
+                    <TextBlock Text="Lunch : 12:30 noon to 2:00 pm" FontSize="20" Width="auto" HorizontalAlignment="Center" TextAlignment="Center"/>
                 </StackPanel>
                 <StackPanel>
-                    <TextBlock Text="Tea : 4:30 pm to 5:30 pm" FontSize="20" Width="auto" HorizontalAlignment="Center" TextAlignment="Justify"/>
+                    <TextBlock Text="Tea : 4:30 pm to 5:30 pm" FontSize="20" Width="auto" HorizontalAlignment="Center" TextAlignment="Center"/>
                 </StackPanel>
                 <StackPanel>
-                    <TextBlock Text="Supper : 8 pm to 9:00 pm" Width="360" FontSize="20" HorizontalAlignment="Center" TextAlignment="Center"/>
+                    <TextBlock Text="Supper : 8 pm to 9:00 pm" Width="auto" FontSize="20" HorizontalAlignment="Center" TextAlignment="Center"/>
                 </StackPanel>
             </StackPanel>
             
