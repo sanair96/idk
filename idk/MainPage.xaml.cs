@@ -257,7 +257,7 @@ namespace idk
        async private void AppBarButton_Click_2(object sender, RoutedEventArgs e)
         {
             // Center on New York City
-            var uriNewYork = new Uri(@"bingmaps:?cp=40.726966~-74.006076");
+            var uriNewYork = new Uri(@"bingmaps:?cp=12.901555~77.517014");
             // Launch the Windows Maps app
             var launcherOptions = new Windows.System.LauncherOptions();
             launcherOptions.TargetApplicationPackageFamilyName = "Microsoft.WindowsMaps_8wekyb3d8bbwe";
