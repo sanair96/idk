@@ -40,7 +40,7 @@
                     <TextBlock Text="Breakfast : 7:50 am to 8:30 am" Width="Auto" FontSize="20" HorizontalAlignment="Center" TextAlignment="Justify"/>
                 </StackPanel>
                 <StackPanel>
-                    <TextBlock Text="Lunch : 12:30 noon to 2:00 pm" FontSize="20" Width="autoS" HorizontalAlignment="Center" TextAlignment="Justify"/>
+                    <TextBlock Text="Lunch : 12:30 noon to 2:00 pm" FontSize="20" Width="auto" HorizontalAlignment="Center" TextAlignment="Justify"/>
                 </StackPanel>
                 <StackPanel>
                     <TextBlock Text="Tea : 4:30 pm to 5:30 pm" FontSize="20" Width="auto" HorizontalAlignment="Center" TextAlignment="Justify"/>
