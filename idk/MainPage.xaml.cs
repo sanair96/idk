@@ -256,12 +256,15 @@ namespace idk
 
        async private void AppBarButton_Click_2(object sender, RoutedEventArgs e)
         {
-            // Center on New York City
-            var uriNewYork = new Uri(@"bingmaps:?cp=12.901555~77.517014");
+            // Center on RNSIT
+     //       var urirnscen = new Uri("bingmaps:? cp = 12.902260~77.518974 & lvl = 14");
+            var uriRns = new Uri(@"bingmaps:?collection=point.12.902260_77.518974_RNSIT&lvl=18");
             // Launch the Windows Maps app
             var launcherOptions = new Windows.System.LauncherOptions();
             launcherOptions.TargetApplicationPackageFamilyName = "Microsoft.WindowsMaps_8wekyb3d8bbwe";
-            var success = await Windows.System.Launcher.LaunchUriAsync(uriNewYork,launcherOptions);
+   //         var center = await Launcher.LaunchUriAsync(urirnscen, launcherOptions);
+            var success = await Windows.System.Launcher.LaunchUriAsync(uriRns,launcherOptions);
+            
             Cont.Visibility = Visibility.Visible;
             RNSITLOGO.Visibility = Visibility.Visible;
             contactus.Visibility = Visibility.Collapsed;
