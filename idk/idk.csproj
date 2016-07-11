@@ -178,6 +178,9 @@
     <Compile Include="aboutusMECH.xaml.cs">
       <DependentUpon>aboutusMECH.xaml</DependentUpon>
     </Compile>
+    <Compile Include="abtuswebview.xaml.cs">
+      <DependentUpon>abtuswebview.xaml</DependentUpon>
+    </Compile>
     <Compile Include="apnotesIS4sem.xaml.cs">
       <DependentUpon>apnotesIS4sem.xaml</DependentUpon>
     </Compile>
@@ -464,6 +467,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="aboutusMECH.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="abtuswebview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

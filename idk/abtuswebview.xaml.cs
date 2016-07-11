@@ -5,7 +5,6 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
-using Windows.System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -21,28 +20,13 @@ namespace idk
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class aboutus : Page
+    public sealed partial class abtuswebview : Page
     {
-        public aboutus()
+        public abtuswebview()
         {
             this.InitializeComponent();
-        }
-
-        private void goback_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(MainPage));
-        }
-
-        private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(abtuswebview));
-            //await Launcher.LaunchUriAsync(new Uri("http://www.rnsit.ac.in/index.html"));
-
-        }
-
-       async private void HyperlinkButton_Click_1(object sender, RoutedEventArgs e)
-        {
-            await Launcher.LaunchUriAsync(new Uri("http://binged.it/20zshMf"));
+            string site = "http://www.rnsit.ac.in/index.html";
+            WebView.Navigate(new Uri(site, UriKind.Absolute));
         }
     }
 }
