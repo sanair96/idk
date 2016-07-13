@@ -20,28 +20,14 @@ namespace idk
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class IT : Page
+    public sealed partial class iswebview : Page
     {
-        public IT()
+        public iswebview()
         {
             this.InitializeComponent();
-        }
+            string site = "http://www.rnsit.ac.in/ise-dep.html";
+            WebView.Navigate(new Uri(site, UriKind.Absolute));
 
-       
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(aboutusIT));
-        }
-
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(studymaterial_IT));
-        }
-
-        private void details_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(itwebview));
         }
     }
 }

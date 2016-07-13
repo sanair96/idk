@@ -101,6 +101,7 @@
     <Content Include="Assets\3.jpg" />
     <Content Include="Assets\4.png" />
     <Content Include="Assets\BadgeLogo.scale-200.jpg" />
+    <Content Include="Assets\chair.jpg" />
     <Content Include="Assets\chemhodnew.jpg" />
     <Content Include="Assets\cseHemanth.jpg" />
     <Content Include="Assets\cseKiran.jpg" />
@@ -118,6 +119,7 @@
     <Content Include="Assets\DrVSece.jpg" />
     <Content Include="Assets\eeeHOD1.jpg" />
     <Content Include="Assets\gym.jpg" />
+    <Content Include="Assets\HNS.jpg" />
     <Content Include="Assets\hodmca.jpg" />
     <Content Include="Assets\hostel3.JPG" />
     <Content Include="Assets\hostel2.JPG" />
@@ -127,6 +129,7 @@
     <Content Include="Assets\logo1.jpg" />
     <Content Include="Assets\maths_hod_main.jpg" />
     <Content Include="Assets\MechHOD11.jpg" />
+    <Content Include="Assets\MKV.jpg" />
     <Content Include="Assets\mp.jpg" />
     <Content Include="Assets\mp1.JPG" />
     <Content Include="Assets\mp1logo.jpg" />
@@ -196,8 +199,14 @@
     <Compile Include="CIVIL.xaml.cs">
       <DependentUpon>CIVIL.xaml</DependentUpon>
     </Compile>
+    <Compile Include="civilwebview.xaml.cs">
+      <DependentUpon>civilwebview.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CSE.xaml.cs">
       <DependentUpon>CSE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="csewebview.xaml.cs">
+      <DependentUpon>csewebview.xaml</DependentUpon>
     </Compile>
     <Compile Include="Departments.xaml.cs">
       <DependentUpon>Departments.xaml</DependentUpon>
@@ -208,8 +217,14 @@
     <Compile Include="ECE.xaml.cs">
       <DependentUpon>ECE.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ecewebview.xaml.cs">
+      <DependentUpon>ecewebview.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EEE.xaml.cs">
       <DependentUpon>EEE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="eewebview.xaml.cs">
+      <DependentUpon>eewebview.xaml</DependentUpon>
     </Compile>
     <Compile Include="facility.xaml.cs">
       <DependentUpon>facility.xaml</DependentUpon>
@@ -223,8 +238,14 @@
     <Compile Include="IS.xaml.cs">
       <DependentUpon>IS.xaml</DependentUpon>
     </Compile>
+    <Compile Include="iswebview.xaml.cs">
+      <DependentUpon>iswebview.xaml</DependentUpon>
+    </Compile>
     <Compile Include="IT.xaml.cs">
       <DependentUpon>IT.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="itwebview.xaml.cs">
+      <DependentUpon>itwebview.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -234,6 +255,9 @@
     </Compile>
     <Compile Include="MECH.xaml.cs">
       <DependentUpon>MECH.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="mechwebview.xaml.cs">
+      <DependentUpon>mechwebview.xaml</DependentUpon>
     </Compile>
     <Compile Include="phydept.xaml.cs">
       <DependentUpon>phydept.xaml</DependentUpon>
@@ -490,7 +514,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="civilwebview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CSE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="csewebview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -506,7 +538,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ecewebview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="EEE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="eewebview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -526,7 +566,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="iswebview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="IT.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="itwebview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -539,6 +587,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MECH.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="mechwebview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -42,5 +42,10 @@ namespace idk
         {
             Frame.Navigate(typeof(studymaterialCIVIL));
         }
+
+        private void details_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(civilwebview));
+        }
     }
 }

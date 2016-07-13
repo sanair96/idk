@@ -41,5 +41,10 @@ namespace idk
         {
             Frame.Navigate(typeof(studymaterial_IS));
         }
+
+        private void details_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(iswebview));
+        }
     }
 }

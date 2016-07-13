@@ -37,5 +37,10 @@ namespace idk
         {
             Frame.Navigate(typeof(studymaterialECE));
         }
+
+        private void details_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(ecewebview));
+        }
     }
 }

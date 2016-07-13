@@ -39,7 +39,7 @@ namespace idk
 
         private void details_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(FacultyCSE));
+            Frame.Navigate(typeof(csewebview));
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
