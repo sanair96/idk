@@ -152,6 +152,7 @@
     <Content Include="Assets\unnamed.png" />
     <Content Include="Assets\Wide310x150Logo.scale-100.jpg" />
     <Content Include="Assets\Wide310x150Logo.scale-200.jpg" />
+    <Content Include="Square150x150Logo.scale-100.png" />
     <Content Include="Square150x150Logo.scale-200.png" />
     <Content Include="Square44x44Logo.scale-200.png" />
     <None Include="project.json" />
