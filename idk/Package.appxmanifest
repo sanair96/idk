@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="7789d094-8a7d-4f8a-953e-57239eda7adc" Publisher="CN=saipr" Version="1.0.0.0" />
+  <Identity Name="26208Sanair96.RNSIT" Publisher="CN=C9188FBA-C97E-4BF4-BC70-C81514EDAFC3" Version="1.1.0.0" />
   <mp:PhoneIdentity PhoneProductId="7789d094-8a7d-4f8a-953e-57239eda7adc" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>idk</DisplayName>
-    <PublisherDisplayName>saipr</PublisherDisplayName>
+    <DisplayName>RNSIT</DisplayName>
+    <PublisherDisplayName>Sanair96</PublisherDisplayName>
     <Logo>Assets\StoreLogo.jpg</Logo>
   </Properties>
   <Dependencies>
@@ -28,7 +28,6 @@
         <uap:SplashScreen Image="Assets\SplashScreen.jpg" BackgroundColor="white" />
         <uap:InitialRotationPreference>
           <uap:Rotation Preference="portrait" />
-          <uap:Rotation Preference="landscape" />
           <uap:Rotation Preference="portraitFlipped" />
         </uap:InitialRotationPreference>
       </uap:VisualElements>
