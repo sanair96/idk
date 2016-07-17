@@ -20,28 +20,13 @@ namespace idk
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class IT : Page
+    public sealed partial class civilwebview : Page
     {
-        public IT()
+        public civilwebview()
         {
             this.InitializeComponent();
-        }
-
-       
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(aboutusIT));
-        }
-
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(studymaterial_IT));
-        }
-
-        private void details_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(itwebview));
+            string site = "http://www.rnsit.ac.in/civil-dep.html";
+            WebView.Navigate(new Uri(site, UriKind.Absolute));
         }
     }
 }

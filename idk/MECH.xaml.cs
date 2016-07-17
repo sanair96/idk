@@ -36,5 +36,10 @@ namespace idk
         {
             Frame.Navigate(typeof(studymaterialMECH));
         }
+
+        private void details_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(mechwebview));
+        }
     }
 }

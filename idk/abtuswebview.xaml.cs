@@ -25,7 +25,7 @@ namespace idk
         ProgressRing a = new ProgressRing();
         public abtuswebview()
         {
-            this.InitializeComponent();
+            this.InitializeComponent();          
             string site = "http://www.rnsit.ac.in/index.html";
             WebView.Navigate(new Uri(site, UriKind.Absolute));
             a.Height = 50;

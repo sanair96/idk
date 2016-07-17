@@ -17,16 +17,34 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
             <RowDefinition Height="100"/>
-            <RowDefinition/>
+            <RowDefinition />
         </Grid.RowDefinitions>
         <Rectangle Grid.Row="0" Fill="#6fc98a"/>
         <Rectangle Grid.Row="1" Fill="Ivory"/>
-        <TextBlock x:Name="textBlock" Grid.Row="0" HorizontalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap" Text="OUR VISION" VerticalAlignment="Center" Margin="0,0,0,0" Height="Auto" Width="Auto" FontSize="35" />
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Building RNSIT into a world-class institution" VerticalAlignment="Top" Margin="20,10,20,0" FontSize="24" FontFamily="Times New Roman" FontStyle="Italic" Height="Auto" Width="Auto" Grid.Row="1" TextAlignment="Center"/>
-        <HyperlinkButton Grid.Row="1" Content="http://www.rnsit.ac.in/index.html" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,390,0,0" Width="Auto" FontSize="20" Click="HyperlinkButton_Click"/>
-        <TextBlock x:Name="textBlock2" Visibility="Visible" Grid.Row="1" TextWrapping="Wrap" Text="For More Info Visit Our College Website" Margin="0,310,0,200" VerticalAlignment="Top" FontSize="20" TextAlignment="Center" Width="360"/>
-        <TextBlock x:Name="ABCS" HorizontalAlignment="Center" TextWrapping="Wrap" Text="ABC'S of RNSIT" VerticalAlignment="Top" Margin="0,87,0,0" Height="38" Width="Auto" TextAlignment="Center" FontSize="30" FontWeight="ExtraBlack" Grid.Row="1"/>
-        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Center" Margin="0,132,0,0" TextWrapping="Wrap" Text="Always Be Cheerful" VerticalAlignment="Top" Height="38" Width="Auto" FontSize="24" TextAlignment="Center" Grid.Row="1"/>
-        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Center" Margin="0,175,0,307" TextWrapping="Wrap" Text="Avoid Bad Company" VerticalAlignment="Top" Height="38" Width="Auto" FontSize="24" TextAlignment="Center" Grid.Row="1"/>
+        
+       <TextBlock x:Name="textBlock" Grid.Row="0" HorizontalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap" Text="ABOUT US" VerticalAlignment="Center" Margin="0,0,0,0" Height="Auto" Width="Auto" FontSize="45" />
+        <ScrollViewer Grid.Row="1" Height="700">
+            <StackPanel>
+                <StackPanel>
+                    <TextBlock x:Name="textBlock1" Grid.Row="1" HorizontalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap" Text="OUR VISION" VerticalAlignment="Center" Margin="0,0,0,0" Height="Auto" Width="Auto" FontSize="35" />
+                    <TextBlock x:Name="textBlock2" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Building RNSIT into a world-class institution" VerticalAlignment="Top" Margin="20,20,20,0" FontSize="24" FontFamily="Times New Roman" FontStyle="Italic" Height="Auto" Width="Auto" Grid.Row="1" TextAlignment="Center"/>
+                    <TextBlock x:Name="ABCS" Height="auto" HorizontalAlignment="Center" TextWrapping="Wrap" Text="ABC'S of RNSIT" VerticalAlignment="Top" Margin="0,20,0,0"  Width="Auto" TextAlignment="Center"  FontSize="30" FontWeight="ExtraBlack" Grid.Row="1"/>
+                    <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="Always Be Cheerful" VerticalAlignment="Top" Height="38" Width="Auto" FontSize="24" TextAlignment="Center" Grid.Row="1"/>
+                    <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Center" Margin="0,0,0,307" TextWrapping="Wrap" Text="Avoid Bad Company" VerticalAlignment="Top" Height="38" Width="Auto" FontSize="24" TextAlignment="Center" Grid.Row="1"/>
+                    <Image Source="Assets/chair.jpg" Grid.Row="1" Height="100" Width="auto"  Margin="-250,-500,0,0" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                    <TextBlock Text="Dr. R.N. Shetty.(Chairman)" Margin="80,-500,0,0" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Width="auto" Height="auto" Grid.Row="1"/>
+                    <Image Source="Assets/HNS.jpg" Grid.Row="1" Height="100" Width="auto"  Margin="-200,-250,0,0" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                    <TextBlock Text="Dr. H N Shivashankar (Director)" Margin="150,-250,0,0" TextWrapping="Wrap"  FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Width="200" Height="auto" Grid.Row="1"/>
+                    <Image Source="Assets/MKV.jpg" Grid.Row="1" Height="100" Width="auto"  Margin="-200,-50,0,0" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                    <TextBlock Text="Dr. M K Venkatesha(Principal)" Margin="150,-100,0,0" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Width="200" Height="auto" Grid.Row="1"/>
+                    <HyperlinkButton Grid.Row="1" Content="http://www.rnsit.ac.in/index.html" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,70,0,0" Width="Auto" FontSize="20" Click="HyperlinkButton_Click"/>
+                    <TextBlock x:Name="textBlock3" Visibility="Visible" Grid.Row="1" TextWrapping="Wrap" FontWeight="Bold" Text="For More Info Visit Our College Website" Margin="0,-100,0,0" VerticalAlignment="Top" FontSize="20" TextAlignment="Center" Width="360"/>
+
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+        
+
+
     </Grid>
 </Page>
