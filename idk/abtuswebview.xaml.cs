@@ -22,11 +22,29 @@ namespace idk
     /// </summary>
     public sealed partial class abtuswebview : Page
     {
+        ProgressRing a = new ProgressRing();
         public abtuswebview()
         {
             this.InitializeComponent();
             string site = "http://www.rnsit.ac.in/index.html";
             WebView.Navigate(new Uri(site, UriKind.Absolute));
+            a.Height = 50;
+            a.Width = 50;
+            a.VerticalAlignment = VerticalAlignment.Center;
+            a.HorizontalAlignment = HorizontalAlignment.Center;
+            a.FlowDirection = FlowDirection.LeftToRight;
+            a.Visibility = Visibility.Visible;
+        }
+
+        private void WebView_Loading(FrameworkElement sender, object args)
+        {
+            a.IsActive = true;
+            
+        }
+
+        private void WebView_Loaded(object sender, RoutedEventArgs e)
+        {
+            a.IsActive = false;
         }
     }
 }
