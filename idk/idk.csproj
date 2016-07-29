@@ -106,18 +106,11 @@
     <Content Include="Assets\BadgeLogo.scale-200.jpg" />
     <Content Include="Assets\chair.jpg" />
     <Content Include="Assets\chemhodnew.jpg" />
-    <Content Include="Assets\cseHemanth.jpg" />
-    <Content Include="Assets\cseKiran.jpg" />
-    <Content Include="Assets\cseSathishKumar.jpg" />
-    <Content Include="Assets\cseSatish%2520S.jpg" />
-    <Content Include="Assets\csetpo.jpg" />
-    <Content Include="Assets\d1.JPG" />
     <Content Include="Assets\d2.JPG" />
     <Content Include="Assets\d3.JPG" />
     <Content Include="Assets\d4.JPG" />
     <Content Include="Assets\d5.JPG" />
     <Content Include="Assets\d6.JPG" />
-    <Content Include="Assets\DrGirijamma.png" />
     <Content Include="Assets\drgtr1.jpg" />
     <Content Include="Assets\DrVSece.jpg" />
     <Content Include="Assets\eeeHOD1.jpg" />
@@ -129,20 +122,17 @@
     <Content Include="Assets\hostel1.jpg" />
     <Content Include="Assets\iseDrMVS.jpg" />
     <Content Include="Assets\IT-depHOD.jpg" />
-    <Content Include="Assets\logo1.jpg" />
     <Content Include="Assets\maths_hod_main.jpg" />
     <Content Include="Assets\MechHOD11.jpg" />
     <Content Include="Assets\MKV.jpg" />
     <Content Include="Assets\mp.jpg" />
     <Content Include="Assets\mp1.JPG" />
-    <Content Include="Assets\mp1logo.jpg" />
     <Content Include="Assets\mp2.JPG" />
     <Content Include="Assets\mp3.JPG" />
     <Content Include="Assets\mp4.JPG" />
     <Content Include="Assets\mp5.JPG" />
     <Content Include="Assets\mp6.JPG" />
     <Content Include="Assets\mp7.jpg" />
-    <Content Include="Assets\mplogo.gif" />
     <Content Include="Assets\nit.jpg" />
     <Content Include="Assets\physic-hod.jpg" />
     <Content Include="Assets\sandy.jpg" />
@@ -239,9 +229,6 @@
     </Compile>
     <Compile Include="facility.xaml.cs">
       <DependentUpon>facility.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="FacultyCSE.xaml.cs">
-      <DependentUpon>FacultyCSE.xaml</DependentUpon>
     </Compile>
     <Compile Include="Hostel.xaml.cs">
       <DependentUpon>Hostel.xaml</DependentUpon>
@@ -433,30 +420,15 @@
     <Content Include="Assets\banner3.jpg" />
     <Content Include="Assets\bank.JPG" />
     <Content Include="Assets\canteen.JPG" />
-    <Content Include="Assets\cseDevaraj%2520D.jpg" />
-    <Content Include="Assets\csemedha%2520G.jpg" />
-    <Content Include="Assets\csenandini.jpg" />
-    <Content Include="Assets\cserashmi.jpg" />
-    <Content Include="Assets\csereshmaJ.jpg" />
-    <Content Include="Assets\cseSampada%2520K%2520S.jpg" />
-    <Content Include="Assets\cseSudhamani%2520MJ.jpg" />
-    <Content Include="Assets\cseSwati.jpg" />
-    <Content Include="Assets\cseVidya%2520Y.jpg" />
-    <Content Include="Assets\Dr.GTR7.jpg" />
     <Content Include="Assets\DSC00843.JPG" />
     <Content Include="Assets\DSC01167.JPG" />
     <Content Include="Assets\DSC04561.JPG" />
-    <Content Include="Assets\Mahimakatti.jpg" />
-    <Content Include="Assets\RNSIT_Logo.scale-100.jpg" />
-    <Content Include="Assets\RNSIT_Logo.scale-200.jpg" />
     <Content Include="Assets\SplashScreen.scale-200.jpg" />
     <Content Include="Assets\trasnport.jpg" />
     <Content Include="Assets\lib.jpg" />
-    <Content Include="Assets\headercopy2.jpg.bmp" />
     <Content Include="Assets\it.jpg" />
     <Content Include="Assets\logo.jpg" />
     <Content Include="Assets\mech.png" />
-    <Content Include="Assets\RNSIT_Logo.jpg" />
     <Content Include="Assets\Square71x71Logo.scale-125.jpg" />
     <Content Include="Assets\StoreLogo.scale-100.jpg" />
     <Content Include="Properties\Default.rd.xml" />
@@ -566,10 +538,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="facility.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="FacultyCSE.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
