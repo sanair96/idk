@@ -131,7 +131,8 @@
                                 <AppBarSeparator/>
                                 <AppBarButton Icon="View" HorizontalAlignment="Center" IsCompact="False" Label="Courses" Click="AppBarButton_Click_3"/>
                                 <AppBarSeparator/>
-
+                                <AppBarButton Icon="Contact" HorizontalAlignment="Center" IsCompact="False" Label="Creators" Click="AppBarButton_Click_4" />
+                                <AppBarSeparator/>
                             </CommandBar.PrimaryCommands>
 
                         </CommandBar>

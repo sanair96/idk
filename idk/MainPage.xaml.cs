@@ -303,5 +303,10 @@ namespace idk
         {
             await Launcher.LaunchUriAsync(new Uri("http://www.rnsit.ac.in/courses.html"));
         }
+
+        private void AppBarButton_Click_4(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(creator));
+        }
     }
 }

@@ -1,0 +1,61 @@
+﻿<Page
+    x:Class="idk.creator"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:idk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Ivory">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" >
+            <StackPanel>
+                <StackPanel>
+                    <Ellipse Width="250" Height="250">
+                        <Ellipse.Fill>
+                            <ImageBrush>
+                                <ImageBrush.ImageSource>
+                                    <BitmapImage DecodePixelHeight="250" DecodePixelWidth="250" UriSource="Assets/nit.jpg" />
+                                </ImageBrush.ImageSource>
+                            </ImageBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="Nithin Mathew" HorizontalAlignment="Center" Width="150" TextAlignment="Center" FontSize="20"  Margin="0,30,0,0"/>
+                    <TextBlock Text="CSE" Width="100" FontSize="20" TextAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0"/>
+                    <TextBlock Text="nithn_2mathew@hotmail.com" TextAlignment="Center" FontSize="20" Width="300" TextWrapping="Wrap" Margin="0,0,0,0" />
+                    <TextBlock Text="https://github.com/Mats2Nithin" TextAlignment="Center" FontSize="20" Width="300" TextWrapping="Wrap" Margin="0,0,0,0" />
+                </StackPanel>
+                <StackPanel>
+                    <Ellipse Margin="0,20,0,0" Width="250" Height="250">
+                        <Ellipse.Fill>
+                            <ImageBrush>
+                                <ImageBrush.ImageSource>
+                                    <BitmapImage DecodePixelHeight="250" DecodePixelWidth="250" UriSource="Assets/sp.jpg" />
+                                </ImageBrush.ImageSource>
+                            </ImageBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="SaiPrasanth R" HorizontalAlignment="Center" Width="150" TextAlignment="Center" FontSize="20"  Margin="0,30,0,0"/>
+                    <TextBlock Text="CSE" Width="100" FontSize="20" TextAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0"/>
+                    <TextBlock Text="saiprasanth2007@gmail.com" TextAlignment="Center" FontSize="20" Width="300" TextWrapping="Wrap" Margin="0,0,0,0" />
+                    <TextBlock Text="https://github.com/sai3010" TextAlignment="Center" FontSize="20" Width="300" TextWrapping="Wrap" Margin="0,0,0,0" />
+                </StackPanel>
+                <StackPanel>
+                    <Ellipse Margin="0,20,0,0" Width="250" Height="250">
+                        <Ellipse.Fill>
+                            <ImageBrush>
+                                <ImageBrush.ImageSource>
+                                    <BitmapImage DecodePixelHeight="250" DecodePixelWidth="250" UriSource="Assets/sandy.jpg" />
+                                </ImageBrush.ImageSource>
+                            </ImageBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="Sandeep A Nair" HorizontalAlignment="Center" Width="150" TextAlignment="Center" FontSize="20"  Margin="0,30,0,0"/>
+                    <TextBlock Text="CSE" Width="100" FontSize="20" TextAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0"/>
+                    <TextBlock Text="sandeep_sashok@hotmail.com" TextAlignment="Center" FontSize="20" Width="300" TextWrapping="Wrap" Margin="0,0,0,0" />
+                    <TextBlock Text="https://github.com/sanair96" TextAlignment="Center" FontSize="20" Width="300" TextWrapping="Wrap" Margin="0,0,0,0" />
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

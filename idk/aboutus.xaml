@@ -31,7 +31,16 @@
                     <TextBlock x:Name="ABCS" Height="auto" HorizontalAlignment="Center" TextWrapping="Wrap" Text="ABC'S of RNSIT" VerticalAlignment="Top" Margin="0,20,0,0"  Width="Auto" TextAlignment="Center"  FontSize="30" FontWeight="ExtraBlack" Grid.Row="1"/>
                     <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="Always Be Cheerful" VerticalAlignment="Top" Height="38" Width="Auto" FontSize="24" TextAlignment="Center" Grid.Row="1"/>
                     <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Center" Margin="0,0,0,307" TextWrapping="Wrap" Text="Avoid Bad Company" VerticalAlignment="Top" Height="38" Width="Auto" FontSize="24" TextAlignment="Center" Grid.Row="1"/>
-                    <Image Source="Assets/chair.jpg" Grid.Row="1" Height="100" Width="auto"  Margin="-250,-500,0,0" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                    <Ellipse Width="100" Grid.Row="1" Height="100" Margin="-250,-500,0,0">
+                        <Ellipse.Fill>
+                            <ImageBrush>
+                                <ImageBrush.ImageSource>
+                                    <BitmapImage DecodePixelHeight="100" DecodePixelWidth="100" UriSource="Assets/chair.jpg" />
+                                </ImageBrush.ImageSource>
+                            </ImageBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                   
                     <TextBlock Text="Dr. R.N. Shetty.(Chairman)" Margin="80,-500,0,0" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Width="auto" Height="auto" Grid.Row="1"/>
                     <Image Source="Assets/HNS.jpg" Grid.Row="1" Height="100" Width="auto"  Margin="-200,-250,0,0" VerticalAlignment="Center" HorizontalAlignment="Center" />
                     <TextBlock Text="Dr. H N Shivashankar (Director)" Margin="150,-250,0,0" TextWrapping="Wrap"  FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Width="200" Height="auto" Grid.Row="1"/>
