@@ -28,10 +28,12 @@
                 <StackPanel>
                     <TextBlock x:Name="textBlock1" Grid.Row="1" HorizontalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap" Text="OUR VISION" VerticalAlignment="Center" Margin="0,0,0,0" Height="Auto" Width="Auto" FontSize="35" />
                     <TextBlock x:Name="textBlock2" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Building RNSIT into a world-class institution" VerticalAlignment="Top" Margin="20,20,20,0" FontSize="24" FontFamily="Times New Roman" FontStyle="Italic" Height="Auto" Width="Auto" Grid.Row="1" TextAlignment="Center"/>
-                    <TextBlock x:Name="ABCS" Height="auto" HorizontalAlignment="Center" TextWrapping="Wrap" Text="ABC'S of RNSIT" VerticalAlignment="Top" Margin="0,20,0,0"  Width="Auto" TextAlignment="Center"  FontSize="30" FontWeight="ExtraBlack" Grid.Row="1"/>
+                    
+                        <TextBlock x:Name="ABCS" Height="auto" HorizontalAlignment="Center" TextWrapping="Wrap" Text="ABC'S of RNSIT" VerticalAlignment="Top" Margin="0,20,0,0"  Width="Auto" TextAlignment="Center"  FontSize="30" FontWeight="SemiBold" Grid.Row="1"/>
+
                     <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="Always Be Cheerful" VerticalAlignment="Top" Height="38" Width="Auto" FontSize="24" TextAlignment="Center" Grid.Row="1"/>
                     <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Center" Margin="0,0,0,307" TextWrapping="Wrap" Text="Avoid Bad Company" VerticalAlignment="Top" Height="38" Width="Auto" FontSize="24" TextAlignment="Center" Grid.Row="1"/>
-                    <Ellipse Width="100" Grid.Row="1" Height="100" Margin="-250,-500,0,0">
+                    <Ellipse Width="100" Height="100" Margin="-250,-500,0,0" RenderTransformOrigin="0.508,1.787">
                         <Ellipse.Fill>
                             <ImageBrush>
                                 <ImageBrush.ImageSource>
@@ -43,7 +45,7 @@
                     
                     <TextBlock Text="Dr. R.N. Shetty" Margin="150,-500,0,0" FontSize="20" VerticalAlignment="Center" TextAlignment="Center" HorizontalAlignment="Center" Width="auto" Height="auto" Grid.Row="1"/>
                     <TextBlock Text="(Chairman)" Margin="150,-460,0,0" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" Width="auto" Height="auto" Grid.Row="1"/>
-                    <Ellipse Width="100" Height="100" Margin="-250,-250,0,0" RenderTransformOrigin="0.508,1.787">
+                    <Ellipse Width="100" Height="100" Margin="-250,-250,0,0"  RenderTransformOrigin="0.508,1.787">
                         <Ellipse.Fill>
                             <ImageBrush>
                                 <ImageBrush.ImageSource>

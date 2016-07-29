@@ -69,13 +69,13 @@ namespace idk
         }
         private void ImageSource1()
         {
+            Images1.Add("mp.jpg");
             Images1.Add("mp1.jpg");
             Images1.Add("mp2.jpg");
             Images1.Add("mp3.jpg");
             Images1.Add("mp4.jpg");
             Images1.Add("mp5.jpg");
             Images1.Add("mp6.jpg");
-            Images1.Add("mp7.jpg");
             playlistTimer1 = new DispatcherTimer();
             playlistTimer1.Interval = new TimeSpan(0, 0, 1);
             playlistTimer1.Tick += playlistTimer_Tick1;
