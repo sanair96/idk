@@ -112,7 +112,7 @@
                                 <ContentThemeTransition/>
                             </TransitionCollection>
                         </ContentControl.Transitions>
-                        <Image x:Name="image1" Stretch="UniformToFill" HorizontalAlignment="Center" Height="200" Width="350"/>
+                        <Image x:Name="image1" Stretch="Fill" HorizontalAlignment="Center" Height="200" Width="350"/>
                     </ContentControl>
 
                     <Button x:Name="Hamburger" Background="Transparent" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Margin="0,10,0,0" Click="Hamburger_Click"  Width="50"/>
