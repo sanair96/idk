@@ -121,20 +121,24 @@
                     </StackPanel>
 
                     <Grid>
-                        <CommandBar HorizontalAlignment="Stretch" Margin="0,0,0,-10"  VerticalAlignment="Bottom" Background="#6fc98a" IsSticky="True" x:Name="appBar">
+                        <CommandBar  HorizontalAlignment="Stretch" Margin="0,0,0,-10"  VerticalAlignment="Bottom" Background="#6fc98a" IsSticky="True" x:Name="appBar" >
+                            <CommandBar.CommandBarOverflowPresenterStyle>
+                                <Style TargetType="CommandBarOverflowPresenter">
+                                    <Setter Property="Background" Value="Ivory"/>
+                                </Style>
+                            </CommandBar.CommandBarOverflowPresenterStyle>
                             <CommandBar.PrimaryCommands>
                                 <AppBarButton HorizontalAlignment="Center" Icon="Pin" IsCompact="False" Label="About Us" Click="AppBarButton_Click"/>
                                 <AppBarSeparator/>
                                 <AppBarButton Icon="Flag" HorizontalAlignment="Center" IsCompact="False" Label="Location" Click="AppBarButton_Click_2" />
                                 <AppBarSeparator/>
-                                <AppBarButton Icon="Phone" IsCompact="False" HorizontalAlignment="Center" Label="Contact Us" Click="AppBarButton_Click_1"/>
-                                <AppBarSeparator/>
                                 <AppBarButton Icon="View" HorizontalAlignment="Center" IsCompact="False" Label="Courses" Click="AppBarButton_Click_3"/>
                                 <AppBarSeparator/>
-                                <AppBarButton Icon="Contact" HorizontalAlignment="Center" IsCompact="False" Label="Creators" Click="AppBarButton_Click_4" />
-                                <AppBarSeparator/>
                             </CommandBar.PrimaryCommands>
-
+                            <CommandBar.SecondaryCommands >
+                                <AppBarButton  Icon="Phone"  IsCompact="False" HorizontalAlignment="Center" Label="Contact Us" Click="AppBarButton_Click_1"/>
+                                <AppBarButton Icon="Contact" HorizontalAlignment="Center" IsCompact="False" Label="Creators" Click="AppBarButton_Click_4" />
+                             </CommandBar.SecondaryCommands>
                         </CommandBar>
                         <HyperlinkButton x:Name="courseslink" Visibility="Collapsed" Content="More courses click here" Foreground="BLUE" FontSize="20"  HorizontalAlignment="Center" Margin="0,481,10,127" Width="250" Click="HyperlinkButton_Click"/>
 
