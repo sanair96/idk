@@ -18,7 +18,7 @@
 
         <Grid Background="Ivory">
 
-            <Pivot Title="" Background="Beige">
+            <Pivot Title="" Background="Ivory">
                 <PivotItem Header="Question Papers">
                     <Grid>
                         <Button Background="#6fc98a"  x:Name="textBlock"  HorizontalAlignment="Left"  Content="MATHEMATICS III" VerticalAlignment="Top"  Margin="10,85,0,0" FontSize="25" Click="textBlock_Click"/>
