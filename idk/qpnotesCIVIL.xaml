@@ -13,8 +13,8 @@
             </NavigationThemeTransition>
         </TransitionCollection>
     </Page.Transitions>
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Pivot Title="" Background="Ivory">
+    <Grid Background="Beige">
+        <Pivot Title="" Background="Beige">
             <PivotItem Header="Question Papers">
                 <Grid>
                     <Button Background="Beige"  x:Name="textBlock"  HorizontalAlignment="Left"  Content="MATHEMATICS III" VerticalAlignment="Top"  Margin="10,85,0,0" FontSize="25" Click="textBlock_Click"/>
