@@ -17,61 +17,13 @@
         <Pivot Title="" Background="Ivory">
             <PivotItem Header="Question Papers">
                 <Grid>
-                    <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="MATH III" VerticalAlignment="Top" Margin="10,85,0,0" FontSize="25"/>
-                    <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="BM AND CT" VerticalAlignment="Top" Margin="10,145,0,0" FontSize="24"/>
-                    <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="STRENGTH OF MAT" VerticalAlignment="Top" Margin="10,205,0,0" FontSize="24"/>
-                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="SURVEYING - I" VerticalAlignment="Top" Margin="10,265,0,0" FontSize="24"/>
-                    <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="FLUID MECHANICS" VerticalAlignment="Top" Margin="10,325,0,0" FontSize="22"/>
-                    <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="APP ENGG GEOLOGY" VerticalAlignment="Top" Margin="10,385,0,0" FontSize="22"/>
-                    <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Year" VerticalAlignment="Top" Margin="224,53,0,0" FontSize="26.667" Width="112" TextAlignment="Center"/>
-                    <ComboBox Margin="224,93,0,0" RenderTransformOrigin="0.453,0.5" Width="112">
-                        <ComboBoxItem x:Name="maths" Content="2010" Tapped="ME_Tapped"/>
-                        <ComboBoxItem Content="2011" Tapped="ME1_Tapped"/>
-                        <ComboBoxItem Content="2012" Tapped="ME2_Tapped"/>
-                        <ComboBoxItem Content="2013" Tapped="ME3_Tapped"/>
-                        <ComboBoxItem Content="2014" Tapped="ME4_Tapped"/>
-                        <ComboBoxItem Content="2015" Tapped="ME5_Tapped"/>
-                    </ComboBox>
-                    <ComboBox Margin="224,150,0,0" RenderTransformOrigin="0.453,0.5" Width="112">
-                        <ComboBoxItem x:Name="maths1" Content="2010" Tapped="US_Tapped"/>
-                        <ComboBoxItem Content="2011" Tapped="US1_Tapped"/>
-                        <ComboBoxItem Content="2012" Tapped="US2_Tapped"/>
-                        <ComboBoxItem Content="2013" Tapped="US3_Tapped"/>
-                        <ComboBoxItem Content="2014" Tapped="US4_Tapped"/>
-                        <ComboBoxItem Content="2015" Tapped="US5_Tapped"/>
-                    </ComboBox>
-                    <ComboBox Margin="224,213,0,0" RenderTransformOrigin="0.453,0.5" Width="112">
-                        <ComboBoxItem x:Name="maths2" Content="2010"  Tapped="CD_Tapped"/>
-                        <ComboBoxItem Content="2011" Tapped="CD1_Tapped"/>
-                        <ComboBoxItem Content="2012" Tapped="CD2_Tapped"/>
-                        <ComboBoxItem Content="2013" Tapped="CD3_Tapped"/>
-                        <ComboBoxItem Content="2014" Tapped="CD4_Tapped"/>
-                        <ComboBoxItem Content="2015" Tapped="CD5_Tapped"/>
-                    </ComboBox>
-                    <ComboBox Margin="224,268,0,0" RenderTransformOrigin="0.453,0.5" Width="112">
-                        <ComboBoxItem x:Name="maths4" Content="2010"  Tapped="CN_Tapped"/>
-                        <ComboBoxItem Content="2011" Tapped="CN1_Tapped"/>
-                        <ComboBoxItem Content="2012" Tapped="CN2_Tapped"/>
-                        <ComboBoxItem Content="2013" Tapped="CN3_Tapped"/>
-                        <ComboBoxItem Content="2014" Tapped="CN4_Tapped"/>
-                        <ComboBoxItem Content="2015" Tapped="CN5_Tapped"/>
-                    </ComboBox>
-                    <ComboBox Margin="224,328,0,0" RenderTransformOrigin="0.453,0.5" Width="112">
-                        <ComboBoxItem x:Name="maths5" Content="2010" Tapped="OR_Tapped"/>
-                        <ComboBoxItem Content="2011" Tapped="OR1_Tapped"/>
-                        <ComboBoxItem Content="2012" Tapped="OR2_Tapped"/>
-                        <ComboBoxItem Content="2013" Tapped="OR3_Tapped"/>
-                        <ComboBoxItem Content="2014" Tapped="OR4_Tapped"/>
-                        <ComboBoxItem Content="2015" Tapped="OR5_Tapped"/>
-                    </ComboBox>
-                    <ComboBox Margin="224,388,0,0" RenderTransformOrigin="0.453,0.5" Width="112">
-                        <ComboBoxItem x:Name="maths6" Content="2010" Tapped="DC_Tapped"/>
-                        <ComboBoxItem Content="2011" Tapped="DC1_Tapped"/>
-                        <ComboBoxItem Content="2012" Tapped="DC2_Tapped"/>
-                        <ComboBoxItem Content="2013" Tapped="DC3_Tapped"/>
-                        <ComboBoxItem Content="2014" Tapped="DC4_Tapped"/>
-                        <ComboBoxItem Content="2015" Tapped="DC5_Tapped"/>
-                    </ComboBox>
+
+                    <Button Background="Beige"  x:Name="textBlock"  HorizontalAlignment="Left"  Content="MATHEMATICS III" VerticalAlignment="Top"  Margin="10,85,0,0" FontSize="25"/>
+                    <Button x:Name="textBlock_Copy" Background="Ivory" HorizontalAlignment="Left"  Content="BM AND CT" VerticalAlignment="Top" Margin="10,145,0,0" FontSize="24"/>
+                    <Button x:Name="textBlock_Copy1" Background="Gray" HorizontalAlignment="Left" Content="STRENGTH OF MATERIALS" VerticalAlignment="Top" Margin="10,205,0,0" FontSize="24"/>
+                    <Button x:Name="textBlock_Copy2" Background="Azure" HorizontalAlignment="Left" Content="SURVEYING - I"  VerticalAlignment="Top" Margin="10,265,0,0" FontSize="24"/>
+                    <Button x:Name="textBlock_Copy3" Background="#6fc98a" HorizontalAlignment="Left" Content="FLUID MECHANICS" VerticalAlignment="Top"  Margin="10,325,0,0" FontSize="22"/>
+                    <Button x:Name="textBlock_Copy4" Background="#6fc98a" HorizontalAlignment="Left" Content="APP ENGG GEOLOGY" VerticalAlignment="Top" Margin="10,385,0,0" FontSize="22"/>
 
                 </Grid>
             </PivotItem>
