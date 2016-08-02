@@ -17,8 +17,6 @@
         <Pivot Title="" Background="Ivory">
             <PivotItem Header="Question Papers">
                 <Grid>
-
-
                     <Button Background="Beige"  x:Name="textBlock"  HorizontalAlignment="Left"  Content="MATHEMATICS III" VerticalAlignment="Top"  Margin="10,85,0,0" FontSize="25" Click="textBlock_Click"/>
                     <Button x:Name="textBlock_Copy" Background="Ivory" HorizontalAlignment="Left"  Content="BM AND CT" VerticalAlignment="Top" Margin="10,145,0,0" FontSize="24"/>
                     <Button x:Name="textBlock_Copy1" Background="Gray" HorizontalAlignment="Left" Content="STRENGTH OF MATERIALS" VerticalAlignment="Top" Margin="10,205,0,0" FontSize="24"/>
