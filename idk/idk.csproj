@@ -99,6 +99,8 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Assets\1.png" />
+    <Content Include="Assets\github.jpg" />
+    <Content Include="Assets\mail.jpg" />
     <Content Include="Assets\sp.jpg" />
     <Content Include="Assets\2.jpg" />
     <Content Include="Assets\3.jpg" />
@@ -257,6 +259,9 @@
     </Compile>
     <Compile Include="mechwebview.xaml.cs">
       <DependentUpon>mechwebview.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="page_maintainance.xaml.cs">
+      <DependentUpon>page_maintainance.xaml</DependentUpon>
     </Compile>
     <Compile Include="phydept.xaml.cs">
       <DependentUpon>phydept.xaml</DependentUpon>
@@ -575,6 +580,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="mechwebview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="page_maintainance.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

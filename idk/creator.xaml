@@ -5,55 +5,85 @@
     xmlns:local="using:idk"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+    xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+
     mc:Ignorable="d">
 
     <Grid Background="Ivory">
         <ScrollViewer HorizontalScrollBarVisibility="Disabled" >
             <StackPanel>
                 <StackPanel>
-                    <Ellipse Width="250" Height="250">
+                    <Ellipse Width="100" Height="100" Margin="-250,0,0,0" RenderTransformOrigin="0.508,1.787">
                         <Ellipse.Fill>
                             <ImageBrush>
                                 <ImageBrush.ImageSource>
-                                    <BitmapImage DecodePixelHeight="250" DecodePixelWidth="250" UriSource="Assets/nit.jpg" />
+                                    <BitmapImage DecodePixelHeight="100" DecodePixelWidth="100" UriSource="Assets/nit.jpg" />
                                 </ImageBrush.ImageSource>
                             </ImageBrush>
                         </Ellipse.Fill>
                     </Ellipse>
-                    <TextBlock Text="Nithin Mathew" HorizontalAlignment="Center" Width="150" TextAlignment="Center" FontSize="20"  Margin="0,30,0,0"/>
-                    <TextBlock Text="CSE" Width="100" FontSize="20" TextAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0"/>
-                    <TextBlock Text="nithn_2mathew@hotmail.com" TextAlignment="Center" FontSize="20" Width="300" TextWrapping="Wrap" Margin="0,0,0,0" />
-                    <TextBlock Text="https://github.com/Mats2Nithin" TextAlignment="Center" FontSize="20" Width="300" TextWrapping="Wrap" Margin="0,0,0,0" />
+                    <TextBlock Text="Nithin Mathew" Margin="100,-100,0,0" TextWrapping="Wrap" HorizontalAlignment="Center" Width="Auto" TextAlignment="Center" FontSize="20" />
+                    <TextBlock Text="CSE" Width="100" FontSize="20" TextAlignment="Center" HorizontalAlignment="Center" Margin="100,-75,0,0"/>
+                    <HyperlinkButton x:Name="Git1" FontSize="20"  HorizontalAlignment="Center" Margin="150,-10,0,0" Width="50" Height="50" Click="HyperlinkButton_Click1">
+                        <HyperlinkButton.Background>
+                            <ImageBrush ImageSource="Assets/github.jpg" />
+                        </HyperlinkButton.Background>
+                    </HyperlinkButton>
+                    <HyperlinkButton x:Name="Mail1" FontSize="20"  HorizontalAlignment="Center" Margin="0,-50,0,0" Width="50" Height="50" Click="HyperlinkButton_Click4">
+                        <HyperlinkButton.Background>
+                            <ImageBrush ImageSource="Assets/mail.jpg" />
+                        </HyperlinkButton.Background>
+                    </HyperlinkButton>
+
                 </StackPanel>
                 <StackPanel>
-                    <Ellipse Margin="0,20,0,0" Width="250" Height="250">
+                    <Ellipse Margin="-250,50,0,0" Width="100" Height="100" RenderTransformOrigin="0.508,1.787">
                         <Ellipse.Fill>
                             <ImageBrush>
                                 <ImageBrush.ImageSource>
-                                    <BitmapImage DecodePixelHeight="250" DecodePixelWidth="250" UriSource="Assets/sp.jpg" />
+                                    <BitmapImage DecodePixelHeight="100" DecodePixelWidth="100" UriSource="Assets/sp.jpg" />
                                 </ImageBrush.ImageSource>
                             </ImageBrush>
                         </Ellipse.Fill>
                     </Ellipse>
-                    <TextBlock Text="SaiPrasanth R" HorizontalAlignment="Center" Width="150" TextAlignment="Center" FontSize="20"  Margin="0,30,0,0"/>
-                    <TextBlock Text="CSE" Width="100" FontSize="20" TextAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0"/>
-                    <TextBlock Text="saiprasanth2007@gmail.com" TextAlignment="Center" FontSize="20" Width="300" TextWrapping="Wrap" Margin="0,0,0,0" />
-                    <TextBlock Text="https://github.com/sai3010" TextAlignment="Center" FontSize="20" Width="300" TextWrapping="Wrap" Margin="0,0,0,0" />
+                    <TextBlock Text="SaiPrasanth R" HorizontalAlignment="Center" Width="150" TextAlignment="Center" FontSize="20"  Margin="100,-100,0,0"/>
+                    <TextBlock Text="CSE" Width="100" FontSize="20" TextAlignment="Center" HorizontalAlignment="Center" Margin="100,-75,0,0"/>
+                    <HyperlinkButton x:Name="Git2" FontSize="20"  HorizontalAlignment="Center" Margin="150,-10,0,0" Width="50" Height="50" Click="HyperlinkButton_Click2">
+                        <HyperlinkButton.Background>
+                            <ImageBrush ImageSource="Assets/github.jpg" />
+                        </HyperlinkButton.Background>
+                    </HyperlinkButton>
+                    <HyperlinkButton x:Name="Mail2" FontSize="20"  HorizontalAlignment="Center" Margin="0,-50,0,0" Width="50" Height="50" Click="HyperlinkButton_Click5">
+                        <HyperlinkButton.Background>
+                            <ImageBrush ImageSource="Assets/mail.jpg" />
+                        </HyperlinkButton.Background>
+                    </HyperlinkButton>
+
                 </StackPanel>
                 <StackPanel>
-                    <Ellipse Margin="0,20,0,0" Width="250" Height="250">
+                    <Ellipse Margin="-250,50,0,0" Width="100" Height="100" RenderTransformOrigin="0.508,1.787">
                         <Ellipse.Fill>
                             <ImageBrush>
                                 <ImageBrush.ImageSource>
-                                    <BitmapImage DecodePixelHeight="250" DecodePixelWidth="250" UriSource="Assets/sandy.jpg" />
+                                    <BitmapImage DecodePixelHeight="100" DecodePixelWidth="100" UriSource="Assets/sandy.jpg" />
                                 </ImageBrush.ImageSource>
                             </ImageBrush>
                         </Ellipse.Fill>
                     </Ellipse>
-                    <TextBlock Text="Sandeep A Nair" HorizontalAlignment="Center" Width="150" TextAlignment="Center" FontSize="20"  Margin="0,30,0,0"/>
-                    <TextBlock Text="CSE" Width="100" FontSize="20" TextAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0"/>
-                    <TextBlock Text="sandeep_sashok@hotmail.com" TextAlignment="Center" FontSize="20" Width="300" TextWrapping="Wrap" Margin="0,0,0,0" />
-                    <TextBlock Text="https://github.com/sanair96" TextAlignment="Center" FontSize="20" Width="300" TextWrapping="Wrap" Margin="0,0,0,0" />
+                    <TextBlock Text="Sandeep A Nair" HorizontalAlignment="Center" Width="150" TextAlignment="Center" FontSize="20"  Margin="100,-100,0,0"/>
+                    <TextBlock Text="CSE" Width="100" FontSize="20" TextAlignment="Center" HorizontalAlignment="Center" Margin="100,-75,0,0"/>
+                    <HyperlinkButton x:Name="Git3" FontSize="20"  HorizontalAlignment="Center" Margin="150,-10,0,0" Width="50" Height="50" Click="HyperlinkButton_Click3">
+                        <HyperlinkButton.Background>
+                            <ImageBrush ImageSource="Assets/github.jpg" />
+                        </HyperlinkButton.Background>
+                    </HyperlinkButton>
+                    <HyperlinkButton x:Name="Mail3" FontSize="20"  HorizontalAlignment="Center" Margin="0,-50,0,0" Width="50" Height="50" Click="HyperlinkButton_Click6">
+                        <HyperlinkButton.Background>
+                            <ImageBrush ImageSource="Assets/mail.jpg" />
+                        </HyperlinkButton.Background>
+                    </HyperlinkButton>
+
                 </StackPanel>
             </StackPanel>
         </ScrollViewer>

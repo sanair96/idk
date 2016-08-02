@@ -89,12 +89,12 @@
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="Menubutton6" FontFamily="Segoe Mdl2 Assets" Content="&#xEA86;"
-                        Width="50" Height="50" Background="Transparent" Click="Menubutton4_Click"/>
-                        <Button x:Name="Updates" Background="Transparent" HorizontalContentAlignment="Left" Content="Event Updates" Width="268" Height="50" FontSize="18" Click="Study_Click"/>
+                        Width="50" Height="50" Background="Transparent" Click="Event_Click"/>
+                        <Button x:Name="Updates" Background="Transparent" HorizontalContentAlignment="Left" Content="Event Updates" Width="268" Height="50" FontSize="18" Click="Event_Click"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="MenuButton9" FontFamily="Segoe MDL2 Assets" Content="&#xE977;"
-                         Width="50" Height="50" Background="Transparent"/>
+                         Width="50" Height="50" Background="Transparent" Click="Campus_Click"/>
                         <Button x:Name="Campus" Background="Transparent" HorizontalContentAlignment="Left" Content="Campus News" FontSize="18" VerticalAlignment="Center" Width="268" Height="50" Click="Campus_Click" />
 
                     </StackPanel>
