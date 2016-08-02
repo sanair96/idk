@@ -13,8 +13,8 @@
     <Grid Background="Ivory">
         <ScrollViewer HorizontalScrollBarVisibility="Disabled" >
             <StackPanel>
-                <StackPanel>
-                    <Ellipse Width="100" Height="100" Margin="-250,0,0,0" RenderTransformOrigin="0.508,1.787">
+                <StackPanel Margin="0,10,0,0">
+                    <Ellipse Width="100" Height="100" HorizontalAlignment="Center" Margin="-220,0,0,0" RenderTransformOrigin="0.508,1.787">
                         <Ellipse.Fill>
                             <ImageBrush>
                                 <ImageBrush.ImageSource>
@@ -37,8 +37,8 @@
                     </HyperlinkButton>
 
                 </StackPanel>
-                <StackPanel>
-                    <Ellipse Margin="-250,50,0,0" Width="100" Height="100" RenderTransformOrigin="0.508,1.787">
+                <StackPanel Margin="0,20,0,0">
+                    <Ellipse Margin="-220,50,0,0" HorizontalAlignment="Center" Width="100" Height="100" RenderTransformOrigin="0.508,1.787">
                         <Ellipse.Fill>
                             <ImageBrush>
                                 <ImageBrush.ImageSource>
@@ -61,8 +61,8 @@
                     </HyperlinkButton>
 
                 </StackPanel>
-                <StackPanel>
-                    <Ellipse Margin="-250,50,0,0" Width="100" Height="100" RenderTransformOrigin="0.508,1.787">
+                <StackPanel Margin="0,20,0,0">
+                    <Ellipse Margin="-220,50,0,0" HorizontalAlignment="Center" Width="100" Height="100" RenderTransformOrigin="0.508,1.787">
                         <Ellipse.Fill>
                             <ImageBrush>
                                 <ImageBrush.ImageSource>
