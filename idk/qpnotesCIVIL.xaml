@@ -18,7 +18,7 @@
             <PivotItem Header="Question Papers">
                 <Grid>
 
-                    <Button Background="Beige"  x:Name="textBlock"  HorizontalAlignment="Left"  Content="MATHEMATICS III" VerticalAlignment="Top"  Margin="10,85,0,0" FontSize="25"/>
+                    <Button Background="Beige"  x:Name="textBlock"  HorizontalAlignment="Left"  Content="MATHEMATICS III" VerticalAlignment="Top"  Margin="10,85,0,0" FontSize="25" Click="textBlock_Click"/>
                     <Button x:Name="textBlock_Copy" Background="Ivory" HorizontalAlignment="Left"  Content="BM AND CT" VerticalAlignment="Top" Margin="10,145,0,0" FontSize="24"/>
                     <Button x:Name="textBlock_Copy1" Background="Gray" HorizontalAlignment="Left" Content="STRENGTH OF MATERIALS" VerticalAlignment="Top" Margin="10,205,0,0" FontSize="24"/>
                     <Button x:Name="textBlock_Copy2" Background="Azure" HorizontalAlignment="Left" Content="SURVEYING - I"  VerticalAlignment="Top" Margin="10,265,0,0" FontSize="24"/>
@@ -29,74 +29,12 @@
             </PivotItem>
             <PivotItem Header="Notes" Margin="12,10,12,0">
                 <Grid>
-                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,85,0,0" TextWrapping="Wrap" Text="MATH III" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="10,145,0,0" TextWrapping="Wrap" Text="BM AND CT" VerticalAlignment="Top" FontSize="24.667"/>
-                    <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="10,205,0,0" TextWrapping="Wrap" Text="STRENGTH OF MAT" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="10,265,0,0" TextWrapping="Wrap" Text="SURVERYING - I" VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Margin="10,325,0,0" TextWrapping="Wrap" Text="FLUID MECHANICS " VerticalAlignment="Top" FontSize="24"/>
-                    <TextBlock x:Name="textBlock1_Copy4" HorizontalAlignment="Left" Margin="10,385,0,0" TextWrapping="Wrap" Text="APP ENGG GEOLOGY" VerticalAlignment="Top" FontSize="24"/>
-
-                    <ComboBox x:Name="maths3" Margin="263,85,0,0" Width="63">
-                        <ComboBoxItem Content="Unit 1"/>
-                        <ComboBoxItem Content="Unit 2"/>
-                        <ComboBoxItem Content="Unit 3"/>
-                        <ComboBoxItem Content="Unit 4"/>
-                        <ComboBoxItem Content="Unit 5"/>
-                        <ComboBoxItem Content="Unit 6"/>
-                        <ComboBoxItem Content="Unit 7"/>
-                        <ComboBoxItem Content="Unit 8"/>
-                    </ComboBox>
-                    <ComboBox x:Name="EC" Margin="263,143,0,0">
-                        <ComboBoxItem Content="Unit 1"/>
-                        <ComboBoxItem Content="Unit 2"/>
-                        <ComboBoxItem Content="Unit 3"/>
-                        <ComboBoxItem Content="Unit 4"/>
-                        <ComboBoxItem Content="Unit 5"/>
-                        <ComboBoxItem Content="Unit 6"/>
-                        <ComboBoxItem Content="Unit 7"/>
-                        <ComboBoxItem Content="Unit 8"/>
-                    </ComboBox>
-                    <ComboBox x:Name="LD" Margin="262,205,0,0">
-                        <ComboBoxItem Content="Unit 1"/>
-                        <ComboBoxItem Content="Unit 2"/>
-                        <ComboBoxItem Content="Unit 3"/>
-                        <ComboBoxItem Content="Unit 4"/>
-                        <ComboBoxItem Content="Unit 5"/>
-                        <ComboBoxItem Content="Unit 6"/>
-                        <ComboBoxItem Content="Unit 7"/>
-                        <ComboBoxItem Content="Unit 8"/>
-                    </ComboBox>
-                    <ComboBox x:Name="DMS" Margin="263,265,0,0">
-                        <ComboBoxItem Content="Unit 1"/>
-                        <ComboBoxItem Content="Unit 2"/>
-                        <ComboBoxItem Content="Unit 3"/>
-                        <ComboBoxItem Content="Unit 4"/>
-                        <ComboBoxItem Content="Unit 5"/>
-                        <ComboBoxItem Content="Unit 6"/>
-                        <ComboBoxItem Content="Unit 7"/>
-                        <ComboBoxItem Content="Unit 8"/>
-                    </ComboBox>
-                    <ComboBox x:Name="DS" Margin="262,325,0,0">
-                        <ComboBoxItem Content="Unit 1"/>
-                        <ComboBoxItem Content="Unit 2"/>
-                        <ComboBoxItem Content="Unit 3"/>
-                        <ComboBoxItem Content="Unit 4"/>
-                        <ComboBoxItem Content="Unit 5"/>
-                        <ComboBoxItem Content="Unit 6"/>
-                        <ComboBoxItem Content="Unit 7"/>
-                        <ComboBoxItem Content="Unit 8"/>
-                    </ComboBox>
-                    <ComboBox x:Name="OOP" Margin="262,385,0,0">
-                        <ComboBoxItem Content="Unit 1"/>
-                        <ComboBoxItem Content="Unit 2"/>
-                        <ComboBoxItem Content="Unit 3"/>
-                        <ComboBoxItem Content="Unit 4"/>
-                        <ComboBoxItem Content="Unit 5"/>
-                        <ComboBoxItem Content="Unit 6"/>
-                        <ComboBoxItem Content="Unit 7"/>
-                        <ComboBoxItem Content="Unit 8"/>
-                    </ComboBox>
-                    <TextBlock x:Name="UNIT" HorizontalAlignment="Left" Margin="274,45,0,0" TextWrapping="Wrap" Text="Unit" VerticalAlignment="Top" FontSize="26.667" TextAlignment="Center"/>
+                    <Button x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,85,0,0" Content="MATHEMATICS III" VerticalAlignment="Top" FontSize="24" Click="textBlock1_Click"/>
+                    <Button x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="10,145,0,0" Content="BM AND CT" VerticalAlignment="Top" FontSize="24.667"/>
+                    <Button x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="10,205,0,0" Content="STRENGTH OF MATERIALS" VerticalAlignment="Top" FontSize="24"/>
+                    <Button x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="10,265,0,0" Content="SURVERYING - I" VerticalAlignment="Top" FontSize="24"/>
+                    <Button x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Margin="10,325,0,0" Content="FLUID MECHANICS " VerticalAlignment="Top" FontSize="24"/>
+                    <Button x:Name="textBlock1_Copy4" HorizontalAlignment="Left" Margin="10,385,0,0" Content="APP ENGG GEOLOGY" VerticalAlignment="Top" FontSize="24"/>
                 </Grid>
 
             </PivotItem>
