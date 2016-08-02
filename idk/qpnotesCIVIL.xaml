@@ -16,7 +16,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <Grid Background="Beige">
+        <Grid Background="Ivory">
 
             <Pivot Title="" Background="Beige">
                 <PivotItem Header="Question Papers">
