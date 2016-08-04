@@ -27,53 +27,5 @@ namespace idk
             this.InitializeComponent();
         }
 
-        private void goback_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(studymaterialdepts));
-        }
-
-        private void textBlock1_ContextMenuOpening(object sender, ContextMenuEventArgs e)
-        {
-
-        }
-
-        private void comboBox_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-
-        }
-
-        private void ComboBoxItem_Tapped1(object sender, TappedRoutedEventArgs e)
-        {
-            
-        }
-
-        private void ComboBoxItem_Tapped2(object sender, TappedRoutedEventArgs e)
-        {
-            
-        }
-        private void ComboBoxItem_Tapped3(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(qpnotesECE));
-        }
-        private void ComboBoxItem_Tapped4(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(qpnotesECE4sem));
-        }
-        private void ComboBoxItem_Tapped5(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(qpnotesECE5sem));
-        }
-        private void ComboBoxItem_Tapped6(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(qpnotesECE6sem));
-        }
-        private void ComboBoxItem_Tapped7(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(qpnotesECE7sem));
-        }
-        private void ComboBoxItem_Tapped8(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(qpnotesECE8sem));
-        }
     }
 }

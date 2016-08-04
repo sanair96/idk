@@ -23,33 +23,33 @@
                     <MenuFlyoutSeparator />
 
                     <MenuFlyoutSubItem Text="3">
-                        <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click" />
-                        <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_1" />
+                        <MenuFlyoutItem Text="Question Papers"  />
+                        <MenuFlyoutItem Text="Notes"  />
                     </MenuFlyoutSubItem>
 
                     <MenuFlyoutSubItem Text="4">
-                        <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_2" />
-                        <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_3" />
+                        <MenuFlyoutItem Text="Question Papers"  />
+                        <MenuFlyoutItem Text="Notes" />
                     </MenuFlyoutSubItem>
 
                     <MenuFlyoutSubItem Text="5">
-                        <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_4" />
-                        <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_5" />
+                        <MenuFlyoutItem Text="Question Papers"  />
+                        <MenuFlyoutItem Text="Notes"  />
                     </MenuFlyoutSubItem>
 
                     <MenuFlyoutSubItem Text="6">
-                        <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_6" />
-                        <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_7" />
+                        <MenuFlyoutItem Text="Question Papers"  />
+                        <MenuFlyoutItem Text="Notes" />
                     </MenuFlyoutSubItem>
 
                     <MenuFlyoutSubItem Text="7">
-                        <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_8"  />
-                        <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_9"  />
+                        <MenuFlyoutItem Text="Question Papers"   />
+                        <MenuFlyoutItem Text="Notes"   />
                     </MenuFlyoutSubItem>
 
                     <MenuFlyoutSubItem Text="8">
-                        <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_10" />
-                        <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_11" />
+                        <MenuFlyoutItem Text="Question Papers"  />
+                        <MenuFlyoutItem Text="Notes"  />
                     </MenuFlyoutSubItem>
                 </MenuFlyout>
             </Button.Flyout>

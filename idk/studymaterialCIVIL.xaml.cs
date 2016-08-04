@@ -27,44 +27,6 @@ namespace idk
             this.InitializeComponent();
         }
 
-        private void bbut_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(studymaterialdepts));
-        }
-
-        private void ComboBoxItem1_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-           
-
-        }
-
-        private void ComboBoxItem2_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-
-        }
-        private void ComboBoxItem3_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(qpnotesCIVIL)); 
-        }
-        private void ComboBoxItem4_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(qpnotesCIVIL4sem));
-        }
-        private void ComboBoxItem5_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(qpnotesCIVIL5sem));
-        }
-        private void ComboBoxItem6_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(qpnotesCIVIL6sem));
-        }
-        private void ComboBoxItem7_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(qpnotesCIVIL7sem));
-        }
-        private void ComboBoxItem8_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(qpnotesCIVIL8sem));
-        }
+       
     }
 }

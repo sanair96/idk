@@ -113,7 +113,8 @@
                     <ContentControl x:Name="Cont" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,260,9,0" Height="250">
                         <ContentControl.Transitions>
                             <TransitionCollection>
-                                <ContentThemeTransition/>
+
+                                <RepositionThemeTransition/>
                             </TransitionCollection>
                         </ContentControl.Transitions>
                         <Image x:Name="image1" Stretch="Fill" HorizontalAlignment="Center" Height="200" Width="350"/>
