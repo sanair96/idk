@@ -279,30 +279,6 @@
       <DependentUpon>placements.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="studymaterial IS.xaml.cs">
-      <DependentUpon>studymaterial IS.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="studymaterial IT.xaml.cs">
-      <DependentUpon>studymaterial IT.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Studymaterial.xaml.cs">
-      <DependentUpon>Studymaterial.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="studymaterialCIVIL.xaml.cs">
-      <DependentUpon>studymaterialCIVIL.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="studymaterialdepts.xaml.cs">
-      <DependentUpon>studymaterialdepts.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="studymaterialECE.xaml.cs">
-      <DependentUpon>studymaterialECE.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="studymaterialEEE.xaml.cs">
-      <DependentUpon>studymaterialEEE.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="studymaterialMECH.xaml.cs">
-      <DependentUpon>studymaterialMECH.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Transport.xaml.cs">
       <DependentUpon>Transport.xaml</DependentUpon>
     </Compile>
@@ -499,38 +475,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="placements.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="studymaterial IS.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="studymaterial IT.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Studymaterial.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="studymaterialCIVIL.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="studymaterialdepts.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="studymaterialECE.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="studymaterialEEE.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="studymaterialMECH.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

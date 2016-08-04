@@ -29,7 +29,7 @@ namespace idk
 
         private void bbut_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(studymaterial_IS));
+            //Frame.Navigate(typeof());
         }
 
         private void ME_Tapped(object sender, TappedRoutedEventArgs e)

@@ -36,7 +36,7 @@ namespace idk
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(studymaterial_IT));
+            //Frame.Navigate(typeof(studymaterial_IT));
         }
 
         private void details_Click(object sender, RoutedEventArgs e)

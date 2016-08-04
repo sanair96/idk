@@ -31,7 +31,39 @@
                 </MenuFlyout>
             </Button.Flyout>
         </Button>
-        <Button x:Name="button1" Background="#6FC98A " Height="50" Content="Study Material" FontSize="26.667" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,367,0,0" Click="button1_Click"/>
-    
+        <Button x:Name="button1" Background="#6FC98A " Height="50" Content="Study Material" FontSize="26.667" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,367,0,0">
+            <Button.Flyout>
+                <MenuFlyout Placement="Right">
+                    <MenuFlyoutSubItem Text="3">
+                        <MenuFlyoutItem Text="Question Papers"/>
+                        <MenuFlyoutItem Text="Notes" />
+                    </MenuFlyoutSubItem>
+                    <MenuFlyoutSubItem Text="4">
+                        <MenuFlyoutItem Text="Question Papers"/>
+                        <MenuFlyoutItem Text="Notes" />
+                    </MenuFlyoutSubItem>
+                    <MenuFlyoutSubItem Text="5">
+                        <MenuFlyoutItem Text="Question Papers"/>
+                        <MenuFlyoutItem Text="Notes" />
+                    </MenuFlyoutSubItem>
+                    <MenuFlyoutSubItem Text="6">
+                        <MenuFlyoutItem Text="Question Papers"/>
+                        <MenuFlyoutItem Text="Notes" />
+                    </MenuFlyoutSubItem>
+                    <MenuFlyoutSubItem Text="7">
+                        <MenuFlyoutItem Text="Question Papers"/>
+                        <MenuFlyoutItem Text="Notes" />
+                    </MenuFlyoutSubItem>
+                    <MenuFlyoutSubItem Text="8">
+                        <MenuFlyoutItem Text="Question Papers"/>
+                        <MenuFlyoutItem Text="Notes" />
+                    </MenuFlyoutSubItem>
+
+                </MenuFlyout>
+            </Button.Flyout>
+
+        </Button>
+
+
     </Grid>
 </Page>

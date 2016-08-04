@@ -154,7 +154,7 @@ namespace idk
         private void Study_Click(object sender, RoutedEventArgs e)
         {
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
-            this.Frame.Navigate(typeof(studymaterialdepts));
+            //this.Frame.Navigate(typeof(studymaterialdepts));
         }
 
         private void Menubutton4_Click(object sender, RoutedEventArgs e)
