@@ -22,8 +22,8 @@
                 <PivotItem Header="Question Papers">
                     <Grid>
                         <Button Background="#6fc98a"  x:Name="textBlock"  HorizontalAlignment="Left"  Content="MATHEMATICS III" VerticalAlignment="Top"  Margin="10,85,0,0" FontSize="25" Click="textBlock_Click"/>
-                        <Button x:Name="textBlock_Copy" Background="#6fc98a" HorizontalAlignment="Left"  Content="BM AND CT" VerticalAlignment="Top" Margin="10,145,0,0" FontSize="25"/>
-                        <Button x:Name="textBlock_Copy1" Background="#6fc98a" HorizontalAlignment="Left" Content="STRENGTH OF MATERIALS" VerticalAlignment="Top" Margin="10,205,0,0" FontSize="25"/>
+                        <Button x:Name="textBlock_Copy" Background="#6fc98a" HorizontalAlignment="Left"  Content="BM AND CT" VerticalAlignment="Top" Margin="10,145,0,0" FontSize="25" Click="textBlock_Copy_Click"/>
+                        <Button x:Name="textBlock_Copy1" Background="#6fc98a" HorizontalAlignment="Left" Content="STRENGTH OF MATERIALS" VerticalAlignment="Top" Margin="10,205,0,0" FontSize="25" Click="textBlock_Copy1_Click"/>
                         <Button x:Name="textBlock_Copy2" Background="#6fc98a" HorizontalAlignment="Left" Content="SURVEYING - I"  VerticalAlignment="Top" Margin="10,265,0,0" FontSize="25"/>
                         <Button x:Name="textBlock_Copy3" Background="#6fc98a" HorizontalAlignment="Left" Content="FLUID MECHANICS" VerticalAlignment="Top"  Margin="10,325,0,0" FontSize="25"/>
                         <Button x:Name="textBlock_Copy4" Background="#6fc98a" HorizontalAlignment="Left" Content="APP ENGG GEOLOGY" VerticalAlignment="Top" Margin="10,385,0,0" FontSize="25"/>

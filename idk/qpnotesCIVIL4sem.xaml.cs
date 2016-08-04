@@ -26,5 +26,10 @@ namespace idk
         {
             this.InitializeComponent();
         }
+
+        private void textBlock_Copy_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

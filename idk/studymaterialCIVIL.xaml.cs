@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -27,44 +28,64 @@ namespace idk
             this.InitializeComponent();
         }
 
-        private void bbut_Click(object sender, RoutedEventArgs e)
+       async private void MenuFlyoutItem_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(studymaterialdepts));
+            await Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrh26Wb5u_hyCgqRK5"));
         }
 
-        private void ComboBoxItem1_Tapped(object sender, TappedRoutedEventArgs e)
+    async private void MenuFlyoutItem_Click_1(object sender, RoutedEventArgs e)
         {
-           
+            await Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriHplLqsEpZfydPNv"));
+        }
+
+     async   private void MenuFlyoutItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            await Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQCIkhsyPF76ODXV"));
+        }
+
+        private void MenuFlyoutItem_Click_3(object sender, RoutedEventArgs e)
+        {
 
         }
 
-        private void ComboBoxItem2_Tapped(object sender, TappedRoutedEventArgs e)
+      async  private void MenuFlyoutItem_Click_4(object sender, RoutedEventArgs e)
+        {
+            await Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQHy9nC8SqpoX4av"));
+        }
+
+        private void MenuFlyoutItem_Click_5(object sender, RoutedEventArgs e)
         {
 
         }
-        private void ComboBoxItem3_Tapped(object sender, TappedRoutedEventArgs e)
+
+    async    private void MenuFlyoutItem_Click_6(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(qpnotesCIVIL)); 
+            await Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQI0eaPtVPDXoBHT"));
         }
-        private void ComboBoxItem4_Tapped(object sender, TappedRoutedEventArgs e)
+
+        private void MenuFlyoutItem_Click_7(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(qpnotesCIVIL4sem));
+
         }
-        private void ComboBoxItem5_Tapped(object sender, TappedRoutedEventArgs e)
+
+    async    private void MenuFlyoutItem_Click_8(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(qpnotesCIVIL5sem));
+            await Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQO2SHSuex-k0435"));
         }
-        private void ComboBoxItem6_Tapped(object sender, TappedRoutedEventArgs e)
+
+        private void MenuFlyoutItem_Click_9(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(qpnotesCIVIL6sem));
+
         }
-        private void ComboBoxItem7_Tapped(object sender, TappedRoutedEventArgs e)
+
+    async    private void MenuFlyoutItem_Click_10(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(qpnotesCIVIL7sem));
+            await Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQTtOqhiJzpvylKn"));
         }
-        private void ComboBoxItem8_Tapped(object sender, TappedRoutedEventArgs e)
+
+        private void MenuFlyoutItem_Click_11(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(qpnotesCIVIL8sem));
+
         }
     }
 }

@@ -32,12 +32,22 @@ namespace idk
 
        async private void textBlock_Click(object sender, RoutedEventArgs e)
         {
-            await Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrlB2l5xLmL2WzPKso"));
+            await Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrh3PyksM_-Wp4cftM"));
         }
 
      async private void textBlock1_Click(object sender, RoutedEventArgs e)
         {
             await Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrlB2l5xLmL2WzPKso"));
+        }
+
+       async private void textBlock_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            await Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrh3Hea7ycyFL0ECEG"));
+        }
+
+     async   private void textBlock_Copy1_Click(object sender, RoutedEventArgs e)
+        {
+            await Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrsi5PdtkUNKSVLiE5"));
         }
     }
 }
