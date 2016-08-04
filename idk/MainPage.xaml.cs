@@ -238,7 +238,7 @@ namespace idk
 
         private void AppBarButton_Click_1(object sender, RoutedEventArgs e)
         {
-            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
+           // MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
             Frame.Navigate(typeof(contactus));
         }
 
@@ -265,7 +265,7 @@ namespace idk
 
         private void AppBarButton_Click_3(object sender, RoutedEventArgs e)
         {
-            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
+            //MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
             Frame.Navigate(typeof(courses));
         }
 
