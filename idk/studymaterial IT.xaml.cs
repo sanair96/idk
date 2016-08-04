@@ -33,45 +33,5 @@ namespace idk
         }
 
 
-        private void ComboBoxItem1_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-           
-        }
-
-        private void ComboBoxItem2_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-           
-        }
-
-        private void ComboBoxItem3_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(qpnotesIT));
-        }
-
-        private void ComboBoxItem4_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(qpnotesIT4sem));
-        }
-
-        private void ComboBoxItem5_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(qpnotesIT5sem));
-        }
-
-        private void ComboBoxItem6_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(qpnotesIT6sem));
-        }
-        
-        private void ComboBoxItem7_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            
-        }
-
-        private void ComboBoxItem8_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            
-
-        }
     }
 }

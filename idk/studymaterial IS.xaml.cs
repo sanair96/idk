@@ -27,10 +27,6 @@ namespace idk
             this.InitializeComponent();
         }
 
-        private void bbut_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(studymaterialdepts));
-        }
 
         private void ComboBoxItem_Tapped(object sender, TappedRoutedEventArgs e)
         {

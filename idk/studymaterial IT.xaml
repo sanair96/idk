@@ -16,15 +16,44 @@
     <Grid Background="Ivory">
         <Rectangle Fill="#6FC98A" Height="100" VerticalAlignment="Top" HorizontalAlignment="Stretch"/>
         <TextBlock x:Name="textBlock" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,0,0" TextWrapping="Wrap" Text="Study Material"  Height="96" Width="340" FontSize="48" TextAlignment="Center"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Margin="0,215,0,0" FontStyle="Normal" FontWeight="Bold" TextWrapping="Wrap" Text="Semester" VerticalAlignment="Top" Height="63" Width="141" TextAlignment="Center" FontSize="26.667"/>
-        <ComboBox Margin="0,260,0,0" HorizontalAlignment="Center" Width="194">
-            <ComboBoxItem Tapped="ComboBoxItem3_Tapped" Content="3" />
-            <ComboBoxItem Tapped="ComboBoxItem4_Tapped" Content="4" />
-            <ComboBoxItem Tapped="ComboBoxItem5_Tapped" Content="5" />
-            <ComboBoxItem Tapped="ComboBoxItem6_Tapped" Content="6" />
-            <ComboBoxItem Tapped="ComboBoxItem7_Tapped" Content="7" />
-            <ComboBoxItem Tapped="ComboBoxItem8_Tapped" Content="8" />
-        </ComboBox>
+        <Button Content="Semester" HorizontalAlignment="Center" Background="#6FC98A" Margin="0,-90,0,0" FontWeight="Bold" Height="50" FontSize="20" Width="200">
+            <Button.Flyout >
+                <MenuFlyout Placement="Bottom">
+                    <ToggleMenuFlyoutItem  Text="Choose Your Sem" />
+                    <MenuFlyoutSeparator />
+
+                    <MenuFlyoutSubItem Text="3">
+                        <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click" />
+                        <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_1" />
+                    </MenuFlyoutSubItem>
+
+                    <MenuFlyoutSubItem Text="4">
+                        <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_2" />
+                        <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_3" />
+                    </MenuFlyoutSubItem>
+
+                    <MenuFlyoutSubItem Text="5">
+                        <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_4" />
+                        <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_5" />
+                    </MenuFlyoutSubItem>
+
+                    <MenuFlyoutSubItem Text="6">
+                        <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_6" />
+                        <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_7" />
+                    </MenuFlyoutSubItem>
+
+                    <MenuFlyoutSubItem Text="7">
+                        <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_8"  />
+                        <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_9"  />
+                    </MenuFlyoutSubItem>
+
+                    <MenuFlyoutSubItem Text="8">
+                        <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_10" />
+                        <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_11" />
+                    </MenuFlyoutSubItem>
+                </MenuFlyout>
+            </Button.Flyout>
+        </Button>
 
     </Grid>
 </Page>
