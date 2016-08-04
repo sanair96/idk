@@ -85,7 +85,11 @@
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="Menubutton4" FontFamily="Segoe Mdl2 Assets" Content="&#59366;"
                         Width="50" Height="50" Background="Transparent" Click="Menubutton4_Click"/>
-                        <Button x:Name="Study" Background="Transparent" HorizontalContentAlignment="Left" Content="Study Material" Width="268" Height="50" FontSize="18" Click="Study_Click"/>
+                        <Button x:Name="Study" Background="Transparent" HorizontalContentAlignment="Left" Content="Study Material" Width="155" Height="50" FontSize="18" >
+                            <Button.Flyout >
+                <MenuFlyout Placement="Right">
+                    <MenuFlyoutSubItem Text="P-cycle">
+                        <MenuFlyoutItem Text="Question Papers" />
                         <MenuFlyoutItem Text="Notes"  />
                     </MenuFlyoutSubItem>
 
