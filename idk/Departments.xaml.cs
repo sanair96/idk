@@ -50,7 +50,7 @@ namespace idk
             Images1.Add("d5.jpg");
             Images1.Add("d6.jpg");
             playlistTimer1 = new DispatcherTimer();
-            playlistTimer1.Interval = new TimeSpan(0, 0, 1);
+            playlistTimer1.Interval = new TimeSpan(0, 0, 3);
             playlistTimer1.Tick += playlistTimer_Tick1;
             image.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + Images1[count1]));
             a.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + Images1[count1]));
