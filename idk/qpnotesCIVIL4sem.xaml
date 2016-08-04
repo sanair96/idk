@@ -18,7 +18,7 @@
             <PivotItem Header="Question Papers">
                 <Grid>
                     <Button x:Name="textBlock" HorizontalAlignment="Left" Content="MATH IV" VerticalAlignment="Top" Background="#6fc98a" Margin="10,85,0,0" FontSize="25"/>
-                    <Button x:Name="textBlock_Copy" HorizontalAlignment="Left" Content="CONCRETE TECHNOLOGY" VerticalAlignment="Top" Background="#6fc98a" Margin="10,145,0,0" FontSize="25" Click="textBlock_Copy_Click"/>
+                    <Button x:Name="textBlock_Copy" HorizontalAlignment="Left" Content="CONCRETE TECHNOLOGY" VerticalAlignment="Top" Background="#6fc98a" Margin="10,145,0,0" FontSize="25"/>
                     <Button x:Name="textBlock_Copy1" HorizontalAlignment="Left" Content="STRUCT ANALYSIS-I" Background="#6fc98a" VerticalAlignment="Top" Margin="10,205,0,0" FontSize="25"/>
                     <Button x:Name="textBlock_Copy2" HorizontalAlignment="Left" Content="SURVERYING-II" Background="#6fc98a" VerticalAlignment="Top" Margin="10,265,0,0" FontSize="25"/>
                     <Button x:Name="textBlock_Copy3" HorizontalAlignment="Left" Content="HYDRAULICS" Background="#6fc98a" VerticalAlignment="Top" Margin="10,325,0,0" FontSize="25"/>
