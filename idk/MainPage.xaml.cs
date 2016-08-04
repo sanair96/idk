@@ -77,7 +77,7 @@ namespace idk
             Images1.Add("mp5.jpg");
             Images1.Add("mp6.jpg");
             playlistTimer1 = new DispatcherTimer();
-            playlistTimer1.Interval = new TimeSpan(0, 0, 1);
+            playlistTimer1.Interval = new TimeSpan(0, 0, 3);
             playlistTimer1.Tick += playlistTimer_Tick1;
             image1.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + Images1[count1]));
             a.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + Images1[count1]));
@@ -133,9 +133,7 @@ namespace idk
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
             Cont.Visibility = Visibility.Visible;
             RNSITLOGO.Visibility = Visibility.Visible;
-            courses.Visibility = Visibility.Collapsed;
-            courseslink.Visibility = Visibility.Collapsed;
-            contactus.Visibility = Visibility.Collapsed;
+            
         }
 
  
@@ -235,32 +233,16 @@ namespace idk
         {
             Cont.Visibility = Visibility.Visible;
             RNSITLOGO.Visibility = Visibility.Visible;
-            courses.Visibility = Visibility.Collapsed;
-            courseslink.Visibility = Visibility.Collapsed;
             Frame.Navigate(typeof(aboutus));
         }
 
         private void AppBarButton_Click_1(object sender, RoutedEventArgs e)
         {
-            if (contactus.Visibility == Visibility.Collapsed)
-            {
-                Cont.Visibility = Visibility.Collapsed;
-                RNSITLOGO.Visibility = Visibility.Collapsed;
-                contactus.Visibility = Visibility.Visible;
-                courses.Visibility = Visibility.Collapsed;
-                courseslink.Visibility = Visibility.Collapsed;
-            }
-            else
-            {
-                Cont.Visibility = Visibility.Visible;
-                RNSITLOGO.Visibility = Visibility.Visible;
-                contactus.Visibility = Visibility.Collapsed;
-                courses.Visibility = Visibility.Collapsed;
-                courseslink.Visibility = Visibility.Collapsed;
-            }
+            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
+            Frame.Navigate(typeof(contactus));
         }
 
-       async private void AppBarButton_Click_2(object sender, RoutedEventArgs e)
+        async private void AppBarButton_Click_2(object sender, RoutedEventArgs e)
         {
             // Center on RNSIT
      //       var urirnscen = new Uri("bingmaps:? cp = 12.902260~77.518974 & lvl = 14");
@@ -273,9 +255,6 @@ namespace idk
             
             Cont.Visibility = Visibility.Visible;
             RNSITLOGO.Visibility = Visibility.Visible;
-            contactus.Visibility = Visibility.Collapsed;
-            courses.Visibility = Visibility.Collapsed;
-            courseslink.Visibility = Visibility.Collapsed;
           //  await Launcher.LaunchUriAsync(new Uri("http://binged.it/20zshMf"));
         }
 
@@ -286,30 +265,12 @@ namespace idk
 
         private void AppBarButton_Click_3(object sender, RoutedEventArgs e)
         {
-            if (courses.Visibility == Visibility.Collapsed)
-            {
-                contactus.Visibility = Visibility.Collapsed;
-                Cont.Visibility = Visibility.Collapsed;
-                RNSITLOGO.Visibility = Visibility.Collapsed;
-                courses.Visibility = Visibility.Visible;
-                courseslink.Visibility = Visibility.Visible;
-            }
-            else
-            {
-                contactus.Visibility = Visibility.Collapsed;
-                Cont.Visibility = Visibility.Visible;
-                RNSITLOGO.Visibility = Visibility.Visible;
-                courses.Visibility = Visibility.Collapsed;
-                courseslink.Visibility = Visibility.Collapsed;
-            }
+            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
+            Frame.Navigate(typeof(courses));
         }
 
 
-       async private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
-        {
-            await Launcher.LaunchUriAsync(new Uri("http://www.rnsit.ac.in/courses.html"));
-        }
-
+       
         private void AppBarButton_Click_4(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(creator));

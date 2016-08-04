@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="idk.courses"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:idk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Ivory">
+        <StackPanel Width="360">
+            <Grid  x:Name="course">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="165"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="COURSE TITLE" FontWeight="Bold" TextAlignment="Center" TextWrapping="Wrap" Grid.Column="0" FontSize="22" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+                <TextBlock Text="INTAKE" FontWeight="Bold"   TextAlignment="Center" TextWrapping="Wrap" Grid.Column="1" FontSize="22" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+                <TextBlock Text="B.E (CSE)" FontWeight="Bold"    TextAlignment="Center" TextWrapping="Wrap" Grid.Row="1" FontSize="22" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+                <TextBlock Text="B.E (ECE)" FontWeight="Bold"   TextAlignment="Center" TextWrapping="Wrap" Grid.Row="2" FontSize="22" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+                <TextBlock Text="B.E (EEE)" FontWeight="Bold"   TextAlignment="Center" TextWrapping="Wrap" Grid.Row="3" FontSize="22" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+                <TextBlock Text="B.E (IS)" FontWeight="Bold"    TextAlignment="Center" TextWrapping="Wrap" Grid.Row="4" FontSize="22" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+                <TextBlock Text="B.E (IT)" FontWeight="Bold"    TextAlignment="Center" TextWrapping="Wrap" Grid.Row="5" FontSize="22" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+                <TextBlock Text="B.E (MECHANICAL)" FontWeight="Bold"   TextAlignment="Center" TextWrapping="Wrap" Grid.Row="6" FontSize="22" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+                <TextBlock Text="B.E (CIVIL)" FontWeight="Bold"   TextAlignment="Center" TextWrapping="Wrap" Grid.Row="7" FontSize="22" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+                <TextBlock Text="120" FontWeight="Bold"   TextAlignment="Center" TextWrapping="Wrap" Grid.Row="1" Grid.Column="1" FontSize="22" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+                <TextBlock Text="180" FontWeight="Bold"   TextAlignment="Center" TextWrapping="Wrap" Grid.Row="2" Grid.Column="1" FontSize="22" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+                <TextBlock Text="60" FontWeight="Bold"   TextAlignment="Center" TextWrapping="Wrap" Grid.Row="3" Grid.Column="1" FontSize="22" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+                <TextBlock Text="120" FontWeight="Bold"   TextAlignment="Center" TextWrapping="Wrap" Grid.Row="4" Grid.Column="1" FontSize="22" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+                <TextBlock Text="60" FontWeight="Bold" TextAlignment="Center" TextWrapping="Wrap" Grid.Row="5" Grid.Column="1" FontSize="22" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+                <TextBlock Text="180" FontWeight="Bold"    TextAlignment="Center" TextWrapping="Wrap" Grid.Row="6" Grid.Column="1" FontSize="22" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+                <TextBlock Text="60" FontWeight="Bold"   TextAlignment="Center" TextWrapping="Wrap" Grid.Row="7" Grid.Column="1" FontSize="22" Height="53" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="0,0,9.667,0"/>
+            </Grid>
+        </StackPanel>
+        <HyperlinkButton x:Name="courseslink" Content="More courses click here" Foreground="BLUE" FontSize="20"  HorizontalAlignment="Center" Margin="0,481,10,127" Width="250" Click="HyperlinkButton_Click"/>
+
+
+    </Grid>
+</Page>

@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="idk.contactus"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:idk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Ivory">
+        <TextBlock x:Name="contact_us" TextAlignment="Justify" HorizontalAlignment="Center" TextWrapping="Wrap" FontSize="20" Text="MAIL US :&#x0a;R N S Institute of Technology,&#x0a;Rajarajeshwarinagar,&#x0a;Channasandra,&#x0a;Bangalore - 560098&#x0a;Tel : +91 80 28611880/1&#x0a;Fax : +91 80 28611882" VerticalAlignment="Center" Height="210" Width="350"/>
+    
+
+    </Grid>
+</Page>
