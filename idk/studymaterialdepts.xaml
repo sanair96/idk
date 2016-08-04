@@ -19,7 +19,7 @@
         <ComboBox Header="SELECT BRANCH" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center"  Width="300" Margin="0,265,0,0">
             <ComboBoxItem Content="Physics Cycle" />
             <ComboBoxItem Content="Chemistry Cycle" />
-            <ComboBoxItem Content="Computer Science Engg " Tapped="ComboBoxItem_Tapped" />
+            <ComboBoxItem Content="Computer Science Engg " Tapped="ComboBoxItem_Tapped"/>
             <ComboBoxItem Content="Electronics Communication Engg " Tapped="ComboBoxItem_Tapped_1"/>
             <ComboBoxItem Content="Electrical Electronics Engg" Tapped="ComboBoxItem_Tapped_2"/>
             <ComboBoxItem Content="Information Science Engg" Tapped="ComboBoxItem_Tapped_3"/>
