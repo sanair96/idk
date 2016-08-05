@@ -304,5 +304,456 @@ namespace idk
         {
             Frame.Navigate(typeof(creator));
         }
+
+        async private void MenuFlyoutItem_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrh3xlbvtbOkkAF8GO"));
+        }
+
+        async private void MenuFlyoutItem_Click_1(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrh2tcbo0POTPPTGKP"));
+        }
+
+        async private void MenuFlyoutItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrh3YxUhyD6ClU1tT5"));
+        }
+
+        async private void MenuFlyoutItem_Click_3(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrh2ngK-w-Qe5cTCKT"));
+        }
+
+        async private void MenuFlyoutItem_Click_4(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriWrUB5P-yFDnqVcv"));
+        }
+
+        async private void MenuFlyoutItem_Click_5(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQbMKtxd3FeWmoqe"));
+        }
+
+        async private void MenuFlyoutItem_Click_6(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrihXnKjdNpCbBrY6n"));
+        }
+
+        async private void MenuFlyoutItem_Click_7(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQdJOxrPNisVtogK"));
+        }
+
+        async private void MenuFlyoutItem_Click_8(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrikC82v7FkW6nDAgO"));
+        }
+
+        async private void MenuFlyoutItem_Click_9(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQj1q6PMjm5fJXdu"));
+        }
+
+        async private void MenuFlyoutItem_Click_10(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrimu5VawVc7a8zdAz"));
+        }
+
+        async private void MenuFlyoutItem_Click_11(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQWuxHZhAW2rtPj1"));
+        }
+
+        async private void MenuFlyoutItem_Click_12(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriUmf-B89dcajhsHo"));
+        }
+
+        async private void MenuFlyoutItem_Click_13(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQoO1rgX1yCUdQ8M"));
+        }
+
+        async private void MenuFlyoutItem_Click_14(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriVpXzQZanaJzsuuu"));
+        }
+
+        async private void MenuFlyoutItem_Click_15(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQt_MWIYtBu60OcT"));
+        }
+
+        async private void MenuFlyoutItem_Click_16(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriRWG4Ey0-kGd6iP1"));
+        }
+
+        async private void MenuFlyoutItem_Click_17(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQ5fYWQgNxL2VHrN"));
+        }
+
+        async private void MenuFlyoutItem_Click_18(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriRaJPmylq467tFD5"));
+        }
+
+        async private void MenuFlyoutItem_Click_19(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQ_tbp4Ckgeq7Jhm"));
+        }
+
+        async private void MenuFlyoutItem_Click_20(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriRfWPHCHEezUQSSh"));
+        }
+
+        async private void MenuFlyoutItem_Click_21(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQ10Z9OHP6FlnyYW"));
+        }
+
+        async private void MenuFlyoutItem_Click_22(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriRg41g6xAOcJT8ov"));
+        }
+
+        async private void MenuFlyoutItem_Click_23(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQ10Z9OHP6FlnyYW"));
+        }
+
+        async private void MenuFlyoutItem_Click_24(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriRmFWqIk6EibfAl0"));
+        }
+
+        async private void MenuFlyoutItem_Click_25(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriRIWPYA3qFSiDAuQ"));
+        }
+
+        async private void MenuFlyoutItem_Click_26(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriRr7PNtViM05bXf3"));
+        }
+
+        async private void MenuFlyoutItem_Click_27(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriROoAmjp8UWEc93n"));
+        }
+
+        async private void MenuFlyoutItem_Click_28(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriSSOhrVBOTxdn_7F"));
+        }
+
+        async private void MenuFlyoutItem_Click_29(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriR1AvYmkXbDxf_7w"));
+        }
+
+        async private void MenuFlyoutItem_Click_30(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriSWVGP8Z2_HwVjFg"));
+        }
+
+        async private void MenuFlyoutItem_Click_31(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriR6MGvKiglI21kpC"));
+        }
+
+        async private void MenuFlyoutItem_Click_32(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriSa_PA7ppyzfICqu"));
+        }
+
+        async private void MenuFlyoutItem_Click_33(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriR_4lBwqAlRqim6Q"));
+        }
+
+        async private void MenuFlyoutItem_Click_34(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriSf7Z1XOxqLq57W0"));
+        }
+
+        async private void MenuFlyoutItem_Click_35(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriSBorx-S4Y_Bmr-j"));
+        }
+
+        async private void MenuFlyoutItem_Click_36(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriSjaJFSEpW362MwR"));
+        }
+
+        async private void MenuFlyoutItem_Click_37(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriSGpMo0th4KhhGhg"));
+        }
+
+        async private void MenuFlyoutItem_Click_38(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriSkDuD8E4gQl_0la"));
+        }
+
+        async private void MenuFlyoutItem_Click_39(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriSLHb1_S9ukdzrp_"));
+        }
+
+        async private void MenuFlyoutItem_Click_40(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrix5imNOxqYogCsYU"));
+        }
+
+        async private void MenuFlyoutItem_Click_41(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriSw7Dr3FXX0p1NkJ"));
+        }
+
+        async private void MenuFlyoutItem_Click_42(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriyaAJY6IX9z2t-0j"));
+        }
+
+        async private void MenuFlyoutItem_Click_43(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriS2cXASNriDt8xXn"));
+        }
+
+        async private void MenuFlyoutItem_Click_44(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPri1H6EFMsXmaTwr52"));
+        }
+
+        async private void MenuFlyoutItem_Click_45(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriS5Qi0YG5R6Rk7NA"));
+        }
+
+        async private void MenuFlyoutItem_Click_46(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPri3zhIZ6JtdYLVSSY"));
+        }
+
+        async private void MenuFlyoutItem_Click_47(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriS-vKb4GCJPLAhSz"));
+        }
+
+        async private void MenuFlyoutItem_Click_48(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrjEqiwYIxnOza8Ifd"));
+        }
+
+        async private void MenuFlyoutItem_Click_49(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriTBhTouvFgQaMYkp"));
+        }
+
+        async private void MenuFlyoutItem_Click_50(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrjTQhQlUXzTayTqhR"));
+        }
+
+        async private void MenuFlyoutItem_Click_51(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriTEIw-JZPqN-BN97"));
+        }
+
+        async private void MenuFlyoutItem_Click_52(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriTvIGvmknyk3uP3c"));
+        }
+
+        async private void MenuFlyoutItem_Click_53(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriTRT4gm3O9VFZXM1"));
+        }
+
+        async private void MenuFlyoutItem_Click_54(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriTwq4pW9-MzuJu31"));
+        }
+
+        async private void MenuFlyoutItem_Click_55(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriTUl99oGcPFEn1tM"));
+        }
+
+        async private void MenuFlyoutItem_Click_56(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriT330awRjbfkr5LU"));
+        }
+
+        async private void MenuFlyoutItem_Click_57(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriTaECIJSrywz0bzT"));
+        }
+
+        async private void MenuFlyoutItem_Click_58(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriT6dV0srjfVGEK1u"));
+        }
+
+        async private void MenuFlyoutItem_Click_59(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriTdI-ExIr4anoh30"));
+        }
+
+        async private void MenuFlyoutItem_Click_60(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriT8TbcuHODwJwiQU"));
+        }
+
+        async private void MenuFlyoutItem_Click_61(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriTgC8dc09ogVcbYc"));
+        }
+
+        async private void MenuFlyoutItem_Click_62(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriUBqBwQm9fPS8XKI"));
+        }
+
+        async private void MenuFlyoutItem_Click_63(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriTndVC2kKz54PAzv"));
+        }
+
+        async private void MenuFlyoutItem_Click_64(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriCegZen9fyZEHV23"));
+        }
+
+        async private void MenuFlyoutItem_Click_65(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriULVQH1JQppn3cVH"));
+        }
+
+        async private void MenuFlyoutItem_Click_66(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriDGYkSJ-FNRXOVQ9"));
+        }
+
+        async private void MenuFlyoutItem_Click_67(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriUNyhBYq-IikQT0a"));
+        }
+
+        async private void MenuFlyoutItem_Click_68(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriDtWrl2tHZ7By_87"));
+        }
+
+        async private void MenuFlyoutItem_Click_69(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriUS3kHeG366Oc90s"));
+        }
+
+        async private void MenuFlyoutItem_Click_70(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriELTjhL0bB7XSiaO"));
+        }
+
+        async private void MenuFlyoutItem_Click_71(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriUXDZ3pNnALV_guC"));
+        }
+
+        async private void MenuFlyoutItem_Click_72(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriFD3cj9x0BCy4qrS"));
+        }
+
+        async private void MenuFlyoutItem_Click_73(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriUbRw5QTvcGdkoIT"));
+        }
+
+        async private void MenuFlyoutItem_Click_74(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriGYe8nZz2HusypfB"));
+        }
+
+        async private void MenuFlyoutItem_Click_75(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriUfAfBYrGarhOYfI"));
+        }
+
+        async private void MenuFlyoutItem_Click_76(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrh26Wb5u_hyCgqRK5"));
+        }
+
+        async private void MenuFlyoutItem_Click_77(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriHplLqsEpZfydPNv"));
+        }
+
+        async private void MenuFlyoutItem_Click_78(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQCIkhsyPF76ODXV"));
+        }
+
+        async private void MenuFlyoutItem_Click_79(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriHsGX_mASnsV8uOp"));
+        }
+
+        async private void MenuFlyoutItem_Click_80(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQHy9nC8SqpoX4av"));
+        }
+
+        async private void MenuFlyoutItem_Click_81(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriHwn3aJyU-JpgjfR"));
+        }
+
+        async private void MenuFlyoutItem_Click_82(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQI0eaPtVPDXoBHT"));
+        }
+        async private void MenuFlyoutItem_Click_83(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriH3pVuR_nWxdKMDP"));
+        }
+
+        async private void MenuFlyoutItem_Click_84(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQO2SHSuex-k0435"));
+        }
+
+        async private void MenuFlyoutItem_Click_85(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriH5oqq_E8cQvgtT8"));
+        }
+
+        async private void MenuFlyoutItem_Click_86(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriQTtOqhiJzpvylKn"));
+        }
+
+        async private void MenuFlyoutItem_Click_87(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPriH9P4bTwENxzFKYY"));
+        }
+
+        async private void MenuFlyoutItem_Click_88(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrh2Z8moqi55807jy0"));
+
+        
+        }
+
+        async private void MenuFlyoutItem_Click_89(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrh2cV6Hzt8ay1l8lk"));
+        }
     }
 }

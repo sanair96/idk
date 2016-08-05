@@ -89,203 +89,208 @@
                             <Button.Flyout >
                 <MenuFlyout Placement="Right">
                     <MenuFlyoutSubItem Text="P-cycle">
-                        <MenuFlyoutItem Text="Question Papers" />
-                        <MenuFlyoutItem Text="Notes"  />
-                    </MenuFlyoutSubItem>
+                        <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click" />
+                        <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_1" />
+                        <MenuFlyoutItem Text="Math1" Click="MenuFlyoutItem_Click_88" />
+                        <MenuFlyoutItem Text="Math2" Click="MenuFlyoutItem_Click_89" />
+                        </MenuFlyoutSubItem>
 
                     <MenuFlyoutSubItem Text="C-cycle">
-                        <MenuFlyoutItem Text="Question Papers"  />
-                        <MenuFlyoutItem Text="Notes" />
-                    </MenuFlyoutSubItem>
+                        <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_2" />
+                        <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_3" />
+                                        <MenuFlyoutItem Text="Math1" Click="MenuFlyoutItem_Click_88" />
+                                        <MenuFlyoutItem Text="Math2" Click="MenuFlyoutItem_Click_89" />
+                                        
+                        </MenuFlyoutSubItem>
 
                     <MenuFlyoutSubItem Text="CSE">
 
                                         <MenuFlyoutSubItem Text="3">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_4"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_5" />
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="4">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_6"/>
+                                            <MenuFlyoutItem Text="Notes"  Click="MenuFlyoutItem_Click_7"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="5">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_8"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_9"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="6">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_10"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_11" />
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="7">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_12"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_13" />
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="8">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_14"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_15"/>
                                         </MenuFlyoutSubItem>
 
                                     </MenuFlyoutSubItem>
 
                     <MenuFlyoutSubItem Text="ECE">
                                         <MenuFlyoutSubItem Text="3">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_16"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_17" />
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="4">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_18"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_19"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="5">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_20"/>
+                                            <MenuFlyoutItem Text="Notes"  Click="MenuFlyoutItem_Click_21"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="6">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_22"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_23" />
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="7">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers"  Click="MenuFlyoutItem_Click_24"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_25" />
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="8">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_26"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_27" />
                                         </MenuFlyoutSubItem>
 
                                     </MenuFlyoutSubItem>
 
                     <MenuFlyoutSubItem Text="EEE">
                                         <MenuFlyoutSubItem Text="3">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_28"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_29"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="4">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_30"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_31"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="5">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_32"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_33"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="6">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_34"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_35" />
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="7">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_36"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_37" />
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="8">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_38"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_39" />
                                         </MenuFlyoutSubItem>
 
                                     </MenuFlyoutSubItem>
 
                     <MenuFlyoutSubItem Text="ISE">
                                         <MenuFlyoutSubItem Text="3">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_40"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_41"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="4">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_42"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_43"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="5">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_44"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_45" />
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="6">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_46"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_47"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="7">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_48"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_49" />
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="8">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_50"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_51" />
                                         </MenuFlyoutSubItem>
                        </MenuFlyoutSubItem>
                                     <MenuFlyoutSubItem Text="IT">
                                         <MenuFlyoutSubItem Text="3">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_52"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_53"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="4">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_54"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_55"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="5">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_56"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_57" />
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="6">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_58"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_59" />
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="7">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_60"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_61" />
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="8">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_62"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_63"/>
                                         </MenuFlyoutSubItem>
                                     </MenuFlyoutSubItem>
 
                                     <MenuFlyoutSubItem Text="Mech">
                                         <MenuFlyoutSubItem Text="3">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_64"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_65"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="4">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_66"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_67"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="5">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_68"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_69"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="6">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_70"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_71"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="7">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_72"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_73"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="8">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_74"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_75"/>
                                         </MenuFlyoutSubItem>
                                     </MenuFlyoutSubItem>
                                     <MenuFlyoutSubItem Text="Civil">
                                         <MenuFlyoutSubItem Text="3">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_76"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_77"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="4">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_78"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_79"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="5">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_80"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_81"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="6">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_82"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_83" />
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="7">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_84"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_85"/>
                                         </MenuFlyoutSubItem>
                                         <MenuFlyoutSubItem Text="8">
-                                            <MenuFlyoutItem Text="Question Papers"/>
-                                            <MenuFlyoutItem Text="Notes" />
+                                            <MenuFlyoutItem Text="Question Papers" Click="MenuFlyoutItem_Click_86"/>
+                                            <MenuFlyoutItem Text="Notes" Click="MenuFlyoutItem_Click_87"/>
                                         </MenuFlyoutSubItem>
                                     </MenuFlyoutSubItem>
                                 </MenuFlyout>
