@@ -34,34 +34,32 @@
         <Button x:Name="button1" Background="#6FC98A " Height="50" Content="Study Material" FontSize="26.667" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,367,0,0">
             <Button.Flyout>
                 <MenuFlyout Placement="Right">
-                    <MenuFlyoutSubItem Text="3">
-                        <MenuFlyoutItem Text="Question Papers"/>
-                        <MenuFlyoutItem Text="Notes" />
-                    </MenuFlyoutSubItem>
-                    <MenuFlyoutSubItem Text="4">
-                        <MenuFlyoutItem Text="Question Papers"/>
-                        <MenuFlyoutItem Text="Notes" />
-                    </MenuFlyoutSubItem>
-                    <MenuFlyoutSubItem Text="5">
-                        <MenuFlyoutItem Text="Question Papers"/>
-                        <MenuFlyoutItem Text="Notes" />
-                    </MenuFlyoutSubItem>
-                    <MenuFlyoutSubItem Text="6">
-                        <MenuFlyoutItem Text="Question Papers"/>
-                        <MenuFlyoutItem Text="Notes" />
-                    </MenuFlyoutSubItem>
-                    <MenuFlyoutSubItem Text="7">
-                        <MenuFlyoutItem Text="Question Papers"/>
-                        <MenuFlyoutItem Text="Notes" />
-                    </MenuFlyoutSubItem>
-                    <MenuFlyoutSubItem Text="8">
-                        <MenuFlyoutItem Text="Question Papers"/>
-                        <MenuFlyoutItem Text="Notes" />
-                    </MenuFlyoutSubItem>
-
-                </MenuFlyout>
+                <MenuFlyoutSubItem Text="3">
+                    <MenuFlyoutItem Text="Question Papers" Click="qp3_Click"/>
+                    <MenuFlyoutItem Text="Notes" Click="n3_Click" />
+                </MenuFlyoutSubItem>
+                <MenuFlyoutSubItem Text="4">
+                    <MenuFlyoutItem Text="Question Papers" Click="qp4_Click"/>
+                    <MenuFlyoutItem Text="Notes" Click="n4_Click" />
+                </MenuFlyoutSubItem>
+                <MenuFlyoutSubItem Text="5">
+                    <MenuFlyoutItem Text="Question Papers" Click="qp5_Click"/>
+                    <MenuFlyoutItem Text="Notes" Click="n5_Click"/>
+                </MenuFlyoutSubItem>
+                <MenuFlyoutSubItem Text="6">
+                    <MenuFlyoutItem Text="Question Papers" Click="qp6_Click"/>
+                    <MenuFlyoutItem Text="Notes" Click="n6_Click"/>
+                </MenuFlyoutSubItem>
+                <MenuFlyoutSubItem Text="7">
+                    <MenuFlyoutItem Text="Question Papers" Click="qp7_Click"/>
+                    <MenuFlyoutItem Text="Notes" Click="n7_Click" />
+                </MenuFlyoutSubItem>
+                <MenuFlyoutSubItem Text="8">
+                    <MenuFlyoutItem Text="Question Papers" Click="qp8_Click"/>
+                    <MenuFlyoutItem Text="Notes" Click="n8_Click"/>
+                </MenuFlyoutSubItem>
+            </MenuFlyout>
             </Button.Flyout>
-
         </Button>
 
 
