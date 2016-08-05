@@ -77,13 +77,17 @@ namespace idk
             Images1.Add("mp5.jpg");
             Images1.Add("mp6.jpg");
             playlistTimer1 = new DispatcherTimer();
-            playlistTimer1.Interval = new TimeSpan(0, 0, 3);
+            playlistTimer1.Interval = new TimeSpan(0, 0, 5);
             playlistTimer1.Tick += playlistTimer_Tick1;
             image1.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + Images1[count1]));
             a.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + Images1[count1]));
             a.Width = 350;
             a.Height = 200;
-            a.Stretch = Stretch.UniformToFill;
+            a.Stretch = Stretch.Fill;
+            image1.Width=350;
+            image1.Height = 200;
+            image1.Stretch = Stretch.Fill;
+
             playlistTimer1.Start();
         }
         int count1 = 0;
@@ -106,11 +110,36 @@ namespace idk
             {
                 image1.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + Images1[count1].ToString()));
                 Cont.Content = image1;
+                image1.Opacity =1;
+                int i;
+                for (i=0;i<100000;i++)
+                {
+                    image1.Opacity = image1.Opacity - 0.00001;
+                    Cont.Content = image1;
+                }
+                for (i = 0; i < 1000000; i++)
+                {
+                    image1.Opacity = image1.Opacity + 0.000001;
+                    Cont.Content = image1;
+                }
+
             }
             else
             {
                 a.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + Images1[count1].ToString()));
-                Cont.Content = a;
+                a.Opacity =1;
+                int i;
+                for (i = 0; i <1000000; i++)
+                {
+                    a.Opacity = a.Opacity - 0.000001;
+                    Cont.Content = a;
+                }
+                for (i = 0; i < 100000; i++)
+                {
+                    a.Opacity = a.Opacity +  0.00001;
+                    Cont.Content = a;
+                }
+
             }
         }
 

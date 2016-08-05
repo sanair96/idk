@@ -313,16 +313,16 @@
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
                     <StackPanel Grid.Row="0" Background="Ivory" Margin="0,10,0,-10"/>
-                    <Image x:Name="RNSITLOGO" Source="Assets/logo.jpg" Height="200" Width="200" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0"/>
+                    <Image x:Name="RNSITLOGO" Source="Assets/bla.png" Height="200" Width="200" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0"/>
 
-                    <ContentControl x:Name="Cont" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,260,9,0" Height="250">
-                        <ContentControl.Transitions>
+                    <ContentControl x:Name="Cont" Height="200" Width="350" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,260,9,0"  >
+                        <ContentControl.ContentTransitions>
                             <TransitionCollection>
 
                                 
-                                <EntranceThemeTransition/>
+                                <PaneThemeTransition />
                             </TransitionCollection>
-                        </ContentControl.Transitions>
+                        </ContentControl.ContentTransitions>
                         <Image x:Name="image1" Stretch="Fill" HorizontalAlignment="Center" Height="200" Width="350"/>
                     </ContentControl>
 
