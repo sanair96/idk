@@ -77,7 +77,7 @@ namespace idk
             Images1.Add("mp5.jpg");
             Images1.Add("mp6.jpg");
             playlistTimer1 = new DispatcherTimer();
-            playlistTimer1.Interval = new TimeSpan(0, 0, 5);
+            playlistTimer1.Interval = new TimeSpan(0, 0, 3);
             playlistTimer1.Tick += playlistTimer_Tick1;
             image1.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + Images1[count1]));
             a.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + Images1[count1]));
@@ -110,8 +110,7 @@ namespace idk
             {
                 image1.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + Images1[count1].ToString()));
                 Cont.Content = image1;
-                image1.Opacity =1;
-                int i;
+                /*int i;
                 for (i=0;i<100000;i++)
                 {
                     image1.Opacity = image1.Opacity - 0.00001;
@@ -121,14 +120,14 @@ namespace idk
                 {
                     image1.Opacity = image1.Opacity + 0.000001;
                     Cont.Content = image1;
-                }
+                }*/
 
             }
             else
             {
                 a.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + Images1[count1].ToString()));
-                a.Opacity =1;
-                int i;
+                Cont.Content = a;
+                /*int i;
                 for (i = 0; i <1000000; i++)
                 {
                     a.Opacity = a.Opacity - 0.000001;
@@ -138,7 +137,7 @@ namespace idk
                 {
                     a.Opacity = a.Opacity +  0.00001;
                     Cont.Content = a;
-                }
+                }*/
 
             }
         }

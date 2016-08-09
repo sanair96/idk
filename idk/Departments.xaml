@@ -51,12 +51,14 @@
         </Button>
 
         <ContentControl x:Name="Cont" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="1" Margin="0,20,0,0">
-            <ContentControl.Transitions>
+            <ContentControl.ContentTransitions>
                 <TransitionCollection>
-                    <ContentThemeTransition/>
+
+
+                    <PaneThemeTransition />
                 </TransitionCollection>
-            </ContentControl.Transitions>
-            <Image x:Name="image" IsDoubleTapEnabled="False" HorizontalAlignment="Center" Height="200" VerticalAlignment="Top"  Width="350" Grid.Row="1" Stretch="UniformToFill" Margin="0,15,0,0"/>
+            </ContentControl.ContentTransitions>
+            <Image x:Name="image" HorizontalAlignment="Center" Height="200"   Width="350" />
         </ContentControl>
         <Button x:Name="button1" Background="#6FC98A " Content="BASIC SCIENCE DEPARTMENTS" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="5,258,0,0" Grid.Row="1" Click="button1_Click">
             <Button.Flyout>

@@ -56,7 +56,11 @@ namespace idk
             a.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + Images1[count1]));
             a.Width = 350;
             a.Height = 200;
-            a.Stretch = Stretch.UniformToFill;
+            a.Stretch = Stretch.Fill;
+            image.Width = 350;
+            image.Height = 200;
+            image.Stretch = Stretch.Fill;
+
             playlistTimer1.Start();
         }
         int count1 = 0;

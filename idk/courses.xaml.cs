@@ -27,7 +27,7 @@ namespace idk
             this.InitializeComponent();
         }
 
-       async private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
+        private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(courseswebview));
         }
