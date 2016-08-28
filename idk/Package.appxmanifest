@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="26208Sanair96.RNSIT" Publisher="CN=C9188FBA-C97E-4BF4-BC70-C81514EDAFC3" Version="1.1.3.0" />
+  <Identity Name="26208Sanair96.RNSIT" Publisher="CN=C9188FBA-C97E-4BF4-BC70-C81514EDAFC3" Version="1.1.1.0" />
   <mp:PhoneIdentity PhoneProductId="7789d094-8a7d-4f8a-953e-57239eda7adc" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>RNSIT</DisplayName>
@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="idk.App">
-      <uap:VisualElements DisplayName="RNSIT" Square150x150Logo="Square150x150Logo.png" Square44x44Logo="Square44x44Logo.png" Description="idk" BackgroundColor="transparent">
+      <uap:VisualElements DisplayName="RNSIT" Square150x150Logo="Square150x150Logo.jpg" Square44x44Logo="Square44x44Logo.png" Description="idk" BackgroundColor="transparent">
         <uap:LockScreen Notification="badge" BadgeLogo="Assets\BadgeLogo.jpg" />
         <uap:DefaultTile Square71x71Logo="Assets\Square71x71Logo.jpg" Square310x310Logo="Assets\Square310x310Logo.jpg" Wide310x150Logo="Assets\Wide310x150Logo.jpg">
           <uap:TileUpdate Recurrence="daily" UriTemplate="http://www.rnsit.ac.in/images/logo.jpg" />
