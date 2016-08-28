@@ -198,6 +198,9 @@
     <Compile Include="authentication.xaml.cs">
       <DependentUpon>authentication.xaml</DependentUpon>
     </Compile>
+    <Compile Include="campusnews.xaml.cs">
+      <DependentUpon>campusnews.xaml</DependentUpon>
+    </Compile>
     <Compile Include="chemdept.xaml.cs">
       <DependentUpon>chemdept.xaml</DependentUpon>
     </Compile>
@@ -272,9 +275,6 @@
     </Compile>
     <Compile Include="mechwebview.xaml.cs">
       <DependentUpon>mechwebview.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="page_maintainance.xaml.cs">
-      <DependentUpon>page_maintainance.xaml</DependentUpon>
     </Compile>
     <Compile Include="phydept.xaml.cs">
       <DependentUpon>phydept.xaml</DependentUpon>
@@ -367,6 +367,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="authentication.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="campusnews.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -467,10 +471,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="mechwebview.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="page_maintainance.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

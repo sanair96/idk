@@ -245,16 +245,12 @@ namespace idk
             Frame.Navigate(typeof(placements));
         }
 
-        private void Event_Click(object sender, RoutedEventArgs e)
-        {
-            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
-            Frame.Navigate(typeof(page_maintainance));
-        }
+      
 
         private void Campus_Click(object sender, RoutedEventArgs e)
         {
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
-            Frame.Navigate(typeof(page_maintainance));
+            Frame.Navigate(typeof(campusnews));
         }
 
         private void AppBarButton_Click(object sender, RoutedEventArgs e)
