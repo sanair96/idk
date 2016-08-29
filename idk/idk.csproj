@@ -21,7 +21,7 @@
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
     <PackageCertificateThumbprint>77648C6A10B13A4E3749C255B64806872211C83A</PackageCertificateThumbprint>
-    <AppxPackageDir>C:\Users\saipr\Desktop\packages\</AppxPackageDir>
+    <AppxPackageDir>F:\idk\</AppxPackageDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -103,6 +103,7 @@
     <Content Include="Assets\150.jpg" />
     <Content Include="Assets\300.jpg" />
     <Content Include="Assets\71.jpg" />
+    <Content Include="Assets\bla.png" />
     <Content Include="Assets\d1.JPG" />
     <Content Include="Assets\github.jpg" />
     <Content Include="Assets\mail.jpg" />
