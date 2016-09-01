@@ -37,5 +37,10 @@ namespace idk
         {
             await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.rnsit.ac.in/comp_visited.html"));
         }
+
+        private void pla_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(placementurl));
+        }
     }
 }
