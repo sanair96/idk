@@ -15,11 +15,11 @@
     </Page.Transitions>
     <Grid Background="Ivory">
         <Rectangle Fill="#6FC98A" Height="88" VerticalAlignment="Top"  Margin="0,0,0,542" />
-        <Button x:Name="details" Background="#6FC98A" Content="Faculty" HorizontalAlignment="Center" Margin="0,314,0,0" VerticalAlignment="Top" Width="203" Height="65" RenderTransformOrigin="0.49,1.191" FontWeight="Bold" FontSize="26.667"  Click="details_Click" />
-        <Button x:Name="button" Content="About Us" Background="#6FC98A" HorizontalAlignment="Center" Margin="0,490,0,0" VerticalAlignment="Top" Height="64" FontSize="26.667" FontWeight="Bold" Click="button_Click" Width="202"/>
+        <Button x:Name="details" Background="#6FC98A" Content="Faculty" HorizontalAlignment="Center" Margin="0,314,0,0" VerticalAlignment="Top" Width="203" Height="54" RenderTransformOrigin="0.49,1.191" FontWeight="Bold" FontSize="26.667"  Click="details_Click" />
+        <Button x:Name="button" Content="About Us" Background="#6FC98A" HorizontalAlignment="Center" Margin="0,496,0,0" VerticalAlignment="Top" Height="54" FontSize="26.667" FontWeight="Bold" Click="button_Click" Width="202"/>
         <Image x:Name="image" HorizontalAlignment="Center" Height="100" VerticalAlignment="Top" Width="255" Margin="0,139,0,0" Source="Assets/mech.png"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="0,0,0,0" FontWeight="Bold" TextWrapping="Wrap" Text="WELCOME TO DEPARTMENT OF CIVIL" VerticalAlignment="Top" Height="88" Width="340" FontSize="26.667" TextAlignment="Center"/>
-        <Button x:Name="button2" Content="Syllabus" FontSize="26.667" Background="#6FC98A" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,437,0,0" Width="203">
+        <Button x:Name="button2" Content="Syllabus" FontSize="26.667" Background="#6FC98A" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,435,0,0" Height="54" Width="203">
             <Button.Flyout>
                 <MenuFlyout Placement="Right">
                     <MenuFlyoutItem Text="sem 3"/>
@@ -31,7 +31,7 @@
                 </MenuFlyout>
             </Button.Flyout>
         </Button>
-        <Button x:Name="button1" FontSize="26.667" Background="#6FC98A" FontWeight="Bold" Content="Study Material" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,384,0,0" >
+        <Button x:Name="button1" FontSize="26.667" Background="#6FC98A" FontWeight="Bold" Content="Study Material" HorizontalAlignment="Center" VerticalAlignment="Top" Width="203" Height="54" Margin="0,374,0,0" >
             <Button.Flyout>
                 <MenuFlyout Placement="Right">
                     <MenuFlyoutSubItem Text="3">
