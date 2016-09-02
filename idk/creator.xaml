@@ -18,7 +18,7 @@
                         <Ellipse.Fill>
                             <ImageBrush>
                                 <ImageBrush.ImageSource>
-                                    <BitmapImage DecodePixelHeight="100" DecodePixelWidth="100" UriSource="Assets/nit.jpg" />
+                                    <BitmapImage DecodePixelHeight="150" DecodePixelWidth="150" UriSource="Assets/nit.jpg" />
                                 </ImageBrush.ImageSource>
                             </ImageBrush>
                         </Ellipse.Fill>

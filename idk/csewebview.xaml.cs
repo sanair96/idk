@@ -27,6 +27,8 @@ namespace idk
             this.InitializeComponent();
             string site = "http://www.rnsit.ac.in/cse-dep.html";
             WebView.Navigate(new Uri(site, UriKind.Absolute));
+           
         }
+        
     }
 }
