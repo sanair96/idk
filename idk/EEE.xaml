@@ -16,10 +16,10 @@
     <Grid Background="Ivory" BorderThickness="0" >
         <Rectangle Fill="#6FC98A " Height="100" VerticalAlignment="Top" Opacity="1"/>
         <Button x:Name="details" Background="#6FC98A " Content="Faculty" HorizontalAlignment="Center" Margin="0,310,0,0" VerticalAlignment="Top" Width="204" Height="54" RenderTransformOrigin="0.49,1.191" FontSize="26.666" FontWeight="Bold" Click="details_Click"/>
-        <Button x:Name="button" Background="#6FC98A " Content="About Us" HorizontalAlignment="Center" Margin="0,477,0,0" VerticalAlignment="Top" Width="203" Height="54"  FontSize="26.667" FontWeight="Bold" Click="button_Click"/>
+        <Button x:Name="button" Background="#6FC98A " Content="About Us" HorizontalAlignment="Center" Margin="0,487,0,0" VerticalAlignment="Top" Width="203" Height="54"  FontSize="26.667" FontWeight="Bold" Click="button_Click"/>
         <Image x:Name="image" HorizontalAlignment="Center" Height="100" Margin="0,139,0,0" VerticalAlignment="Top" Width="330" Source="Assets/1_8_2013_12_39_38_u94o8glp5pnnkdn7i8ob0java7_cxgandaq51.jpg"/>
         <TextBlock x:Name="textBlock" FontWeight="Bold" Foreground="Black" HorizontalAlignment="Center" TextWrapping="Wrap" Text="WELCOME TO DPEARTMENT OF EEE" VerticalAlignment="Top" Margin="0,0,0,0" Height="88" Width="340" FontSize="26.667" TextAlignment="Center"/>
-        <Button x:Name="button2" Content="Syllabus" Background="#6FC98A " FontSize="26.667" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,423,0,0" Width="203">
+        <Button x:Name="button2" Content="Syllabus" Background="#6FC98A " FontSize="26.667" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Height="54" Margin="0,425,0,0" Width="203">
             <Button.Flyout>
                 <MenuFlyout Placement="Right">
                     <MenuFlyoutItem Text="sem 3"/>
@@ -31,7 +31,7 @@
                 </MenuFlyout>
             </Button.Flyout>
         </Button>
-        <Button x:Name="button1" Background="#6FC98A " Height="50" Content="Study Material" FontSize="26.667" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,367,0,0">
+        <Button x:Name="button1" Background="#6FC98A " Width="203" Height="50" Content="Study Material" FontSize="26.667" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,369,0,0">
             <Button.Flyout>
                 <MenuFlyout Placement="Right">
                 <MenuFlyoutSubItem Text="3">

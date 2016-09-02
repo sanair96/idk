@@ -20,8 +20,8 @@
         <TextBlock x:Name="CSE1" VerticalAlignment="Top" FontWeight="Bold" HorizontalAlignment="Center"  Margin="0,0,0,0" TextWrapping="Wrap" Text=" WELCOME TO DEPARTMENT  OF CSE" Height="100" Width="350" FontSize="26.667" SelectionChanged="CSE1_SelectionChanged"  TextAlignment="Center"/>
         <Image x:Name="image" HorizontalAlignment="Center" Height="100" Margin="0,139,0,0" VerticalAlignment="Top" Width="340" Source="Assets/banner3.jpg"/>
         <Button x:Name="details" Content="Faculty" HorizontalAlignment="Center" Margin="0,333,0,0" VerticalAlignment="Top" Width="203" Height="54"  FontSize="26.667"  FontWeight="Bold" Click="details_Click" Background="#6FC98A"/>
-        <Button x:Name="button" Content="About Us" HorizontalAlignment="Center" Margin="0,498,0,0" VerticalAlignment="Top" Width="203" Height="54" FontSize="26.667" FontWeight="Bold" Click="button_Click" Background="#6FC98A"/>
-        <Button x:Name="button1" Content="Study material" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,392,0,0" FontSize="26.667" FontWeight="bold" Background="#6FC98A">
+        <Button x:Name="button" Content="About Us" HorizontalAlignment="Center" Margin="0,512,0,0" VerticalAlignment="Top" Width="203" Height="54" FontSize="26.667" FontWeight="Bold" Click="button_Click" Background="#6FC98A"/>
+        <Button x:Name="button1" Content="Study material" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,392,0,0" Width="203" Height="54" FontSize="26.667" FontWeight="bold" Background="#6FC98A">
             <Button.Flyout>
                 <MenuFlyout Placement="Right">
                     <MenuFlyoutSubItem Text="3">
@@ -52,7 +52,7 @@
             </Button.Flyout>
 
         </Button>
-        <Button x:Name="button2" Content="Syllabus" FontSize="26.667" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,445,0,0" Width="203" Background="#6FC98A">
+        <Button x:Name="button2" Content="Syllabus" FontSize="26.667" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,452,0,0" Width="203" Height="54" Background="#6FC98A">
             <Button.Flyout>
                 <MenuFlyout Placement="Right">
                     <MenuFlyoutItem Text="sem 3"/>
