@@ -9,11 +9,9 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid Grid.Row="0" BorderBrush="#FF707070" BorderThickness="1" Margin="0,10,0,0">
-            <ScrollViewer Height="auto" Width="auto" HorizontalScrollMode="Auto" VerticalScrollMode="Auto">
-                <StackPanel>
-                    <WebView x:Name="WebView"  Height="640"  VerticalAlignment="Center" Width="auto"/>
-                </StackPanel>
-            </ScrollViewer>
+           
+                    <WebView x:Name="WebView"   VerticalAlignment="Stretch" />
+                
 
         </Grid>
 
