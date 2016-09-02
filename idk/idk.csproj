@@ -213,6 +213,9 @@
     <Compile Include="civilwebview.xaml.cs">
       <DependentUpon>civilwebview.xaml</DependentUpon>
     </Compile>
+    <Compile Include="companies.xaml.cs">
+      <DependentUpon>companies.xaml</DependentUpon>
+    </Compile>
     <Compile Include="contactus.xaml.cs">
       <DependentUpon>contactus.xaml</DependentUpon>
     </Compile>
@@ -386,6 +389,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="civilwebview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="companies.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

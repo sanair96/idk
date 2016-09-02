@@ -20,27 +20,13 @@ namespace idk
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class placements : Page
+    public sealed partial class companies : Page
     {
-        public placements()
+        public companies()
         {
             this.InitializeComponent();
-        }
-
-        private void goback_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(MainPage));
-
-        }
-
-       private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(companies));
-        }
-
-        private void pla_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(placementurl));
+            string site = "http://www.rnsit.ac.in/comp_visited.html";
+            WebView.Navigate(new Uri(site, UriKind.Absolute));
         }
     }
 }

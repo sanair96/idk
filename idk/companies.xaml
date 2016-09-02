@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="idk.placementurl"
+    x:Class="idk.companies"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:idk"
@@ -10,9 +10,9 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid Background="Transparent">
             <Grid Grid.Row="0" BorderBrush="#FF707070" BorderThickness="1" Margin="0,0,0,0">
-                
-                        <WebView x:Name="WebView" VerticalAlignment="Stretch" />
-                   
+
+                <WebView x:Name="WebView" VerticalAlignment="Stretch" />
+
 
             </Grid>
         </Grid>
