@@ -285,6 +285,9 @@
     <Compile Include="placements.xaml.cs">
       <DependentUpon>placements.xaml</DependentUpon>
     </Compile>
+    <Compile Include="placementurl.xaml.cs">
+      <DependentUpon>placementurl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Transport.xaml.cs">
       <DependentUpon>Transport.xaml</DependentUpon>
@@ -479,6 +482,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="placements.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="placementurl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

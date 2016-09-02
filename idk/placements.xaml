@@ -22,25 +22,29 @@
         
         <Rectangle Height="100" Fill="#69c98a" Grid.Row="0" Margin="0,0,0,0" VerticalAlignment="Top"/>
         <TextBlock x:Name="textBlock" Grid.Row="0" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="PLACEMENTS" VerticalAlignment="Center" Height="Auto" Width="Auto" FontSize="48" TextAlignment="Center" FontWeight="Bold" />
-        
-            <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Disabled" VerticalScrollMode="Auto">
+
+        <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Disabled" VerticalScrollMode="Auto">
             <StackPanel>
                 <StackPanel>
-            <TextBlock x:Name="textBlock1"  HorizontalAlignment="Center" TextAlignment="Justify" TextWrapping="Wrap" Text="VISION" FontWeight="Bold" VerticalAlignment="Top" Margin="20,10,20,0" Width="Auto" Height="37" FontSize="30"/>
+                    <TextBlock x:Name="textBlock1"  HorizontalAlignment="Center" TextAlignment="Justify" TextWrapping="Wrap" Text="VISION" FontWeight="Bold" VerticalAlignment="Top" Margin="20,10,20,0" Width="Auto" Height="37" FontSize="30"/>
                 </StackPanel>
                 <StackPanel>
                     <TextBlock x:Name="textBlock1_Copy"  HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="Transforming every student&#x0a;– an employer's choice" VerticalAlignment="Top" Margin="20,10,20,0" Width="Auto" Height="Auto" FontSize="23"/>
                 </StackPanel>
                 <StackPanel>
-                <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Center" TextWrapping="Wrap" FontWeight="Bold" Text="MISSION" VerticalAlignment="Top" Margin="20,10,20,0" Width="Auto" Height="Auto" FontSize="30"/>
+                    <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Center" TextWrapping="Wrap" FontWeight="Bold" Text="MISSION" VerticalAlignment="Top" Margin="20,10,20,0" Width="Auto" Height="Auto" FontSize="30"/>
                 </StackPanel>
                 <StackPanel>
                     <TextBlock x:Name="textBlock1_Copy2"  HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="-To achieve hundred percent placements &#x0a;-To prepare students to global requirement&#x0a;-To empower students to meet challenges&#x0a;-To inculcate and foster Entrepreneur Development Skills" VerticalAlignment="Top" Margin="20,10,20,0" Width="Auto" Height="Auto" FontSize="23"/>
                 </StackPanel>
                 <StackPanel>
-                <HyperlinkButton Content="Visiting Companies - Click Here" HorizontalAlignment="Center" Foreground="AliceBlue" Margin="0,560,0,0" Width="340" FontSize="20" Click="HyperlinkButton_Click"/>
+                    <HyperlinkButton Content="Visiting Companies - Click Here" HorizontalAlignment="Center"  Margin="0,0,0,0" Width="340" FontSize="20" Click="HyperlinkButton_Click"/>
+                </StackPanel>
+                <StackPanel>
+                    <HyperlinkButton x:Name="pla" Width="200" Content="Placement URL" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Margin="0,0,0,0" Click="pla_Click"/>
                 </StackPanel>
             </StackPanel>
-            </ScrollViewer>
+        </ScrollViewer>
     </Grid>
+    
 </Page>
