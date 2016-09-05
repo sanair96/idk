@@ -84,8 +84,7 @@ namespace idk
             a.Width = 350;
             a.Height = 200;
             a.Stretch = Stretch.Fill;
-            image1.Width=350;
-            image1.Height = 200;
+
             image1.Stretch = Stretch.Fill;
 
             playlistTimer1.Start();
@@ -171,32 +170,11 @@ namespace idk
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
             this.Frame.Navigate(typeof(Departments));
         }
-      
-
-        private void MenuButton2_Click(object sender, RoutedEventArgs e)
-        {
-            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
-            this.Frame.Navigate(typeof(Departments));
-        }
 
         private void Study_Click(object sender, RoutedEventArgs e)
         {
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
             //this.Frame.Navigate(typeof(studymaterialdepts));
-        }
-
-      
-
-        private void MenuButton1_Click(object sender, RoutedEventArgs e)
-        {
-            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
-           // this.Frame.Navigate(typeof(admissions));
-        }
-
-        private void MenuButton8_Click(object sender, RoutedEventArgs e)
-        {
-            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
-            this.Frame.Navigate(typeof(facility));
         }
 
         private void Facilties_Click(object sender, RoutedEventArgs e)
@@ -205,34 +183,16 @@ namespace idk
             this.Frame.Navigate(typeof(facility));
         }
 
-        private void MenuButton7_Click(object sender, RoutedEventArgs e)
-        {
-            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
-            this.Frame.Navigate(typeof(Transport));
-        }
-
         private void trasnport_Click(object sender, RoutedEventArgs e)
         {
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
             this.Frame.Navigate(typeof(Transport));
         }
 
-        private void MenuButton5_Click(object sender, RoutedEventArgs e)
-        {
-            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
-            Frame.Navigate(typeof(Hostel));
-        }
-
         private void Hostel_Click(object sender, RoutedEventArgs e)
         {
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
             Frame.Navigate(typeof(Hostel));
-        }
-
-        private void MenuButton3_Click(object sender, RoutedEventArgs e)
-        {
-            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
-            Frame.Navigate(typeof(placements));
         }
 
         private void placements_Click(object sender, RoutedEventArgs e)
@@ -738,8 +698,6 @@ namespace idk
         async private void MenuFlyoutItem_Click_88(object sender, RoutedEventArgs e)
         {
             await Windows.System.Launcher.LaunchUriAsync(new Uri("https://1drv.ms/f/s!AiaDLQmq8IPrh2Z8moqi55807jy0"));
-
-        
         }
 
         async private void MenuFlyoutItem_Click_89(object sender, RoutedEventArgs e)
